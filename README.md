@@ -16,7 +16,6 @@ This repro is a place holder for the course web page, https://coursepress.lnu.se
 * script programming (incl. PowerShell and Bash)
 * Web server (incl. Apache and Nginx)
 * directory service (incl. Active Directory)
-* dividends and dividend rights with a directory service (authentication and
 
 ## Licens
 COPYRIGHT FOR THIS WORK
