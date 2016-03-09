@@ -1,10 +1,10 @@
 <!-- Start -->
  <!-- .slide: data-state="lnu-intro" class="center" -->
 
-### System Administation I
+### System Administration I
 ### (1DV031)
-# Course Introduction
-
+# A (very) brief (and simplified) introduction to computer networks
+<!-- {_style="font-size: 165%;"} -->
 
 
 ![Lnu Logo](../images/lnu-logotype.png)
@@ -39,4 +39,8 @@ At all times you must give credit to: ”Linnaeus university – System Administ
 
 ---
 
+### This is a three part lecture
 
+* Who is who?
+* The OSI model
+* Some TCP/IP protocols
