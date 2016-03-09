@@ -79,6 +79,10 @@
     ]
   });
 
+  Reveal.addEventListener( 'ready', function( event ) {
+    console.log("Remove Last slide")
+    document.querySelector('#remove').remove();
+  });
   Reveal.configure({
     keyboard: {
       49: function() {
@@ -87,9 +91,6 @@
         lectureSafe.style.display = (lectureSafe.style.display == 'block')?'none':'block';
       }, // toggle Lnu safe background by pressing '1'
     }
-  });
-  Reveal.addEventListener( 'ready', function( event ) {
-    document.querySelector('#remove').remove();
   });
 
   </script>
