@@ -1,7 +1,7 @@
 <!-- Start -->
  <!-- .slide: data-state="lnu-intro" class="center" -->
 
-### System Administation I
+### System Administration I
 ### (1DV031)
 # Course Introduction
 
@@ -43,11 +43,11 @@ At all times you must give credit to: ”Linnaeus university – System Administ
 ## Course management
 | | | |
 |-|-|-|
-| <!-- {_class="table-cell"} -->  ![Jacob](http://www.gravatar.com/avatar/b47109ad8c128221c9dd060d15c89cc9.jpg?s=80) <!-- {_class="grayscale"} --> | <!-- {_class="table-cell"} --> Jacob Lindehoff (Course manager) |
+| <!-- {_class="table-cell"} -->  ![Jacob](https://www.gravatar.com/avatar/b47109ad8c128221c9dd060d15c89cc9.jpg?s=80) <!-- {_class="grayscale"} --> | <!-- {_class="table-cell"} --> Jacob Lindehoff (Course manager) |
 | <!-- {_class="table-cell"} --> ![Thomas](https://s.gravatar.com/avatar/583831f3fae2d95d3baaaca915c4c845.jpg?s=80)<!-- {_class="grayscale"} --> | <!-- {_class="table-cell"} --> Thomas Ivarsson (Course instructor) |
-| <!-- {_class="table-cell"} --> ![Thomas](http://www.gravatar.com/avatar/2261038623688f4d83dc10c53b85efb8.jpg?s=80)<!-- {_class="grayscale"} --> | <!-- {_class="table-cell"} --> John Häggerud (Course instructor) |
-| <!-- {_class="table-cell"} --> ![Thomas](http://www.gravatar.com/avatar/a334470b8e87eb204a337c228f940e13.jpg?s=80)<!-- {_class="grayscale"} --> | <!-- {_class="table-cell"} --> Mats Loock (Course instructor) |
-| <!-- {_class="table-cell"} --> ![Thomas](http://www.gravatar.com/avatar/f0792a7226128e723ae2a45450e4da5c.jpg?s=80)<!-- {_class="grayscale"} --> | <!-- {_class="table-cell"} --> Johan Leitet (Course instructor) |
+| <!-- {_class="table-cell"} --> ![John](https://www.gravatar.com/avatar/2261038623688f4d83dc10c53b85efb8.jpg?s=80)<!-- {_class="grayscale"} --> | <!-- {_class="table-cell"} --> John Häggerud (Course instructor) |
+| <!-- {_class="table-cell"} --> ![Mats](https://www.gravatar.com/avatar/a334470b8e87eb204a337c228f940e13.jpg?s=80)<!-- {_class="grayscale"} --> | <!-- {_class="table-cell"} --> Mats Loock (Course instructor) |
+| <!-- {_class="table-cell"} --> ![Johan](https://www.gravatar.com/avatar/f0792a7226128e723ae2a45450e4da5c.jpg?s=80)<!-- {_class="grayscale"} --> | <!-- {_class="table-cell"} --> Johan Leitet (Course instructor) |
 
 
 <!-- {_class="table lnu-course-management"} -->
