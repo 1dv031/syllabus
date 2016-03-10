@@ -89,7 +89,19 @@ http://kursplan.lnu.se/kursplaner/kursplan-1DV031-1.pdf
 ---
 
 ## Approach
+* The course is divided into three parts
+  * Part 1: Network basics
+  * Part 2: Server operation methods
+  * Part 3: Server installation and operations
+* Scheduled activities
+  * 9 Lectures
+  * 2 Seminars (part 1 and 2)
+  * 2x1h/week tutoring (part 3)
+  * 3 examination assignments
+  * 1 written examination (part 1 and 2)
+  * 1 oral hearings (part 3)
 
+<!-- {_style="font-size: 90%"} -->
 
 
 ---
@@ -110,8 +122,8 @@ http://kursplan.lnu.se/kursplaner/kursplan-1DV031-1.pdf
 
 ---
 
-<!-- Litterature -->
-## Litterature
+<!-- Literature -->
+## Literature
 
 * Book
 * Mandatory
