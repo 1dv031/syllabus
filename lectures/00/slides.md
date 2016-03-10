@@ -90,7 +90,7 @@ http://kursplan.lnu.se/kursplaner/kursplan-1DV031-1.pdf
 
 ## Approach
 * The course is divided into three parts
-  * Part 1: Network basics
+  * Part 1: Computer network - The basics
   * Part 2: Server operation methods
   * Part 3: Server installation and operations
 * Scheduled activities
@@ -107,7 +107,20 @@ http://kursplan.lnu.se/kursplaner/kursplan-1DV031-1.pdf
 ---
 
 <!-- Part 1 -->
-## Part 1
+## Part 1 - Computer Networks
+Goals:
+* Understand how the transmitter/receiver model work in
+  TCP/IP based computer communication
+  * transmitter/receiver model
+  * OSI model
+  * TCP/IP-based computer communications
+
+Todo:
+* 2 lecture
+* 1 seminar
+* 1 examination assignment (written examination)
+
+<!-- {_style="font-size: 80%"} -->
 
 
 --
