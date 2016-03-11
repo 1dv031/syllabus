@@ -18,7 +18,7 @@
 
 <!-- CC -->
 <!-- .slide: data-state="lnu-cc" -->
-## Licence for this work
+## License for this work
 
 This work is produced by Thomas Ivarsson for the course System Administration I (1DV031) at Linnaeus University.
 All content in this work excluding photographs, icons, picture of course literature and Linnaeus University logotype and symbol, is licensed under a [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png) <!-- {_style="margin: 0px"} --> Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/)  
