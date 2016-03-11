@@ -59,11 +59,11 @@ At all times you must give credit to: ”Linnaeus university – System Administ
 ## Syllabus
 
 * Main field of study
-* Computer Science (dv)
+  * Computer Science (dv)
 * Progression
-* G1F
+  * G1F
 * Prerequisites
-* "Introduction to Programming (1DV021)" or equivalent
+  * "Introduction to Programming (1DV021)" or equivalent
 
 
 http://kursplan.lnu.se/kursplaner/kursplan-1DV031-1.pdf
@@ -98,7 +98,7 @@ http://kursplan.lnu.se/kursplaner/kursplan-1DV031-1.pdf
   * 2 Seminars (part 1 and 2)
   * 2x1h/week tutoring (part 3)
   * 3 examination assignments
-  * 1 written examination (part 1 and 2)
+  * 2 written examination (part 1 and 2)
   * 1 oral hearings (part 3)
 
 <!-- {_style="font-size: 90%"} -->
@@ -182,12 +182,6 @@ Todo:
 
 
 ---
-<!-- Tools -->
-## Tools to be used...
-
-
-
----
 <!-- webpage -->
 ## Course webpage
 https://coursepress.lnu.se/kurs/systemadministrationi/
@@ -195,11 +189,4 @@ https://coursepress.lnu.se/kurs/systemadministrationi/
 * Slack: Discussions and questions [#1dv031-sysadmin-1](https://coursepress.slack.com/archives/1dv031-sysadmin-1)
 * 1dv031@lnu.se (Private matters only!)
 
-
----
-
-## Code
-```JavaScript
-alert('sdsd');
-var i = 10;
-```
+<!-- {_style="margin-right: 25%"} -->
