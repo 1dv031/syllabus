@@ -157,6 +157,7 @@
         background: none;
         border: none;
         box-shadow: none;
+        margin-top: 10px !important;
     }
 
         .reveal .lnu-footer img:nth-of-type(2) {
