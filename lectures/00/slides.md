@@ -109,40 +109,76 @@ http://kursplan.lnu.se/kursplaner/kursplan-1DV031-1.pdf
 <!-- Part 1 -->
 ## Part 1 - Computer Networks
 Goals:
-* Understand how the transmitter/receiver model work in
-  TCP/IP based computer communication
+* Understand how the transmitter/receiver model work in TCP/IP based computer communication
   * transmitter/receiver model
   * OSI model
   * TCP/IP-based computer communications
 
+<!-- {_style="margin-right: 25%"} -->
 Todo:
 * 2 lecture
 * 1 seminar
 * 1 examination assignment (written examination)
 
-<!-- {_style="font-size: 80%"} -->
+<!-- {_style="font-size: 75%"} -->
 
 
 --
 
-## Part 2
+## Part 2 - Server operation methods
+Goals:
+* Methods of operation of server  operating system and services
+  * physical
+  * virtualization
+  * containers
+
+<!-- {_class="lnu-margin-right-30"} -->
+Todo:
+* 2 lecture
+* 1 seminar
+* 1 examination assignment (written examination)
+
+<!-- {_style="font-size: 75%"} -->
 
 
 --
 
-## Part 3
+## Part 3 - Server installation and operations
+<!-- {_style="font-size:140%"} -->
+Goals:
+* install and manage Linux and Windows server operating systems
+  * Windows Server & Linux Server
+  * script programing (Bash & PowerShell)
+
+<!-- {_style="margin-right: 25%"} -->
+* install and manage some server services
+  * DNS and DHCP
+  * Web server
+  * Catalog services
+
+
+--
+
+## Part 3 - Server installation and operations
+<!-- {_style="font-size:140%"} -->
+Todo:
+ * 5 lectures
+ * 1 examination assignment
+ * 1 oral hearing
+ * Tutoring
 
 
 ---
 
 <!-- Literature -->
 ## Literature
+* The Practice of System and Network Administration
+  * Limoncelli, Thomas A.; Hogan , Christina J.; Chalup, Strata R.
+  * Addison ­Wesley Professional
+  * Recommended
+  * ISBN: 9780321492661
 
-* Book
-* Mandatory
-* ISBN 123-456789
-
-
+![The Practice of System and Network Administration](http://image.bokus.com/images2/9780321492661_200)
 
 
 ---
