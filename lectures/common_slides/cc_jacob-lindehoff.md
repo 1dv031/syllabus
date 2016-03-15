@@ -1,21 +1,3 @@
-<!-- Start -->
- <!-- .slide: data-state="lnu-intro" class="center" -->
-
-### System Administration I
-### (1DV031)
-# “Server” from hardware to software
-
-
-
-![Lnu Logo](../images/lnu-logotype.png)
-![Lnu Tree](../images/lnu-symbol.png)
-
-
-<!-- {_class="lnu-footer" style="top: 160px;"} -->
-
-
----
-
 <!-- CC -->
 <!-- .slide: data-state="lnu-cc" -->
 ## License for this work
@@ -34,6 +16,3 @@ All content in this work excluding photographs, icons, picture of course literat
 If you change the content do not use the photographs, icons, picture of the course literature or Linnaeus University logotype and symbol in your new work!
 
 At all times you must give credit to: ”Linnaeus university – System Administration I (1DV031)” with the link https://coursepress.lnu.se/kurs/systemadministrationi/ and to the Creative Common-license above.
-
-
----
