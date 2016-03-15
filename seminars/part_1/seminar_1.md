@@ -1,1 +1,1 @@
-# Seminar 1 - Computer Networks
+## Seminar 1
