@@ -86,7 +86,7 @@ What is the <em>transmitter</em>, <em>channel</em>, <em>signal</em> and <em>rece
 
 ![Shannon's schematic diagram of a general communication system](images/homebrewed-shannon-model.png)
 
-Source: Shannon, C. E., "A mathematical theory of communication", in <em>Mobile<br />computing and communciations review</em>, volume 5, issue 1, 2001, page 3.
+Source: Shannon, C. E., "A mathematical theory of communication", in <em>Mobile<br />computing and communications review</em>, volume 5, issue 1, 2001, page 3.
 
 <!-- {_style="font-size: 50%;"} -->
 
@@ -126,7 +126,7 @@ Source: Shannon, C. E., "A mathematical theory of communication", in <em>Mobile<
 
 * Conceptual 7 layer model
 * Defines different aspects of computer communication
-* Entities at one level communication with entites at the corresponding layer at the other end
+* Entities at one level communication with entities at the corresponding layer at the other end
 
 
 --
@@ -147,7 +147,7 @@ Source: Shannon, C. E., "A mathematical theory of communication", in <em>Mobile<
 
 ### Horizontal interaction between layers
 
-![Horizonatl interaction in the model](images/OSI-h.png)
+![Horizontal interaction in the model](images/OSI-h.png)
 
 
 --
@@ -161,7 +161,7 @@ What is the first thing we need<br /> for this communication to work?
 
 --
 
-### The answer is in the first layer
+### The answer is in the 1st layer
 
 ![OSI model: Physical layer](images/OSI-1.png)
 
@@ -216,6 +216,88 @@ What is the first thing we need<br /> for this communication to work?
 2. Do we need network layer stuff here?
 
 <!-- {_style="font-size: 50%"} -->
+
+
+--
+
+### The 4th layer: Transport
+
+![OSI: Transport layer](images/OSI-4.png)
+
+
+--
+
+### Some features in the transport layer
+
+* Connections oriented
+* Connectionless
+* Message segmentation
+* Error handling
+* Flow control
+
+
+--
+
+### Connection negotiation: the session layer
+
+![OSI: Session layer](images/OSI-5.png)
+
+
+--
+
+### Functions in the session layer
+
+* Establish
+* Manage
+* Terminate
+* Duplex
+
+
+--
+
+### Know your duplex
+
+![Simplex](images/simplex.png)
+
+![Half duplex](images/half-duplex.png)
+
+![Full duplex](images/full-duplex.png)
+
+
+--
+
+### Layer 6: the context provider
+
+![OSI: Presentation layer](images/OSI-6.png)
+
+
+--
+
+### The top layer: Application
+
+![OSI: Application layer](images/OSI-7.png)
+
+
+--
+
+### Nota bene!
+
+application layer != "the application"
+<!-- {_style="75%; padding-bottom: 1.5em"} -->
+
+What is the "application layer entity"<br />
+if you are surfing the Web?
+<!-- {_style="padding-bottom: 1.5em"} -->
+
+![Interaction with the application layer](images/interacting-with-the-model.png)
+
+
+--
+
+### Repetition: the complete model
+
+![OSI model](images/OSI-c.png)
+![Now the computers can communication](images/2-computers-and-cat-in-trouble.png)
 
 
 ---
