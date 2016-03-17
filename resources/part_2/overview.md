@@ -9,3 +9,5 @@
 * 2 lecture
 * 1 seminar
 * 1 examination assignment (written examination)
+
+webhook

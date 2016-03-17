@@ -8,7 +8,7 @@ server, hardware, operating system
 
 ## Lecture 4 - Virtualization methods
 ### Keywords
-virtualization, containers
+virtualization, containers, cloud
 
 ### Resources
 - [HTML-presentation](#)
