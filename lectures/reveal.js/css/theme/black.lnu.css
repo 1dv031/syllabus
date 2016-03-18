@@ -29,6 +29,11 @@
     text-indent:0;
 }
 
+pre.lnu-code {
+  margin-right: 40%;
+  width: 60%;
+
+}
 
 .lnu-lectureSafe {
     position: absolute;
