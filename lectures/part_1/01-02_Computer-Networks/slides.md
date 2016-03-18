@@ -316,41 +316,21 @@ if you are surfing the Web?
 
 ## Our example
 
+I am asking my application to fetch me<br />
 http://test-thison.c9users.io/hello.html
+<!-- {_style="padding-top: 2em"} -->
 
-``` HTML
-<html>
-    <head>
-        <title>Hello World!</title>
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-        <p>Can it be more basic?</p>
-    </body>
-</html>
-```
-
-Where in to model does this fit?!
-
-
---
-
-### Hypertext markup language
-
-HTML is still outside the model,<br />it is not part of the network.
-<!-- {_style="padding-top: 1em"} -->
-
-![Interaction with the application layer](images/interacting-with-the-model.png)
-<!-- {_style="padding-top: 4.5em"} -->
+![Entering the network](images/interacting-with-the-model.png)
+<!-- {_style="padding-top: 2em"} -->
 
 
 --
 
 ### The application layer
 
-Now we move into the network<br />
-putting the HTML code in a <br />
-Hypertext transfer protocol (HTTP) message.
+Now my application uses its network skills<br />
+to fullfill my request, starting with a<br />
+Hypertext transfer protocol (HTTP):
 <!-- {_style="padding-top: 1em"} -->
 
 ```
@@ -361,9 +341,164 @@ Accept-Encoding: identity
 Host: test-thison.c9users.io
 Connection: Keep-Alive
 ```
-<!-- {_style="padding-top: 2em"} class="lnu-code" -->
+<!-- {_style="padding-top: 2em" class="lnu-code"} -->
 
-The HTTP header is added to the HTML code
+![The message so far](images/message_2s_http.png)
+
+
+--
+
+### The transport layer
+
+Next (but acctually before HTTP is even used) a<br />
+connection is established that can now be used<br />
+to send the HTTP request. The protocl used for<br />
+this is the Transmission control protocol (TCP):
+<!-- {_style="padding-top: 1em"} -->
+
+```
+Src Port: 44712   Seq: 1      Len: 175
+Dst Port: 80      Ack: 1      Flags: ACK
+```
+<!-- {_style="padding-top: 2em" class="lnu-code"} -->
+
+![The message so far](images/message_2s_tcp.png)
+
+
+--
+
+### Detour 1: Did we just skip ...???
+
+TCP/IP does not really bother with session<br />
+and presentation layers:
+
+<!-- {_style="font-size: 75%"} -->
+
+![TCP/IP model](images/TCPIP-model.png)
+
+&#42; The network layer is usually called "Internet" in the TCP/IP model.
+<!-- {_style="font-size: 55%"} -->
+
+
+--
+
+### Detour 2: The 3-way handshake
+
+TCP supports reliable communication.<br />
+To negotiate some initial parameters<br />
+it uses "the 3-way handshake".
+
+My application:
+
+<!-- {_style="font-size: 75%; padding-top: 1em"} -->
+```
+Src Port: 44712	Seq: 0      Len: 0
+Dst Port: 80	               Flags: SYN
+```
+<!-- {_class="lnu-code"} -->
+
+The server:
+
+<!-- {_style="font-size: 75%"} -->
+```
+Src Port: 80      Seq: 0      Len: 0
+Dst Port: 44712   Ack: 1      Flags: SYN, ACK
+```
+<!-- {_class="lnu-code"} -->
+
+My application:
+
+<!-- {_style="font-size: 75%"} -->
+```
+Src Port: 44712   Seq: 1      Len: 0
+Dst Port: 80      Ack: 1      Flags: ACK
+```
+<!-- {_class="lnu-code"} -->
+
+
+--
+
+### The internet/network layer
+
+Here we use the Internet protocol (IP) to get<br />
+the data from one network to the other:
 
 <!-- {_style="padding-top: 1em"} -->
 
+```
+Version: 4
+Time to live: 64
+Protocol: TCP (6)
+Src: 192.168.1.2
+Dst: 192.158.30.16
+```
+<!-- {_class="lnu-code" style="padding-top: 2em"} -->
+
+![The message so far](images/message_2s_ip.png)
+
+
+--
+
+### Detour 3: Networks and hosts
+
+* The IPv4 address has 32 bits
+* Some bits specify the network address
+* Some bits specify the host address
+* To help us we have the network mask
+
+<!-- {_style="font-size: 75%"} -->
+
+<pre>
+Address: 11000000.101010000.00000001.00000010 (192.168.1.2)
+Netmask: 11111111.111111111.11111111.00000000 (255.255.255.0)
+Network: 11000000.101010000.00000001.00000000 (192.168.1.0)
+Host   : 00000000.000000000.00000000.00000010 (0.0.0.2)
+
+Address: 11000000.100100100.00011110.00010000 (192.158.30.16)
+Netmask: 11111111.111111111.11111100.00000000 (255.255.252.0)
+Network: 11000000.100100100.00011100.00000000 (192.158.28.0)
+Host   : 00000000.000000000.00000010.00010000 (0.0.2.16)
+</pre>
+<!-- {_class="lnu-code" style="padding-top: 1em"} --->
+
+
+--
+
+### Detour 4: Special addresses (RFC 5735)
+
+<pre>
+0.0.0.0/8        # On "this" network
+10.0.0.0/8       # Private A block (RFC 1918)
+127.0.0.0/8      # Loopback
+169.254.0.0/16   # Link local (RFC 3927)
+172.16.0.0/12    # Private B block(s) (RFC 1918)
+192.0.0.0/24     # Reserved
+192.0.2.0/24     # For documentation and example code
+192.88.99.0/24   # 6to4 relay anycast
+192.168.0.0/16   # Private C block(s) (RFC 1918)
+198.18.0.0/15    # For benchmark testing
+198.51.100.0/24  # For documentation and example code
+203.0.113.0/24   # For documentation and example code
+240.0.0.0/4      # Reserved
+</pre>
+<!-- {_class="lnu-code" style="padding-top: 1em"} --->
+
+Source: RFC 5735 Special Use IPv4 Addresses (January 2010)
+<!-- {_style="padding-top: 3em; font-size: 55%;"} -->
+
+
+--
+
+### The data link layer
+
+To handle the link we use Ethernet.
+<!-- {_style="padding-top: 1em"} -->
+
+```
+Src: 60:6c:66:1e:cf:d5
+Dst: e8:08:8b:5a:df:82
+Type: IP (0x0800)
+```
+<!-- {_class="lnu-code" style="padding-top: 2em; padding-bottom: 1em"} -->
+
+![The message as we know it](images/message_2s_c.png)
