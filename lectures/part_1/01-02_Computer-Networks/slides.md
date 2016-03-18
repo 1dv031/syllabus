@@ -314,9 +314,56 @@ if you are surfing the Web?
 
 --
 
+## Our example
+
+http://test-thison.c9users.io/hello.html
+
 ``` HTML
 <html>
-<body>
-	</body>
+    <head>
+        <title>Hello World!</title>
+    </head>
+    <body>
+        <h1>Hello World!</h1>
+        <p>Can it be more basic?</p>
+    </body>
 </html>
 ```
+
+Where in to model does this fit?!
+
+
+--
+
+### Hypertext markup language
+
+HTML is still outside the model,<br />it is not part of the network.
+<!-- {_style="padding-top: 1em"} -->
+
+![Interaction with the application layer](images/interacting-with-the-model.png)
+<!-- {_style="padding-top: 4.5em"} -->
+
+
+--
+
+### The application layer
+
+Now we move into the network<br />
+putting the HTML code in a <br />
+Hypertext transfer protocol (HTTP) message.
+<!-- {_style="padding-top: 1em"} -->
+
+```
+GET /hello.html HTTP/1.1
+User-Agent: Wget/1.16.1 (linux-gnu)
+Accept: */*
+Accept-Encoding: identity
+Host: test-thison.c9users.io
+Connection: Keep-Alive
+```
+<!-- {_style="padding-top: 2em"} class="lnu-code" -->
+
+The HTTP header is added to the HTML code
+
+<!-- {_style="padding-top: 1em"} -->
+
