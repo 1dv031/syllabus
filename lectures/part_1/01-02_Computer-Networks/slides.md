@@ -303,3 +303,20 @@ if you are surfing the Web?
 ---
 
 ## Part 3: Some TCP/IP protocols
+
+
+--
+
+### Repetition: the complete (OSI) model
+
+![OSI model](images/OSI-c.png)
+
+
+--
+
+``` HTML
+<html>
+<body>
+	</body>
+</html>
+```
