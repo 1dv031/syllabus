@@ -128,6 +128,8 @@ Source: Shannon, C. E., "A mathematical theory of communication", in <em>Mobile<
 * Defines different aspects of computer communication
 * Entities at one level communication with entities at the corresponding layer at the other end
 
+<!-- {_style="margin-right: 30%;"} -->
+
 
 --
 
@@ -459,7 +461,7 @@ Netmask: 11111111.111111111.11111100.00000000 (255.255.252.0)
 Network: 11000000.100100100.00011100.00000000 (192.158.28.0)
 Host   : 00000000.000000000.00000010.00010000 (0.0.2.16)
 </pre>
-<!-- {_class="lnu-code" style="padding-top: 1em"} --->
+<!-- {_style="padding-top: 1em; margin-left: 0px"} --->
 
 
 --
