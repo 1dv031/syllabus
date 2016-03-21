@@ -10,10 +10,12 @@
 
 
 <!-- {_class="table lnu-course-management"} -->
+Note:
+* New face Thomas I.
+
 
 
 ---
-
 <!-- Syllabus -->
 ## Syllabus
 
@@ -29,7 +31,6 @@ http://kursplan.lnu.se/kursplaner/kursplan-1DV031-1.pdf
 
 
 --
-
 <!-- Goals -->
 ## After the course you should understand:
 <!-- {_style="font-size: 140%"} -->
@@ -43,10 +44,15 @@ http://kursplan.lnu.se/kursplaner/kursplan-1DV031-1.pdf
 * directory services (incl. Active Directory)
 
 <!-- {_class="lnu-font-size-80 lnu-margin-right-30"} -->
+Note:
+Course Goals <br />
+Taken from the course Syllabus <br />
+10 week course at 1/2 speed <br />
+Only the basics <br />
+IT-Technician study programme <br />
 
 
 ---
-
 ## Approach
 * The course is divided into three parts
   * Part 1: Computer network - The basics
@@ -61,10 +67,13 @@ http://kursplan.lnu.se/kursplaner/kursplan-1DV031-1.pdf
   * 1 oral hearings (part 3)
 
 <!-- {_style="font-size: 90%"} -->
+Note:
+Divided the goals into 3 parts<br />
+First 2 part are more theoretical <br />
+Last part very practical & hands on
 
 
----
-
+--
 <!-- Part 1 -->
 ## Part 1 - Computer Networks
 Goals:
@@ -80,13 +89,16 @@ Todo:
 * 1 examination assignment (written examination)
 
 <!-- {_style="font-size: 75%"} -->
+Note:
+How does computer communicate?<br />
+Thomas will be your teacher<br />
+First lecture right after this
 
 
 --
-
 ## Part 2 - Server operation methods
 Goals:
-* Methods of operation of server  operating system and services
+* Methods of operation of server operating system and services
   * physical
   * virtualization
   * containers
@@ -98,10 +110,13 @@ Todo:
 * 1 examination assignment (written examination)
 
 <!-- {_style="font-size: 75%"} -->
+Note:
+How can we deploy and manage our servers?<br />
+How do we choose the right methods of operation?<br />
+Start in 2 weeks
 
 
 --
-
 ## Part 3 - Server installation and operations
 <!-- {_style="font-size:140%"} -->
 Goals:
@@ -114,21 +129,21 @@ Goals:
   * DNS and DHCP
   * Web server
   * Catalog services
+Note:
 
 
 --
-
 ## Part 3 - Server installation and operations
 <!-- {_style="font-size:140%"} -->
 Todo:
  * 5 lectures
+ * ```x``` exercises
  * 1 examination assignment
  * 1 oral hearing
  * Tutoring
 
 
 ---
-
 <!-- Literature -->
 ## Literature
 * The Practice of System and Network Administration
@@ -138,6 +153,8 @@ Todo:
   * ISBN: 9780321492661
 
 ![The Practice of System and Network Administration](http://image.bokus.com/images2/9780321492661_200)
+Note:
+Not mandatory but recommended<br />
 
 
 ---
