@@ -504,3 +504,219 @@ Type: IP (0x0800)
 <!-- {_class="lnu-code" style="padding-top: 2em; padding-bottom: 1em"} -->
 
 ![The message as we know it](images/message_2s_c.png)
+
+
+--
+
+###Did you spot the gaps?
+
+I asked for: http://test-thison.c9users.io/hello.html
+
+So where did ...
+
+```
+/* TCP */
+Src Port: 44712
+Dst Port: 80
+```
+<!-- {_class="lnu-code"} -->
+
+```
+/* IP */
+Src: 192.168.1.2
+Dst: 192.158.30.16
+```
+<!-- {_class="lnu-code"} -->
+
+```
+/* Ethernet */
+Src: 60:6c:66:1e:cf:d5
+Dst: e8:08:8b:5a:df:82
+```
+<!-- {_class="lnu-code"} -->
+
+... come from?
+
+
+--
+
+### DNS (the query)
+
+```
+/* DNS (query) */
+Name: test-thison.c9users.io'
+Type: A
+Class: IN
+```
+<!-- {_class="lnu-code"} -->
+```
+/* UDP */
+Src: 9711
+Dst: 53
+```
+<!--{_class="lnu-code"}-->
+```
+/* IP version 4 */
+Time to live: 64
+Protocol: UDP (17)
+Src: 192.168.1.2
+Dst: 192.168.1.1
+```
+<!--{_class="lnu-code"}-->
+```
+/* Ethernet */
+Src: 60:6c:66:1e:cf:d5
+Dst: e8:08:8b:5a:df:82
+```
+<!-- {_class="lnu-code"} -->
+
+
+
+--
+
+### DNS (the response)
+
+```
+/* DNS (query response) */
+Name: test-thison.c9users.io'
+Type: A
+Class: IN
+Addr: 192.158.30.16
+```
+<!-- {_class="lnu-code"} -->
+```
+/* UDP */
+Src: 53
+Dst: 9711
+```
+<!--{_class="lnu-code"}-->
+```
+/* IP version 4 */
+Time to live: 64
+Protocol: UDP (17)
+Src: 192.168.1.1
+Dst: 192.168.1.2
+```
+<!--{_class="lnu-code"}-->
+```
+/* Ethernet */
+Src: e8:08:8b:5a:df:82
+Dst: 60:6c:66:1e:cf:d5
+```
+<!-- {_class="lnu-code"} -->
+
+
+--
+
+### ARP (request)
+
+```
+/* ARP */
+Hardware type: Ethernet
+Protocol type: IP
+Opcode: request
+Sender MAC address: 60:6c:66:1e:cf:d5
+Sender IP address: 192.168.1.2
+Target MAC address: 00:00:00:00:00:00
+Target IP address: 192.168.1.1
+```
+<!--{_class="lnu-code"}-->
+```
+/* Ethernet */
+Dst: ff:ff:ff:ff:ff:ff
+Src: 60:6c:66:1e:cf:d5
+Type: ARP
+```
+<!--{_class="lnu-code"}-->
+
+
+--
+
+### ARP (response)
+
+```
+/* ARP */
+Hardware type: Ethernet
+Protocol type: IP
+Opcode: reply
+Sender MAC address: e8:08:8b:5a:df:82
+Sender IP address: 192.168.1.1
+Target MAC address: 60:6c:66:1e:cf:d5
+Target IP address: 192.168.1.2
+```
+<!--{_class="lnu-code"}-->
+```
+/* Ethernet */
+Dst: 60:6c:66:1e:cf:d5
+Src: e8:08:8b:5a:df:82
+Type: ARP
+```
+<!--{_class="lnu-code"}-->
+
+
+--
+
+### The chain that gives the addresses
+
+URL (user input): <pre>http://test-thison.c9users.io/hello.html</pre>
+
+FQDN (from URL): <pre>test-thison.c9users.io</pre>
+
+TCP port (from URL): <pre>80</pre>
+
+IP address (from FQDN): <pre>192.158.30.16</pre>
+
+MAC address (from IP address): <pre>e8:08:8b:5a:df:82</pre>
+
+
+--
+
+### And the response to the HTTP GET?
+
+HTTP header:
+```
+HTTP/1.1 200 OK
+date: Thu, 17 Mar 2016 19:40:54 GMT
+server: Apache/2.4.7 (Ubuntu)
+last-modified: Thu, 17 Mar 2016 19:38:25 GMT
+etag: "a3-52e43c61f819b"
+accept-ranges: bytes
+content-length: 163
+vary: Accept-Encoding
+keep-alive: timeout=5, max=100
+content-type: text/html
+X-BACKEND: apps-proxy
+```
+<!--{_class="lnu-code"}-->
+
+![The message so far](images/message_c.png)
+
+
+--
+
+### Protocols mentioned in this lecture
+
+* Hypertext transfer protocol (HTTP)
+* Domain name system protocol (DNS)
+* Transmission control protocol (TCP)
+* User datagram protocol (UDP)
+* Internet protocol (version 4) (IP(v4))
+* Address resolution protocol (ARP)
+* Ethernet
+
+There is a wealth of protocols out there, so you should ...
+
+
+--
+
+### Request for comments (RFC)
+
+... start reading _Request for comments_ if you like networking.
+
+* New (and now old) protocols and ideas
+* Very technical at times
+* Very informative
+* Some are even funny
+
+Some suggestions: RFC 792 (great for understanding network error messages), RFC 1180 (for an introduction to TCP/IP), RFC 1812 (for a better understanding of the Internet and routing), RFC 2324 (since April Fools' is right around the corner), RFC 5321 (if you like sending and receiving email), RFC 7230 (if you really want to get to know your HTTP), and tons more ...
+<!--{_style="font-size: 65%"}-->
