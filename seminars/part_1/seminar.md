@@ -1,6 +1,4 @@
-This document is still a work in progress. Anything stated here in might be changed as long as this text is at the top!
-
-<!--{_style="font-size: 250%; color: red;"} -->
+### This document is still a work in progress. Anything stated here in might be changed as long as this text is at the top!
 
 ## Seminar 1
 
