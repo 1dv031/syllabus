@@ -26,8 +26,8 @@ OSI model, TCP/IP, Unicast, Broadcast, Multicast, Anycast, CSMA/CD, CSMA/CA, Dup
 ## Lecture 02 - Some TCP/IP protocols
 
 ### Keywords
-
+TCP/IP, Application layer, Transport layer, 3-way handshake, Internet/Network layer, Special addresses, DNS, ARP, HTTP header, TCP, UDP
 
 ### Resources
 - [HTML-presentation](https://cdn.rawgit.com/1dv031/syllabus/master/lectures/part_1/01-02_Computer-Networks/index.html#/5)
-- [Recording - when available](#) 2016-03-23, 10.15 (Youtube)
+- [Recording](https://www.youtube.com/watch?v=0RterY5_61k&list=PLSWJPPj5sKmoXtn9BfzpduajP0y_fHFOd&index=3) 2016-03-23, 10.15 (Youtube)
