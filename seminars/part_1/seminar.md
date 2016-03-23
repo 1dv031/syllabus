@@ -19,6 +19,7 @@ For each file, try to answer the following questions:
 5. Who are the communicating parties at each layer (focus on addresses)?
 6. How are they related to one another?
 
+
 As for a more in-depth analysis of each file, use Wireshark functions to answer the following questions:
 
 1. How many packets were exchanged?
