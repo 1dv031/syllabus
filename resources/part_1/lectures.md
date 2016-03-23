@@ -24,7 +24,20 @@ OSI model, TCP/IP, Unicast, Broadcast, Multicast, Anycast, CSMA/CD, CSMA/CA, Dup
 - [Recording](https://www.youtube.com/watch?v=lL1s-BwSU6I&list=PLSWJPPj5sKmoXtn9BfzpduajP0y_fHFOd&index=2) 2016-03-21, 10.15 (Youtube)
 
 ## Lecture 02 - Some TCP/IP protocols
-
+* Part 3: Some TCP/IP protocols
+  * [Repetition: the complete (OSI) model](https://youtu.be/0RterY5_61k?t=0m15s&list=PLSWJPPj5sKmoXtn9BfzpduajP0y_fHFOd)
+  * [The application layer](https://youtu.be/0RterY5_61k?t=1m53s&list=PLSWJPPj5sKmoXtn9BfzpduajP0y_fHFOd)
+  * [The transport layer](https://youtu.be/0RterY5_61k?t=2m56s&list=PLSWJPPj5sKmoXtn9BfzpduajP0y_fHFOd)
+    * [The 3-way handshake](https://youtu.be/0RterY5_61k?t=8m04s&list=PLSWJPPj5sKmoXtn9BfzpduajP0y_fHFOd)
+  * [The internet/network layer](https://youtu.be/0RterY5_61k?t=10m48s&list=PLSWJPPj5sKmoXtn9BfzpduajP0y_fHFOd)
+    * [Networks and hosts](https://youtu.be/0RterY5_61k?t=20m13s&list=PLSWJPPj5sKmoXtn9BfzpduajP0y_fHFOd)
+    * [Special addresses](https://youtu.be/0RterY5_61k?t=17m53s&list=PLSWJPPj5sKmoXtn9BfzpduajP0y_fHFOd)
+  * [The data link layer](https://youtu.be/0RterY5_61k?t=23m0s&list=PLSWJPPj5sKmoXtn9BfzpduajP0y_fHFOd)
+  * [DNS](https://youtu.be/0RterY5_61k?t=25m20s&list=PLSWJPPj5sKmoXtn9BfzpduajP0y_fHFOd)
+  * [ARP](https://youtu.be/0RterY5_61k?t=28m56s&list=PLSWJPPj5sKmoXtn9BfzpduajP0y_fHFOd)
+  * [The chain that gives the addresses](https://youtu.be/0RterY5_61k?t=31m50s&list=PLSWJPPj5sKmoXtn9BfzpduajP0y_fHFOd)
+  * [Protocols mentioned in this lecture](https://youtu.be/0RterY5_61k?t=36m47s&list=PLSWJPPj5sKmoXtn9BfzpduajP0y_fHFOd)
+  * [Request for comments (RFC)](https://youtu.be/0RterY5_61k?t=39m42s&list=PLSWJPPj5sKmoXtn9BfzpduajP0y_fHFOd)
 ### Keywords
 TCP/IP, Application layer, Transport layer, 3-way handshake, Internet/Network layer, Special addresses, DNS, ARP, HTTP header, TCP, UDP
 
