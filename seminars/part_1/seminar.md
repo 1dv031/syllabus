@@ -1,4 +1,4 @@
-Below are the instructions for the seminar. Please not that you need to complete both the seminar and the written exam to pass this part of the course.
+Below are the instructions for the seminar. Please note that you need to complete both the seminar and the written exam to pass this part of the course.
 
 ## Seminar 1
 
