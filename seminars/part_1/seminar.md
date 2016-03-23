@@ -1,4 +1,4 @@
-### This document is still a work in progress. Anything stated here in might be changed as long as this text is at the top!
+Below are the instructions for the seminar. Please not that you need to complete both the seminar and the written exam to pass this part of the course.
 
 ## Seminar 1
 
@@ -27,7 +27,7 @@ As for a more in-depth analysis of each file, use Wireshark functions to answer 
 5. Can we see/reconstruct the communication to gain any knowledge about its content/data?
 
 <br />
-Hint: You will find useful functions in the menus under "Analyze" and "Statistics". For more information about Wireshark you can try [the user guide](https://www.wireshark.org/docs/wsug_html_chunked/) or look around at the web site, [wireshark.org](https://www.wireshark.org/), where you also can download it.
+Hint: You will find useful functions in the menus under "Analyze" and "Statistics". For more information about Wireshark you can try [the user guide](https://www.wireshark.org/docs/wsug_html_chunked/) or look around at the web site, [wireshark.org](https://www.wireshark.org/), where you also can download Wireshark.
 
 ### Presenting the findings at the seminar
 
