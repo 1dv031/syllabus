@@ -19,7 +19,7 @@ For each file, try to answer the following questions:
 5. Who are the communicating parties at each layer (focus on addresses)?
 6. How are they related to one another?
 
-
+<br />
 As for a more in-depth analysis of each file, use Wireshark functions to answer the following questions:
 
 1. How many packets were exchanged?
@@ -28,6 +28,7 @@ As for a more in-depth analysis of each file, use Wireshark functions to answer 
 4. How much data did each communicating party send?
 5. Can we see/reconstruct the communication to gain any knowledage about its content/data?
 
+<br />
 Hint: You will find usefull functions in the menues under "Analyze" and "Statistics". For more information about Wireshark you can try [the user guide](https://www.wireshark.org/docs/wsug_html_chunked/) or look around at the web site, [wireshark.org](https://www.wireshark.org/), where you also can download it.
 
 ### Presenting the findings at the seminar
