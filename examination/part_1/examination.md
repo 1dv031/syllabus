@@ -4,7 +4,7 @@ Below are the instructions for the written examinations. Please note that you ne
 
 ## Examination 1 - Computer Networks
 
-For this examination you are expected to produce a written report of between 800-1000 words. Report should be delivered to the course email address as a PDF no later than <!-- PLEASE ADD DATE HERE -->.
+For this examination you are expected to produce a written report of between 800-1000 words. Report should be delivered to the course email address as a PDF no later than 15:00 April 1st. Please note that the report should be written in Swedish.
 
 ### Content of the report
 
@@ -25,3 +25,5 @@ The starting point for the report is the work already done for the seminar. At t
 * Keep within the limits!
 * Make sure to make references to the course literature and any other literature that is relevant for your topic.
 * Use a [recognized system](https://lnu.se/en/library/Writing-and-referencing/referencing/) ([SWE](https://lnu.se/ub/skriva-och-referera/skriva-referenser/)) for incorporating references in your text.
+
+### The peer-review instructions
