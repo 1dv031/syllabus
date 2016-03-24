@@ -29,8 +29,3 @@
 
 ## Video
 * [TCP/IP and the OSI Model Explained!](https://www.youtube.com/watch?v=e5DEVa9eSN0)
-
-[cp-message-box header="Fakta"]
-If you have any suggestions for more good links, you can edit tis page and create an pull request.<br />
-<a href="https://github.com/1dv031/syllabus/edit/master/resources/part_1/study-material.md">Edit this page</a>
-[/cp-message-box]
