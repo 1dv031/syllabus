@@ -19,9 +19,9 @@ The starting point for the report is the work already done for the seminar. At t
 ### Some tips
 
 * Spell check! And if possible grammar check!
-* Remember: this is a story even if the form is not that of a fairy tale or a novell. Think about your narrative and style!
+* Remember: this is a story even if the form is not that of a fairy tale or a novel. Think about your narrative and style!
 * Read it out loud. If it is hard for you to read, it is probably hard for someone else.
 * Let some else read it and get their feedback on the content, the language and the narrative.
 * Keep within the limits!
-* Make sure to make references to the course litterature and any other literature that is relevant for your topic.
-* Use a [recogniced system](https://lnu.se/en/library/Writing-and-referencing/referencing/) ([SWE](https://lnu.se/ub/skriva-och-referera/skriva-referenser/)) for incorporating references in your text.
+* Make sure to make references to the course literature and any other literature that is relevant for your topic.
+* Use a [recognized system](https://lnu.se/en/library/Writing-and-referencing/referencing/) ([SWE](https://lnu.se/ub/skriva-och-referera/skriva-referenser/)) for incorporating references in your text.
