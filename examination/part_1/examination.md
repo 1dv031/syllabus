@@ -4,7 +4,7 @@ Below are the instructions for the written examinations. Please note that you ne
 
 ## Examination 1 - Computer Networks
 
-For this examination you are expected to produce a written report of between 800-1000 words. Report should be delivered to the course email address, [1dv031@lnu.se](mailto:1dv031@lnu.se?subject=Examination 1) as a PDF no later than **15:00 April 1st**. Please note that the report should be written in **Swedish**.
+For this examination you are expected to produce a written report of between 800-1000 words. Report should be delivered to the course email address, [1dv031@lnu.se](mailto:1dv031@lnu.se?subject=Examination1) as a PDF no later than **15:00 April 1st**. Please note that the report should be written in **Swedish**.
 
 ### Content of the report
 
@@ -15,6 +15,7 @@ The starting point for the report is the work already done for the seminar. At t
 2. Once the introductions are over you should go into detail about how you went about your work. What did you do? How? Why? Here you can present central tools, references and descriptions of your methods and your rational behind choosing them.
 
 3. In this last part you present what you have learned from working with this exercise, including the seminar.
+<br />
 
 ### Some tips
 
@@ -25,7 +26,7 @@ The starting point for the report is the work already done for the seminar. At t
 * Keep within the limits!
 * Make sure to make references to the course literature and any other literature that is relevant for your topic.
 * Use a [recognized system](https://lnu.se/en/library/Writing-and-referencing/referencing/) ([SWE](https://lnu.se/ub/skriva-och-referera/skriva-referenser/)) for incorporating references in your text.
-
+<br />
 
 ### The peer-review instructions
 In this course we will use so-called peer-review, the Swedish also called "referensgranskning". This means in short that you will study an other student´s written reports. The idea of the step is to demonstrate your knowledge by analyzing and providing feedback on other student's assignments and hopefully also get great feedback on your own. This dose not mean that you should grade each other rather push and give each other good feedback. In addition, it is important to be able to rise from your own bubble and reflect on the work of others.
