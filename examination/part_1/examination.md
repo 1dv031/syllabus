@@ -1,5 +1,3 @@
-### THIS IS A WORK IN PROGRESS! ANYTHING WRITTEN HERE MIGHT BE CHANGED AS LONG AS THIS TEXT IS ON THE TOP
-
 Below are the instructions for the written examinations. Please note that you need to complete both the seminars and the written examinations to pass the course.
 
 ## Examination 1 - Computer Networks
@@ -15,7 +13,6 @@ The starting point for the report is the work already done for the seminar. At t
 2. Once the introductions are over you should go into detail about how you went about your work. What did you do? How? Why? Here you can present central tools, references and descriptions of your methods and your rational behind choosing them.
 
 3. In this last part you present what you have learned from working with this exercise, including the seminar.
-<br /><br />
 
 ### Some tips
 
@@ -26,7 +23,6 @@ The starting point for the report is the work already done for the seminar. At t
 * Keep within the limits!
 * Make sure to make references to the course literature and any other literature that is relevant for your topic.
 * Use a [recognized system](https://lnu.se/en/library/Writing-and-referencing/referencing/) ([SWE](https://lnu.se/ub/skriva-och-referera/skriva-referenser/)) for incorporating references in your text.
-<br /><br />
 
 ### The peer-review instructions
 In this course we will use so-called peer-review, the Swedish also called "referensgranskning". This means in short that you will study an other student´s written reports. The idea of the step is to demonstrate your knowledge by analyzing and providing feedback on other student's assignments and hopefully also get great feedback on your own. This dose not mean that you should grade each other rather push and give each other good feedback. In addition, it is important to be able to rise from your own bubble and reflect on the work of others.
