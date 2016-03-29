@@ -57,6 +57,18 @@ pre.lnu-code {
   margin-top: 40px;
 }
 
+.reveal .pingo-qr {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100px;
+  height: 100px;
+}
+
+.reveal .pingo-sc li:before{
+  content: counter(count-me, upper-alpha) ". ";
+}
+
 .lnu li {
     /*padding-left: 1em;*/
     text-indent: -1em;
@@ -108,7 +120,7 @@ pre.lnu-code {
                 font-weight: bold;
             }
 
-    .lnu ul ol {
+    .lnu ul, ol {
         list-style-type: none;
         padding: 0;
         margin-left: 1em;
@@ -116,6 +128,7 @@ pre.lnu-code {
     }
 
 .lnu ol li {
+    list-style-type: none;
     counter-increment: count-me;
 }
 
