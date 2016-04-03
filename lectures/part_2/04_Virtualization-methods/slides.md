@@ -15,7 +15,7 @@ http://trypingo.com
 
 <!-- {_class="pingo-sc"} -->
 
-![Pingo QR code](images/pingo-qr.png) [http://pingo.upb.de/321168](http://pingo.upb.de/321168)
+![Pingo QR code](images/pingo-qr.png) [http://pingo.upb.de/723013](http://pingo.upb.de/723013)
 
 <!-- {_class="pingo-qr"} -->
 
