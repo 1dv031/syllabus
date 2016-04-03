@@ -197,6 +197,10 @@ Note:
 What software type is a Server?
 
 
+--
+## Server software components
+
+
 ---
 ## The life cycle of a machine and its OS
 ![Evard's OS Life Cycle](images/OS-LifeCycle.png)
