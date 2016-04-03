@@ -156,7 +156,7 @@ What is the big drawbacks with a Monolithic Kernel?
 * Some desktop versions can have limitations:
   * Memory
   * CPUs
-  * Nics
+  * NICs
 * Built in Services
   * DNS
   * DHCP
@@ -168,19 +168,38 @@ What is the big drawbacks with a Monolithic Kernel?
 ---
 ## Software - Services
 ### Difference between an Application and a Services
+<!-- {_style="font-size:120%;"} -->
 * Service
-  * Perform a single or a few specialized operations.
-  * Most often accessed by other programs.
-  * Often (but not always) targets part of a larger problem domain.
+  * Perform a single or a few specialized operations
+  * Most often accessed by other programs
+  * Targets part of a larger problem domain
+  * Runs in the background
 * Application
-  * Perform a wide range of operations, and may even expose some of these operations as services.
-  * Often (but not always) accessed by humans.
-  * Often (but not always) targets part of a larger problem domain.
+  * Perform a wide range of operations
+  * Accessed by humans
+  * Targets a whole problem domain
+
+
+--
+## What software type is a Server?
+1. Application
+2. Service
+3. Both
+4. None of the above
+
+<!-- {_class="pingo-sc"} -->
+
+![Pingo QR code](images/pingo-qr.png) [http://pingo.upb.de/321168](http://pingo.upb.de/321168)
+
+<!-- {_class="pingo-qr"} -->
+
+Note:
+What software type is a Server?
 
 
 ---
 ## The life cycle of a machine and its OS
-![Evards OS Life Cycle](images/OS-LifeCycle.png)
+![Evard's OS Life Cycle](images/OS-LifeCycle.png)
 
 Note:
 Evards, lit p. 42
