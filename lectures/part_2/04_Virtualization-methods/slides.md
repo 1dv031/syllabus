@@ -22,9 +22,12 @@ http://trypingo.com
 
 ---
 ## Server - from hardware to software
-1. Hardware
-2. Operating system
-3. Software
+* Physical
+* Virtual
+  * Hypervisor
+  * Emulation
+  * Kernel-Level
+* Container
 
 <!-- {_style="font-size:150%"} -->
 
