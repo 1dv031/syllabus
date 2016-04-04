@@ -15,10 +15,10 @@ http://trypingo.com
 ## What is a Server?
 1. Computer program that provides services to other computer programs
 2. The computer that a server program runs in
-3. An software that awaits and fulfills requests from client software
+3. A software that awaits and fulfills requests from client software
 <!-- {_style="margin-right: 30%;"} -->
 4. A computer with specialized hardware
-5. An service application working in the background
+5. A service application working in the background
 
 <!-- {_class="pingo-sc"} -->
 
@@ -43,11 +43,16 @@ After the lecture we will meet up in a **group discussion** in Discord, **only f
 
 
 ---
-## What is a Server?
+## Which one is a Server?
+1. &nbsp;
+2. &nbsp;
+3. &nbsp;
+4. &nbsp;
 
+<!-- {_class="pingo-sc" style="font-size:140%"} -->
 ![Pingo QR code](images/pingo-qr.png) [http://pingo.upb.de/321168](http://pingo.upb.de/321168)
 
-<!-- {_class="pingo-qr" style="top:450px"} -->
+<!-- {_class="pingo-qr"} -->
 
 Note:
 Which one is a Server?
@@ -56,16 +61,85 @@ Which one is a Server?
 --
 ## Basic components of a computer
 * Input Unit
-* Output Unit
 * Storage Unit
 * Central Processing Unit (CPU)
   * Arithmetic and Logic Unit (ALU)
   * Control Unit
+* Output Unit
 
 <!-- {_style="font-size:100%"} -->
 
 Note:
+Before we can understand what makes these computers into a server we must know **what makes a computer**
 http://www.byte-notes.com/five-basic-components-computer-system
+
+
+--
+## Basic components of a computer
+### Input Unit
+* Accepts/reads the list of instructions/data
+* Converts this to computer acceptable format
+* Supplies the converted instructions and data to the computer system for further processing
+
+<!-- {_style="font-size:100%; margin-right: 25%"} -->
+
+Note:
+1. It **accepts (or reads)** the list of instructions and data from the **outside world**.
+2. It **converts** these instructions and data in computer **acceptable format**.
+3. It **supplies** the converted instructions and data to the computer system **for further processing**.
+
+
+--
+## Basic components of a computer
+### Storage Unit
+*or the primary/main storage*
+* Receives instructions/data from input devices
+* Intermediate results of processing
+* Store these results before it's released to an output device
+
+<!-- {_style="font-size:100%; margin-right: 30%"} -->
+
+Note:
+
+1. All the data to be processed and the instruction required for processing (**received from input devices**).
+2. **Intermediate** results of processing.
+3. **Final results** of processing **before** these results are released to an **output device**.
+
+
+--
+## Basic components of a computer
+### Central Processing Unit (CPU)
+* Responsible for all events inside the computer
+* Controls all internal and external devices
+* 2 major components
+  * Arithmetic and Logic Unit (ALU)<!-- {_class="fragment"} -->
+    * Actual execution of the instructions
+    * Intermediate results are temporarily transferred back to the primary storage
+  * Control Unit<!-- {_class="fragment"} -->
+    * How the input device knows that it's time to feed data into the storage unit?
+    * How does the ALU know what should be done with the data once it is received?
+    * Way is it only the final results that are sent to the output devices and not the intermediate results?
+
+
+<!-- {_style="font-size:100%"} -->
+
+Note:
+ALU is the place where the actual execution of the instructions take place during the processing operations.
+
+
+--
+## Basic components of a computer
+### Output Unit
+* Accepts the results produced by the computer
+* Converts these coded results to human acceptable (readable) form
+* Supplied the converted results to the outside world
+
+<!-- {_style="font-size:100%; margin-right: 25%"} -->
+
+Note:
+1. It **accepts** the results produced by the computer which are in **coded form** and hence cannot be easily understood by us.
+2. It **converts** these coded results to human acceptable (**readable**) form.
+3. It supplied the converted results to the **outside world**.
 
 
 --
@@ -81,6 +155,7 @@ http://www.byte-notes.com/five-basic-components-computer-system
 
 Note:
 What makes a computer into a server?
+Show these components
 
 
 ---
