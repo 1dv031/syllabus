@@ -1,26 +1,34 @@
 <!-- Start -->
-# Interact with students
+# Student interact during lectures
+<!-- {_style="font-size:170%"} -->
 * How to get feedback from distance students?
 * How to ask questions?
 * Did the student understand the lecture?
+
+<!-- {_style="font-size:120%"} -->
 
 http://trypingo.com
 <!-- {_class="fragment"} -->
 
 
 --
-## Have you ever installed a server?
-1. Yes
-2. No
+## What is a Server?
+1. Computer program that provides services to other computer programs
+2. The computer that a server program runs in
+3. An software that awaits and fulfills requests from client software
+<!-- {_style="margin-right: 30%;"} -->
+4. A computer with specialized hardware
+5. An service application working in the background
 
 <!-- {_class="pingo-sc"} -->
 
 ![Pingo QR code](images/pingo-qr.png) [http://pingo.upb.de/321168](http://pingo.upb.de/321168)
 
-<!-- {_class="pingo-qr" style="top:300px"} -->
+<!-- {_class="pingo-qr"} -->
 
 
 ---
+# Today's lecture
 ## Server - from hardware to software
 1. Hardware
 2. Operating system
@@ -29,8 +37,9 @@ http://trypingo.com
 <!-- {_style="font-size:150%"} -->
 
 Note:
-These are the topics for todays lecture.
-We will disuse these from a Server perspective  
+These are the topics for todays lecture <br/>
+We will disuse these from a **Server perspective** <br/ >
+After the lecture we will meet up in a **group discussion** in Discord, **only for students**
 
 
 ---
@@ -199,6 +208,7 @@ What software type is a Server?
 
 --
 ## Server software components
+*
 
 
 ---
