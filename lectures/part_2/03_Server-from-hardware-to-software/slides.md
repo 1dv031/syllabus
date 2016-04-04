@@ -7,7 +7,10 @@
 
 <!-- {_style="font-size:120%"} -->
 
-http://trypingo.com
+### Ask questions <!-- {_class="fragment"} -->
+* [Pingo](http://trypingo.com) for multiple choice
+* LCT Chat and Slack for text
+
 <!-- {_class="fragment"} -->
 
 
@@ -116,9 +119,9 @@ Note:
     * Actual execution of the instructions
     * Intermediate results are temporarily transferred back to the primary storage
   * Control Unit<!-- {_class="fragment"} -->
-    * How the input device knows that it's time to feed data into the storage unit?
+    * How dose the input device knows that it's time to feed data into the storage unit?
     * How does the ALU know what should be done with the data once it is received?
-    * Way is it only the final results that are sent to the output devices and not the intermediate results?
+    * Why is it only the final results that are sent to the output devices and not the intermediate results?
 
 
 <!-- {_style="font-size:100%"} -->
@@ -144,18 +147,37 @@ Note:
 
 --
 ## What makes a computer into a server?
-* 24/7
+* 24/7 365
   * reliable
   * redundant
   * hot swap
 * Monitoring
 * Management
 
+<!-- {_class="fragment"} -->
+
 <!-- {_style="font-size:100%"} -->
 
 Note:
 What makes a computer into a server?
 Show these components
+
+
+--
+## Blade server chassis
+![Blade server chassis Front](images/Servers-Blade-Front.jpg)<br /><!-- {_style="width:30%"} -->
+![Blade server chassis Back](images/Servers-Blade-Back.jpg)<!-- {_style="width:35%"} -->
+
+
+--
+## Rack server
+![Rack Server Front](images/Servers-Rack-Front.jpg)<!-- {_style="width:30%"} -->
+![Rack Server Back](images/Servers-Rack-Back.jpg)<!-- {_style="width:30%"} -->
+
+
+--
+## Server comparison
+![Server comparison](images/Servers-Compare.jpg)<!-- {_style="width:65%"} -->
 
 
 ---
@@ -170,13 +192,54 @@ Show these components
 
 
 --
+## Have you ever installed a server OS?
+1. Yes
+2. No
+
+<!-- {_class="pingo-sc" style="font-size:140%"} -->
+
+![Pingo QR code](images/pingo-qr.png) [http://pingo.upb.de/321168](http://pingo.upb.de/321168)
+
+<!-- {_class="pingo-qr" style="top:240px"} -->
+
+
+--
 ## Basic components of an OS
-* Shell
 * Process Manager
-* Main-Memory Manager
-* I/O Manager
-* IPC Manager
-* File System Manager
+* Memory management
+  * Registers, CPU cache, random access memory and disk storage
+  * Coordinates the use of these various types
+* Disk and file systems
+  * ext2, ext3, FAT32, NTFS, HFS+
+* Networking
+  * TCP/IP networking protocols
+* Security
+  * Access control
+  * Auditing
+* Shell
+
+Note:
+1. **Process** is a **system abstraction**, it illustrates that system has only one job to do. **Every program** running on a computer, be it background services or applications, **is a process**. **Process management** involves computing and **distributing CPU time**.
+2. Current computer architectures **arrange** the computer's memory in a **hierarchical manner**, starting from the fastest registers, CPU cache, random access memory and disk storage. **Memory manager coordinates** the use of these various types
+
+
+--
+<!-- {_data-transition="fade-out"} -->
+## Operating System Architecture
+![Kernel architecture](images/Operating-Systeml-Architecture-all.png)
+* User mode
+  * no ability to directly access hardware or reference memory
+  * delegate to system APIs to access hardware or memory
+  * crashes in user mode are always recoverable
+* Kernel mode
+  * unrestricted access to the underlying hardware
+  * execute any CPU instruction and reference any memory address
+  * crashes in kernel mode are catastrophic
+
+<!-- {_style="font-size:70%;"} -->
+
+Note:
+We will go thru these OS architectures but first we must understand User and Kernel mode.
 
 
 --
@@ -185,10 +248,29 @@ Show these components
 ![Monolithic kernel architecture](images/Operating-Systeml-Architecture-Monolithic-kernels.png)
 
 Note:
-A monolithic kernel is an operating system architecture where the entire operating system is working in kernel space and is alone in supervisor mode. The monolithic model differs from other operating system architectures in that it alone defines a high-level virtual interface over computer hardware. A set of primitives or system calls implement all operating system services such as process management, concurrency, and memory management. Device drivers can be added to the kernel as modules.
+A monolithic kernel is an operating system architecture where the **entire operating system** is working in **kernel space** and is alone in supervisor mode. The monolithic model differs from other operating system architectures in that it alone defines a high-level virtual interface over computer hardware. A set of primitives or system calls implement all operating system services such as process management, concurrency, and memory management. **Device drivers can be added to the kernel as modules**.
 
 
 --
+<!-- {_data-transition="fade-in fade-out"} -->
+## Operating System Architecture
+![Micro kernel architecture](images/Operating-Systeml-Architecture-Microkernels.png)
+
+Note:
+Microkernel is the **near-minimum** amount of software that can provide the mechanisms needed **to implement an operating system (OS)**. These mechanisms include low-level address space management, thread management, and inter-process communication (IPC).
+
+
+--
+<!-- {_data-transition="fade-in fade-out"} -->
+## Operating System Architecture
+![Hybrid kernel architecture](images/Operating-Systeml-Architecture-Hybrid.png)
+
+Note:
+Hybrid kernel is a kernel architecture based on a **combination of microkernel and monolithic kernel** architecture used in computer operating systems. This kernel approach **combines** the **speed and simpler** design of monolithic kernel with the **modularity and execution safety** of microkernel.
+
+
+--
+<!-- {_data-transition="fade-in fade-out"} -->
 ## What is the big drawbacks with a Monolithic Kernel?
 1. The kernel size increase
 2. User code can easily get executed in the kernel
@@ -204,34 +286,6 @@ A monolithic kernel is an operating system architecture where the entire operati
 
 Note:
 What is the big drawbacks with a Monolithic Kernel?
-
-
---
-<!-- {_data-transition="fade-in fade-out"} -->
-## Operating System Architecture
-![Micro kernel architecture](images/Operating-Systeml-Architecture-Microkernels.png)
-
-
---
-<!-- {_data-transition="fade-in fade-out"} -->
-## Operating System Architecture
-![Hybrid kernel architecture](images/Operating-Systeml-Architecture-Hybrid.png)
-
-
---
-<!-- {_data-transition="fade-in fade-out"} -->
-## Operating System Architecture
-![Kernel architecture](images/Operating-Systeml-Architecture-all.png)
-* User mode
-  * no ability to directly access hardware or reference memory
-  * delegate to system APIs to access hardware or memory
-  * crashes in user mode are always recoverable
-* Kernel mode
-  * unrestricted access to the underlying hardware
-  * execute any CPU instruction and reference any memory address
-  * crashes in kernel mode are catastrophic
-
-<!-- {_style="font-size:70%;"} -->
 
 
 --
@@ -253,12 +307,12 @@ What is the big drawbacks with a Monolithic Kernel?
 ## Software - Services
 ### Difference between an Application and a Services
 <!-- {_style="font-size:120%;"} -->
-* Service
+* Service <!-- {_class="fragment"} -->
   * Perform a single or a few specialized operations
   * Most often accessed by other programs
   * Targets part of a larger problem domain
   * Runs in the background
-* Application
+* Application <!-- {_class="fragment"} -->
   * Perform a wide range of operations
   * Accessed by humans
   * Targets a whole problem domain
@@ -282,13 +336,27 @@ What software type is a Server?
 
 
 --
-## Server software components
-*
+## Server software
+> A server is a program that awaits and fulfills requests <br/>
+> from client programs in the same or other computers.
+
+<!-- {_style="font-size:100%; width:100%"} -->
+
+* Components
+  * Service/daemon running in the background
+  * program to manage/monitor the service
+    * Graphical user interface, GUI
+    * Command-line interface, CLI
+
+<!-- {_style="font-size:100%;"} -->
+
+Note:
+Command-line interface
 
 
 ---
 ## The life cycle of a machine and its OS
-![Evard's OS Life Cycle](images/OS-LifeCycle.png)
+![Evard's OS Life Cycle](images/OS-LifeCycle.png) <!-- {_class="fragment"} -->
 
 Note:
 Evards, lit p. 42
