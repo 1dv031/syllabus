@@ -58,9 +58,8 @@ pre.lnu-code {
 }
 
 .reveal .pingo-qr {
-  position: fixed;
-  left: 0;
-  bottom: 0;
+  position: relative;
+  top: 200px;
   width: 100px;
   height: 100px;
 }
