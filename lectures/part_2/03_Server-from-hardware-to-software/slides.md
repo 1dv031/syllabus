@@ -17,7 +17,7 @@ http://trypingo.com
 
 ![Pingo QR code](images/pingo-qr.png) [http://pingo.upb.de/321168](http://pingo.upb.de/321168)
 
-<!-- {_class="pingo-qr"} -->
+<!-- {_class="pingo-qr" style="top:300px"} -->
 
 
 ---
@@ -38,7 +38,7 @@ We will disuse these from a Server perspective
 
 ![Pingo QR code](images/pingo-qr.png) [http://pingo.upb.de/321168](http://pingo.upb.de/321168)
 
-<!-- {_class="pingo-qr"} -->
+<!-- {_class="pingo-qr" style="top:450px"} -->
 
 Note:
 Which one is a Server?
@@ -191,7 +191,7 @@ What is the big drawbacks with a Monolithic Kernel?
 
 ![Pingo QR code](images/pingo-qr.png) [http://pingo.upb.de/321168](http://pingo.upb.de/321168)
 
-<!-- {_class="pingo-qr"} -->
+<!-- {_class="pingo-qr" style="top:150px"} -->
 
 Note:
 What software type is a Server?
