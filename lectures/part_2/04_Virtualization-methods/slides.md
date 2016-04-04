@@ -21,7 +21,7 @@ http://trypingo.com
 
 
 ---
-## Server - from hardware to software
+## Todays lecture
 * Physical
 * Virtual
   * Hypervisor
@@ -33,3 +33,13 @@ http://trypingo.com
 
 Note:
 These are the topics for todays lecture.
+
+---
+## Where to run?
+* In house
+  * Physical
+
+Pros. and cons.
+
+--
+## How to manage servers
