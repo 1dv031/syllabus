@@ -21,6 +21,7 @@ This seminar will concentrate on **how** and **where** you can run you applicati
 
 ### Seminar questions
 There are the questions you will try to find the answers to for each topic above.
+
 1. What dose it mean?
 2. How dose it work?
 3. How does it relate to the other topics in the same level?
