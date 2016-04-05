@@ -21,15 +21,20 @@ http://trypingo.com
 
 
 ---
-## Todays lecture
-* Physical
-* Virtual
-  * Hypervisor
-  * Emulation
-  * Kernel-Level
-* Container
-
-<!-- {_style="font-size:150%"} -->
+# Today's lecture <!-- {_style="font-size:150%"} -->
+## Methods of Server Operation <!-- {_style="font-size:120%"} -->
+* “How to run?” <!-- {_class="fragment"} -->
+  * Physical
+  * Virtual
+    * Hypervisor
+    * Emulation
+    * Kernel-Level
+  * Container
+* “Where to run?”<!-- {_class="fragment"} -->
+  * In-house
+  * In-cloud
+  * In-data centre
+  * Hybrid
 
 Note:
 These are the topics for todays lecture.
