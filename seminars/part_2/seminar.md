@@ -14,25 +14,25 @@ This seminar will concentrate on **how** and **where** you can run you applicati
 * Container
 
 **Part 2 - “*Where to run?*”**
-  * In-house
-  * In the Cloud
-  * In a data centre
-  * Hybrid
+* In-house
+* In the Cloud
+* In a data centre
+* Hybrid
 
 ### Seminar questions
-There are the questions you will try to find the answers to for each topic above.
+These are the questions you will try to find the answers to for each bullet point in the two parts above.
 
-1. What dose it mean?
-2. How dose it work?
-3. How does it relate to the other topics in the same level?
-4. Are there different kind and how do they differentiate from one another?
-5. What is the advantages/disadvantages?
-6. Give examples of companies or products for the topic.
+1. What does it mean?
+2. How does it work?
+3. Give examples of companies or products for the topic, no more then three.
+4. How does it relate to the other topics in the same level, for example: Hypervisor vs. Kernel-Level or Physical vs. Virtual vs. Container?
+5. Are there different kind and how do they differentiate from one another?
+6. What is the advantages/disadvantages?
 
 
 ### Presenting the findings at the seminar
 
-At the seminar we will discuss your findings from the questions above. Since there are X questions and five members to each seminar group, some questions will probably be left out - but you cannot tell which before hand so you should be able to answer the questions above. Remember that a constructive contribution to the discussion is more important than "being right".
+At the seminar we will discuss your findings from the questions above. Since there are 9x6 questions and five members to each seminar group, some questions will probably be left out - but you cannot tell which before hand so you should be able to answer the questions above. Remember that a constructive contribution to the discussion is more important than "being right".
 
 A few pointers:
 
