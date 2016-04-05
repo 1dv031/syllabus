@@ -1,5 +1,3 @@
-### This document is still a work in progress. Anything stated here might be changed as long as this text is at the top!
-
 ## Seminar 2
 Below are the instructions for the seminar. Please note that you need to complete both the seminar and the written examination to pass this part of the course.
 
