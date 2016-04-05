@@ -165,19 +165,19 @@ Show these components
 
 --
 ## Blade server chassis
-![Blade server chassis Front](images/Servers-Blade-Front.jpg)<br /><!-- {_style="width:30%"} -->
-![Blade server chassis Back](images/Servers-Blade-Back.jpg)<!-- {_style="width:35%"} -->
+![Blade server chassis Front](images/servers-blade-front.jpg)<br /><!-- {_style="width:30%"} -->
+![Blade server chassis Back](images/servers-blade-back.jpg)<!-- {_style="width:35%"} -->
 
 
 --
 ## Rack server
-![Rack Server Front](images/Servers-Rack-Front.jpg)<!-- {_style="width:30%"} -->
-![Rack Server Back](images/Servers-Rack-Back.jpg)<!-- {_style="width:30%"} -->
+![Rack Server Front](images/servers-rack-front.jpg)<!-- {_style="width:30%"} -->
+![Rack Server Back](images/servers-rack-back.jpg)<!-- {_style="width:30%"} -->
 
 
 --
 ## Server comparison
-![Server comparison](images/Servers-Compare.jpg)<!-- {_style="width:65%"} -->
+![Server comparison](images/server-comparison.jpg)<!-- {_style="width:65%"} -->
 
 
 ---
@@ -226,7 +226,7 @@ Note:
 --
 <!-- {_data-transition="fade-out"} -->
 ## Operating System Architecture
-![Kernel architecture](images/Operating-Systeml-Architecture-all.png)
+![Kernel architecture](images/operating-system-architecture-all.png)
 * User mode
   * no ability to directly access hardware or reference memory
   * delegate to system APIs to access hardware or memory
@@ -245,7 +245,7 @@ We will go thru these OS architectures but first we must understand User and Ker
 --
 <!-- {_data-transition="fade-in fade-out"} -->
 ## Operating System Architecture
-![Monolithic kernel architecture](images/Operating-Systeml-Architecture-Monolithic-kernels.png)
+![Monolithic kernel architecture](images/operating-system-architecture-monolithickernels.png)
 
 Note:
 A monolithic kernel is an operating system architecture where the **entire operating system** is working in **kernel space** and is alone in supervisor mode. The monolithic model differs from other operating system architectures in that it alone defines a high-level virtual interface over computer hardware. A set of primitives or system calls implement all operating system services such as process management, concurrency, and memory management. **Device drivers can be added to the kernel as modules**.
@@ -254,7 +254,7 @@ A monolithic kernel is an operating system architecture where the **entire opera
 --
 <!-- {_data-transition="fade-in fade-out"} -->
 ## Operating System Architecture
-![Micro kernel architecture](images/Operating-Systeml-Architecture-Microkernels.png)
+![Micro kernel architecture](images/operating-system-architecture-microkernels.png)
 
 Note:
 Microkernel is the **near-minimum** amount of software that can provide the mechanisms needed **to implement an operating system (OS)**. These mechanisms include low-level address space management, thread management, and inter-process communication (IPC).
@@ -263,7 +263,7 @@ Microkernel is the **near-minimum** amount of software that can provide the mech
 --
 <!-- {_data-transition="fade-in fade-out"} -->
 ## Operating System Architecture
-![Hybrid kernel architecture](images/Operating-Systeml-Architecture-Hybrid.png)
+![Hybrid kernel architecture](images/operating-system-architecture-hybridkernels.png)
 
 Note:
 Hybrid kernel is a kernel architecture based on a **combination of microkernel and monolithic kernel** architecture used in computer operating systems. This kernel approach **combines** the **speed and simpler** design of monolithic kernel with the **modularity and execution safety** of microkernel.
@@ -356,7 +356,7 @@ Command-line interface
 
 ---
 ## The life cycle of a machine and its OS
-![Evard's OS Life Cycle](images/OS-LifeCycle.png) <!-- {_class="fragment"} -->
+![Evard's OS Life Cycle](images/os-lifecycle.png) <!-- {_class="fragment"} -->
 
 Note:
 Evards, lit p. 42
