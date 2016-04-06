@@ -25,13 +25,13 @@ The customer doesn't always think about everything, it's you job to find these t
 * Localization
 
 #### The companies
-1. Start up
+1. A startup company - This is a typical web startup company with a web application as a product. The company is expecting to expand big time in the comming months and will have a commercial campaign soon that will drive lots of users to there web application. The main office is in Stockholm but the application is worldwide with big markets in North America and Asia.
 
-2. State Authority (Statilig myndighet)
+2. Swedish state authority (Svensk statlig myndighet) - This customer stores sensible personal data and have big demands on availibility and security. 
 
-3. Image bank
+3. Media bank - This is a company that store media files for its customers. They are focusing on images, videos and other big data files. They have a slogan - "Safe, availible and fast"
 
-4. Consultant
+4. IT consultant - This company develops web applications for its customers (among other things). The company develops web solutions for different customers and also have the responsibility to operate/maintain the applications. Today they have about 100 diffrent applications and expect thats the volume the five coming years. 
 
 <br/>
 ### Some tips
