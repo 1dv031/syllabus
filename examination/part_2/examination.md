@@ -13,6 +13,7 @@ The starting point for the report is the work already done for the seminar. At t
 3. Now knowing what the problem is, introduction, and different ways to solve the problem, theory, you will now analyze the scenarios. What theory is good/bad for the scenario, don't come to a conclusion here that is the final step.
 4. Conclusion - Here you will make you recommendation based on your analysis
 
+<br/><br/>
 ### Scenarios
 Four different customers have contacted you for an recommendation. <br />
 The customer doesn't always think about everything, it's you job to find these things and point them out to the customer. Here are some topics that the customer might have forgotten:
@@ -32,9 +33,7 @@ The customer doesn't always think about everything, it's you job to find these t
 
 4. Consultant
 
-
-
-
+<br/><br/>
 ### Some tips
 
 * Spell check! And if possible grammar check!
@@ -46,7 +45,7 @@ The customer doesn't always think about everything, it's you job to find these t
 * Make sure to make references to the course literature and any other literature that is relevant for your topic.
 * Use a [recognized system](https://lnu.se/en/library/Writing-and-referencing/referencing/) ([SWE](https://lnu.se/ub/skriva-och-referera/skriva-referenser/)) for incorporating references in your text.
 
-### The peer-review instructions
+## The peer-review instructions
 In this course we will use so-called peer-review, the Swedish also called "referensgranskning". This means in short that you will study an other student´s written reports. The idea of the step is to demonstrate your knowledge by analyzing and providing feedback on other student's assignments and hopefully also get great feedback on your own. This dose not mean that you should grade each other rather push and give each other good feedback. In addition, it is important to be able to rise from your own bubble and reflect on the work of others.
 
 1. After the submission deadline, **01:00PM [CEST] April 15th**, you will get an e-mail with another students report.
