@@ -13,7 +13,7 @@ The starting point for the report is the work already done for the seminar. At t
 3. Now knowing what the problem is, introduction, and different ways to solve the problem, theory, you will now analyze the scenarios. What theory is good/bad for the scenario, don't come to a conclusion here that is the final step.
 4. Conclusion - Here you will make you recommendation based on your analysis
 
-<br/><br/>
+<br/>
 ### Scenarios
 Four different customers have contacted you for an recommendation. <br />
 The customer doesn't always think about everything, it's you job to find these things and point them out to the customer. Here are some topics that the customer might have forgotten:
@@ -33,7 +33,7 @@ The customer doesn't always think about everything, it's you job to find these t
 
 4. Consultant
 
-<br/><br/>
+<br/>
 ### Some tips
 
 * Spell check! And if possible grammar check!
