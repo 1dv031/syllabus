@@ -6,10 +6,10 @@ For this examination you are expected to produce a written report of between 150
 ### Content of the report
 The starting point for the report is the work already done for the seminar. At the seminar you presented your findings about how and where you can run you applications. In the report you will analyze our different scenarios and come to a recommendation of how and where these scenarios should be run.  The report should contain four parts (but the parts do not need separate headings):
 
-1. The first part should be an introduction to the four scenarios. What is the scenario about, what demands does it have?
-2. The second part will be a background or theory about the different ways to run applications in general. This work should already be done if you have completed the seminar, you will then only need to summarize your findings.
-3. Now knowing what the problem is, introduction, and different ways to solve the problem, theory, you will now analyze the scenarios. What theory is good/bad for the scenario, don't come to a conclusion here that is the final step.
-4. Conclusion - Here you will make you recommendation based on your analysis.
+1. The first part should be an **introduction** to the four scenarios. What is the scenario about, what demands does it have?
+2. The second part will be a background or **theory** about the different ways to run applications in general. This work should already be done if you have completed the seminar, you will then only need to summarize your findings.
+3. Now knowing what the problem is, introduction, and different ways to solve the problem, theory, you will now **analyze** the scenarios. What theory is good/bad for the scenario, don't come to a conclusion here that is the final step.
+4. **Conclusion** - Here you will make you recommendation based on your analysis.
 
 <br/>
 ### Scenarios
@@ -22,14 +22,15 @@ The customer doesn't always think about everything, it's you job to find these t
 * Availability
 * Localization
 
+
 #### The companies
-1. A startup company - This is a typical web startup company with a web application as a product. The company is expecting to expand big time in the comming months and will have a commercial campaign soon that will drive lots of users to there web application. The main office is in Stockholm but the application is worldwide with big markets in North America and Asia.
+1. **A startup company** - This is a typical web startup company with a web application as a product. The company is expecting to expand big time in the coming months and will have a commercial campaign soon that will drive lots of users to there web application. The main office is in Stockholm but the application is worldwide with big markets in North America and Asia.
 
-2. Swedish state authority (Svensk statlig myndighet) - This customer stores sensible personal data and have big demands on availibility and security.
+2. **Swedish state authority** (Svensk statlig myndighet) - This customer stores sensible personal data and have big demands on availability and security.
 
-3. Media bank - This is a company that store media files for its customers. They are focusing on images, videos and other big data files. They have a slogan - "Safe, availible and fast"
+3. **Media bank** - This is a company that store media files for its customers. They are focusing on images, videos and other big data files. They have a slogan - "Safe, available and fast"
 
-4. IT consultant - This company develops web applications for its customers (among other things). The company develops web solutions for different customers and also have the responsibility to operate/maintain the applications. Today they have about 100 diffrent applications and expect thats the volume the five coming years.
+4. **IT consultant** - This company develops web applications for its customers (among other things). The company develops web solutions for different customers and also have the responsibility to operate/maintain the applications. Today they have about 100 diffrent applications and expect thats the volume the five coming years.
 
 <br/>
 ### Some tips
