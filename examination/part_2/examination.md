@@ -14,14 +14,6 @@ The starting point for the report is the work already done for the seminar. At t
 <br/>
 ### Scenarios
 Four different customers have contacted you for an recommendation. <br />
-The customer doesn't always think about everything, it's you job to find these things and point them out to the customer. Here are some topics that the customer might have forgotten:
-
-* Security
-* Performance
-* Scalability
-* Availability
-* Localization
-
 
 #### The companies
 1. **A startup company** - This is a typical web startup company with a web application as a product. The company is expecting to expand big time in the coming months and will have a commercial campaign soon that will drive lots of users to there web application. The main office is in Stockholm but the application is worldwide with big markets in North America and Asia.
@@ -32,7 +24,14 @@ The customer doesn't always think about everything, it's you job to find these t
 
 4. **IT consultant** - This company develops web applications for its customers (among other things). The company develops web solutions for different customers and also have the responsibility to operate/maintain the applications. Today they have about 100 diffrent applications and expect thats the volume the five coming years.
 
-<br/>
+The customer doesn't always think about everything, it's you job to find these things and point them out to the customer. Here are some topics that the customer might have forgotten:
+
+* Security
+* Performance
+* Scalability
+* Availability
+* Localization
+
 ### Some tips
 
 * Spell check! And if possible grammar check!
