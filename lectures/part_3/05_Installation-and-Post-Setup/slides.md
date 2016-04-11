@@ -13,11 +13,11 @@ http://trypingo.com
 1. Yes
 2. No
 
-<!-- {_class="pingo-sc"} -->
+<!-- {_class="pingo-sc" style="font-size:140%"} -->
 
-![Pingo QR code](images/pingo-qr.png) [http://pingo.upb.de/723013](http://pingo.upb.de/930192)
+![Pingo QR code](images/pingo-qr.png) [http://pingo.upb.de/930192](http://pingo.upb.de/930192)
 
-<!-- {_class="pingo-qr"} -->
+<!-- {_class="pingo-qr" style="top:240px"} -->
 
 
 ---
