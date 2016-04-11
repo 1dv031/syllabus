@@ -225,3 +225,19 @@ pre.lnu-code {
     margin: 0 !important;
     box-shadow: none !important;
 }
+
+.pingo-chart{
+  display: none;
+
+  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, .1);
+  padding-top: 20px !important;
+  width: 900px
+}
+
+.chart-input{
+  color: #000000;
+}
+.chart-input:focus {
+  outline: none !important;
+}

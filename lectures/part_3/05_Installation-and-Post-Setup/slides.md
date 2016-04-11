@@ -9,15 +9,29 @@ http://trypingo.com
 
 
 --
-## Have you ever installed a server?
+<!-- {_data-transition="fade-in fade-out"} -->
+## Does questions make you more active during the lecture?
 1. Yes
 2. No
 
 <!-- {_class="pingo-sc" style="font-size:140%"} -->
 
+
 ![Pingo QR code](images/pingo-qr.png) [http://pingo.upb.de/930192](http://pingo.upb.de/930192)
 
-<!-- {_class="pingo-qr" style="top:240px"} -->
+<!-- {_class="pingo-qr" style="top:150px"} -->
+
+
+--
+<!-- {_data-transition="fade-in fade-out"} -->
+## Does questions make you more active during the lecture?
+
+![chart](#)
+
+<!-- {_class="pingo-chart"} -->
+
+{Paste Handler}
+<!-- {_class="chart-input" contenteditable="true" onpaste="handlepaste(this, event)"} -->
 
 
 ---
@@ -37,3 +51,4 @@ These are the topics for todays lecture.
 
 
 ---
+##

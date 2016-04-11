@@ -35,7 +35,7 @@
   <body>
     <img id='lectureSafe' class="lnu-lectureSafe" src="../../reveal.js/lib/img/background.png" />
     <div class="reveal lnu">
-      <div class="slides noborderimages">
+      <div class="slides noborderimages" onpaste="handlepaste(this, event)">
         <!-- Any section element inside of this container is displayed as a slide -->
         <section data-markdown>
           <script type="text/template">
@@ -72,6 +72,9 @@
     <script src="../../reveal.js/js/reveal.js"></script>
 
     <script>
+    function hasClass(el, cls) {
+      return el.className && new RegExp("(\\s|^)" + cls + "(\\s|$)").test(el.className);
+    }
     // Full list of configuration options available at:
     // https://github.com/hakimel/reveal.js#configuration
     Reveal.initialize({
@@ -99,6 +102,20 @@
       // Remove Code slide, used for syntax highlight fix
       document.querySelector('#remove').remove();
     });
+
+    Reveal.addEventListener( 'slidechanged', function( event ) {
+      // event.previousSlide, event.currentSlide, event.indexh, event.indexv
+      var input = event.currentSlide.getElementsByClassName('chart-input');
+      setTimeout(function(){
+        if(input.length === 1){
+          input[0].focus();
+          setTimeout(function(){
+            input[0].blur();
+          },5000);
+        }
+      }, 100);
+    });
+
     Reveal.configure({
       keyboard: {
         49: function() {
@@ -109,6 +126,27 @@
       }
     });
 
+    function handlepaste (elem, e) {
+      if(hasClass(elem, "chart-input")){
+        if (e && e.clipboardData && e.clipboardData.getData) {
+          var data = e.clipboardData.getData('text/plain');
+          if(data.startsWith("data:image/png;base64")){
+            var slide = elem.parentElement;
+            var children = slide.childNodes;
+            for(i=0; i < children.length; i++){
+              if(hasClass(children[i], "pingo-sc") || hasClass(children[i], "pingo-qr"))
+                slide.removeChild(children[i]);
+            }
+            var chart = slide.getElementsByClassName("pingo-chart")[0];
+            var img = chart.getElementsByTagName("img")[0];
+            img.src = data;
+            chart.style.display = "block";
+            elem.blur();
+            elem.style.display = "none";
+          }
+        }
+      }
+    }
     </script>
   </body>
 </html>
