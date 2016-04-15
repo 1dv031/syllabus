@@ -353,5 +353,81 @@ cd        enable     history   printf    test
 * Security
 
 
+--
+## Post Setup - Computer name
+* Ubuntu
+```bash
+sudo nano /etc/hostname
+sudo nano /etc/host
+sudo reboot
+```
+* Windows
+```
+Rename-Computer -NewName new-server-name -restart
+```
+
+<!-- {_style="width: 50%"} -->
+
+
+--
+## Post Setup - Display Network
+* Linux
+
+![ifconfig output](images/ifconfig-result.png)<!-- {_style="width: 50%"} -->
+* Windows
+
+![ipconfig output](images/ipconfig-result.png)<!-- {_style="width: 60%"} -->
+
+
+--
+## Post Setup - Configure Network
+* Windows
+  * Get interface name
+  ```
+  netsh interface ip show config
+  ```
+  <!-- {_style="margin: 0px"} -->
+  * Set Static IP
+  ```
+  netsh interface ip set address "Ethernet" static 192.168.0.101
+  255.255.255.0 192.168.0.1
+  ```
+  <!-- {_style="margin: 0px"} -->
+  * Set Static DNS
+  ```
+  netsh interface ip add dns "Ethernet" 8.8.8.8 index=1
+  ```
+  <!-- {_style="margin: 0px"} -->
+  * Set IP to DHCP
+  ```
+  netsh interface ip set address "Ethernet" dhcp
+  ```
+  <!-- {_style="margin: 0px"} -->
+  * Set DNS DHCP
+  ```
+  netsh interface ip set dns "Ethernet" dhcp
+  ```
+  <!-- {_style="margin: 0px"} -->
+
+<!-- {_style="width: 70%"} -->
+
+
+--
+## Post Setup - Updates
+* Ubuntu
+```bash
+sudo apt-get update
+sudo apt-get upgrade
+```
+* Windows
+```
+sconfig
+```
+
+<!-- {_style="width: 50%"} -->
+
+
+
+
 ---
 ## Summary - Take ways
