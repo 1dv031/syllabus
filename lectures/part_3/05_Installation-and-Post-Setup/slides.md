@@ -35,8 +35,8 @@ http://trypingo.com
 
 
 ---
-# Today's lecture <!-- {_style="font-size:150%"} -->
-## Installation and Post Setup <!-- {_style="font-size:120%"} -->
+# Today's lecture <!-- {_style="font-size:140%"} -->
+## Installation and Post Setup <!-- {_style="font-size:110%"} -->
 * Server OS Installation <!-- {_class="fragment"} -->
   * Pre Installation
   * Media
@@ -74,7 +74,7 @@ These are the topics for todays lecture.
 
 <!-- {_class="fragment" data-fragment-index="1"} -->
 
-Notes:
+Note:
 OS
 Hardware - HCL
 
@@ -84,23 +84,24 @@ Hardware - HCL
 ### How to choose an server OS
 |  | Windows | Linux |
 |--|---------|-------|
-| Hardware requirements | High | Low |
-| Getting Started | Easy | Hard |
-| Stability | Medium | High |
-| Functionality | High | Low |
-| Security | High | High |
-| Support | Include | Costs |
-| TCO | $$$ | $$ |
-<!-- {_class="fragment" style="font-size: 90%; margin: 0px"} -->
+| Hardware requirements | High<!-- {_class="fragment" data-fragment-index="1"} --> | Low<!-- {_class="fragment" data-fragment-index="1"} --> |
+| Getting Started | Easy<!-- {_class="fragment" data-fragment-index="2"} --> | Hard<!-- {_class="fragment" data-fragment-index="2"} --> |
+| Stability | Medium<!-- {_class="fragment" data-fragment-index="3"} --> | High<!-- {_class="fragment" data-fragment-index="3"} --> |
+| Functionality | High<!-- {_class="fragment" data-fragment-index="4"} --> | Low<!-- {_class="fragment" data-fragment-index="4"} --> |
+| Security | High<!-- {_class="fragment" data-fragment-index="5"} --> | High<!-- {_class="fragment" data-fragment-index="5"} --> |
+| Support | Include<!-- {_class="fragment" data-fragment-index="6"} --> | Costs<!-- {_class="fragment" data-fragment-index="6"} --> |
+| TCO | $$$<!-- {_class="fragment" data-fragment-index="7"} --> | $$<!-- {_class="fragment" data-fragment-index="7"} --> |
+||||
+<!-- {_style="font-size: 90%; margin: 0px"} -->
 
-
+<!--
 --
 ## OS Installation - Pre Installation
 ### How to choose an server OS
 
 Note:
 http://searchdatacenter.techtarget.com/tip/Choosing-the-best-server-OS-Linux-vs-Windows-comparisons
-
+-->
 
 --
 ## OS Installation - Types
@@ -154,6 +155,8 @@ https://en.wikipedia.org/wiki/Installation_(computer_programs)#Types
   * ISO
   * Template/Image
 
+<!-- {_style="font-size:100%"} -->
+
 Note:
 Traditionally, OS had to be installed but today it is usually only one image thats being copied and then configured for the hardware
 
@@ -161,7 +164,7 @@ Traditionally, OS had to be installed but today it is usually only one image tha
 ---
 ## Managing your Server
 ### Windows vs. Linux
-* Linux comes in many flavors
+* Linux comes in many flavors - Distributions
 * GUI
   * Linux: Gnome, Unity, Cinnamon, MATE, KDE, Xfce, LXDE
 * Shell, text Mode Interface or CLI
@@ -210,6 +213,33 @@ A shell is a command interpreter. Commands can be executable files or built-ins.
   * Prompt customization
 
 <!-- {_style="font-size: 60%"} -->
+
+
+--
+<!-- {_data-transition="fade-in fade-out"} -->
+## How many built in commands does Bash have?
+1. less the 40
+2. 40 - 100
+3. more then 100
+
+<!-- {_class="pingo-sc" style="font-size:140%"} -->
+
+
+![Pingo QR code](images/pingo-qr.png) [http://pingo.upb.de/930192](http://pingo.upb.de/930192)
+
+<!-- {_class="pingo-qr" style="top:70px"} -->
+
+
+--
+<!-- {_data-transition="fade-in fade-out"} -->
+## How many built in commands does Bash have?
+
+![chart](#)
+
+<!-- {_class="pingo-chart"} -->
+
+{Paste Handler}
+<!-- {_class="chart-input" contenteditable="true" onpaste="handlepaste(this, event)"} -->
 
 
 --
@@ -284,6 +314,33 @@ cd        enable     history   printf    test
   * …for example. work with objects, variables, files, directories, registry, AD and databases.
 
 <!-- {_style="width: 70%"} -->
+
+
+--
+<!-- {_data-transition="fade-in fade-out"} -->
+## How many built in commands does Powershell have?
+1. less the 40
+2. 40 - 100
+3. more then 100
+
+<!-- {_class="pingo-sc" style="font-size:140%"} -->
+
+
+![Pingo QR code](images/pingo-qr.png) [http://pingo.upb.de/930192](http://pingo.upb.de/930192)
+
+<!-- {_class="pingo-qr" style="top:70px"} -->
+
+
+--
+<!-- {_data-transition="fade-in fade-out"} -->
+## How many built in commands does Powershell have?
+
+![chart](#)
+
+<!-- {_class="pingo-chart"} -->
+
+{Paste Handler}
+<!-- {_class="chart-input" contenteditable="true" onpaste="handlepaste(this, event)"} -->
 
 
 --
@@ -413,6 +470,43 @@ Rename-Computer -NewName new-server-name -restart
 
 
 --
+## Post Setup - Configure Network
+* Ubuntu
+  * Show current configuration
+  ```bash
+  #IP Settings
+  ifconfig
+  #DNS Settings
+  cat /etc/resolv.conf
+  ```
+  <!-- {_style="margin: 0px"} -->
+  * Set Static IP and DNS - edit **/etc/network/interfaces**
+  ```bash
+    auto eth0
+      iface eth0 inet static
+        address 192.168.0.101
+        netmask 255.255.255.0
+        gateway 192.168.0.101
+        dns-nameservers 8.8.8.8 8.8.4.4
+  ```
+  <!-- {_style="margin: 0px"} -->
+  * Set IP and DNS to DHCP
+  ```bash
+    auto eth0
+      iface eth0 inet dhcp
+  ```
+  <!-- {_style="margin: 0px"} -->
+  * Activating settings
+  ```bash
+  sudo ifdown eth0 && sudo ifup eth0
+  ```
+  <!-- {_style="margin: 0px"} -->
+
+
+<!-- {_style="width: 70%"} -->
+
+
+--
 ## Post Setup - Updates
 * Ubuntu
 ```bash
@@ -427,7 +521,37 @@ sconfig
 <!-- {_style="width: 50%"} -->
 
 
+--
+## Post Setup - Security
+* Ubuntu ufw - Uncomplicated Firewall
+  * Easy config for iptables
+  * Not active by default
+
+```bash
+sudo ufw enable
+sudo ufw allow 22
+sudo ufw status
+```
+<!-- {_style="margin-left: 50px; width: 60%"} -->
+* Windows Firewall with Advanced Security
+  * 3 in 1 - Public, Private and Domain
+
+```
+netsh advfirewall firewall add rule name="All ICMP V4"
+dir=in action=allow protocol=icmpv4
+```
+<!-- {_style="margin-left: 50px; width: 60%"} -->
+
+
 
 
 ---
 ## Summary - Take ways
+* Important decisions before installation
+* Big management differences between Windows and Linux
+* Choose CLI over GUI
+* Check the firewall after installation
+
+> “Do not be afraid of the CLI, learn to harness its powers”
+
+<!-- {_style="margin-left: 50px; width: 60%" class="fragment"} -->
