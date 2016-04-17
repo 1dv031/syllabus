@@ -523,6 +523,51 @@ sconfig
 
 --
 ## Post Setup - Security
+Where is root?
+* root is disable in Ubuntu
+* Use `sudo` to carry out system administrative duties
+* Enable the root account [Not recommended]:
+  * If for some reason you wish to enable the root account, simply give it a password:
+  ```bash
+  sudo passwd
+  ```
+  <!-- {_style="margin: 0px;"} -->
+  * Sudo will prompt you for your password, and then ask you to supply a new password for root:
+  ```bash
+  [sudo] password for username: #(enter your own password)
+  Enter new UNIX password: #(enter a new password for root)
+  Retype new UNIX password: #(repeat new password for root)
+  passwd: password updated successfully
+  ```
+  <!-- {_style="margin: 0px;"} -->
+  * To disable the root account, use the following passwd syntax:
+  ```bash
+  sudo passwd -l root
+  ```
+  <!-- {_style="margin: 0px;"} -->
+  * You should read more on Sudo by checking out it's man page:
+  ```bash
+  man sudo
+  ```
+  <!-- {_style="margin: 0px;"} -->
+
+<!-- {_style="width: 60%; font-size:70%"} -->
+
+Note:
+By default, the initial user created by the Ubuntu installer is a member of the group "admin" which is added to the file /etc/sudoers as an authorized sudo user. If you wish to give any other account full root access through sudo, simply add them to the admin group.
+
+
+--
+## Post Setup - Security
+![Windows 7 UAC](https://upload.wikimedia.org/wikipedia/en/5/51/Windows_7_UAC.png)
+* User Account Control (UAC)
+* User need to be elevated to carry out system administrative duties
+* Not available in command prompt/powershell/server core
+![Elevated Powershell](images/elevated-powershell.png)
+
+
+--
+## Post Setup - Security
 * Ubuntu ufw - Uncomplicated Firewall
   * Easy config for iptables
   * Not active by default
