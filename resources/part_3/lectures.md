@@ -3,7 +3,7 @@
 Server OS Installation, Linux vs. Windows,
 
 ### Resources
-- [HTML-presentation](https://cdn.rawgit.com/1dv031/syllabus/master/lectures/part_3/05_Installation-and-Post-Setup/index.html/)
+- [HTML-presentation](https://cdn.rawgit.com/1dv031/syllabus/master/lectures/part_3/05_Installation-and-Post-Setup/index.html)
 - [Recording, when available](#) 2016-04-18, 13.15 (Youtube)
 
 

@@ -53,7 +53,7 @@ http://trypingo.com
   * Updates
   * Security
 
-<!-- {_style="font-size: 70%"} -->
+<!-- {_style="font-size: 65%"} -->
 
 Note:
 These are the topics for todays lecture.
@@ -91,17 +91,9 @@ Hardware - HCL
 | Security | High<!-- {_class="fragment" data-fragment-index="5"} --> | High<!-- {_class="fragment" data-fragment-index="5"} --> |
 | Support | Include<!-- {_class="fragment" data-fragment-index="6"} --> | Costs<!-- {_class="fragment" data-fragment-index="6"} --> |
 | TCO | $$$<!-- {_class="fragment" data-fragment-index="7"} --> | $$<!-- {_class="fragment" data-fragment-index="7"} --> |
-||||
+
 <!-- {_style="font-size: 90%; margin: 0px"} -->
 
-<!--
---
-## OS Installation - Pre Installation
-### How to choose an server OS
-
-Note:
-http://searchdatacenter.techtarget.com/tip/Choosing-the-best-server-OS-Linux-vs-Windows-comparisons
--->
 
 --
 ## OS Installation - Types
@@ -227,7 +219,7 @@ A shell is a command interpreter. Commands can be executable files or built-ins.
 
 ![Pingo QR code](images/pingo-qr.png) [http://pingo.upb.de/930192](http://pingo.upb.de/930192)
 
-<!-- {_class="pingo-qr" style="top:70px"} -->
+<!-- {_class="pingo-qr" style="top:50px"} -->
 
 
 --
@@ -328,7 +320,7 @@ cd        enable     history   printf    test
 
 ![Pingo QR code](images/pingo-qr.png) [http://pingo.upb.de/930192](http://pingo.upb.de/930192)
 
-<!-- {_class="pingo-qr" style="top:70px"} -->
+<!-- {_class="pingo-qr" style="top:50px"} -->
 
 
 --
