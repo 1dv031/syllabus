@@ -7,10 +7,36 @@ Server OS Installation, Linux vs. Windows,
 - [Recording, when available](#) 2016-04-18, 13.15 (Youtube)
 
 
-## Lecture 6 - Some Server services</del>
+## Lecture 6 - Some Server services
 ### Keywords
 DNS, DHCP
 
 ### Resources
 - [HTML-presentation](https://cdn.rawgit.com/1dv031/syllabus/master/lectures/part_3/06_Server-Services/index.html)
 - [Recording, when available](#) 2016-04-20, 13.15 (Youtube)
+
+
+## Lecture 7 - Web Servers
+### Keywords
+
+
+### Resources
+- [HTML-presentation](#)
+- [Recording, when available](#) 2016-04-25, 13.15 (Youtube)
+
+## Lecture 8 - Directory Services
+### Keywords
+
+
+### Resources
+- [HTML-presentation](#)
+- [Recording, when available](#) 2016-05-02, 13.15 (Youtube)
+
+
+## Lecture 9 - Basic security
+### Keywords
+
+
+### Resources
+- [HTML-presentation](#)
+- [Recording, when available](#) 2016-05-09, 13.15 (Youtube)
