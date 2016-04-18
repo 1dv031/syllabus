@@ -98,8 +98,8 @@ Hardware - HCL
 --
 ## OS Installation - Types
 * Attended installation
-* Silent installation
 * Unattended installation
+* Silent installation
 * Headless installation
 * Automated installation
 * Clean installation

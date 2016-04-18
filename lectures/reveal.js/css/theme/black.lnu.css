@@ -230,7 +230,7 @@ pre.lnu-code {
   display: none;
 
   background: rgb(255, 255, 255);
-  background: rgba(255, 255, 255, .1);
+  background: rgba(255, 255, 255, .9);
   padding-top: 20px !important;
   width: 900px
 }
