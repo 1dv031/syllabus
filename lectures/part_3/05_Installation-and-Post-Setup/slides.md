@@ -393,6 +393,32 @@ cd        enable     history   printf    test
 <!-- {_style="font-size: 48%; margin: 0px; width: 70%"} -->
 
 
+--
+<!-- {_data-transition="fade-in fade-out"} -->
+## What do you prefer, GUI or CLI?
+1. GUI
+2. CLI
+
+<!-- {_class="pingo-sc" style="font-size:140%"} -->
+
+
+![Pingo QR code](images/pingo-qr.png) [http://pingo.upb.de/930192](http://pingo.upb.de/930192)
+
+<!-- {_class="pingo-qr" style="top:240px"} -->
+
+
+--
+<!-- {_data-transition="fade-in fade-out"} -->
+## What do you prefer, GUI or CLI?
+
+![chart](#)
+
+<!-- {_class="pingo-chart"} -->
+
+{Paste Handler}
+<!-- {_class="chart-input" contenteditable="true" onpaste="handlepaste(this, event)"} -->
+
+
 ---
 ## Post Setup
 * Install drivers, Chip-set
