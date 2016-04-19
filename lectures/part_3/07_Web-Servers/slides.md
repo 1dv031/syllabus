@@ -13,6 +13,78 @@ Note:
 These are the topics for todays lecture.
 
 
+=======
+--
+# Interact with students
+* How to get feedback from distance students?
+* How to ask questions?
+* Did the student understand the lecture?
+
+![Pingo QR code](images/pingo-qr.png) [http://pingo.upb.de/350775](http://pingo.upb.de/350775)
+
+<!-- {_class="pingo-qr" style="top:220px"} -->
+
+
+--
+<!-- {_data-transition="fade-in fade-out"} -->
+## Which protocols are involved when you try to get a web page?
+<!-- {_style="font-size:140%"} -->
+1. DNS
+2. SMTP
+3. UDP
+4. HTTP/HTTPS
+5. TCP
+6. IP
+
+
+<!-- {_class="pingo-sc" style="font-size:100%"} -->
+
+## About Apache
+* The most used web server on the Internet
+  * http://w3techs.com/technologies/overview/web_server/all
+* Open-source HTTP server for both UNIX and Windows
+  * [Apache Software Foundation](Apache Software Foundation)
+* The Apache HTTP Server ("httpd") was launched in 1995
+  * "A-patchy-server"
+* Every request is spawn to a own thread (like a own process)
+  * Thread pool
+* Compiled modules which extend the core functionality.
+  * mod_access, mod_auth, mod_rewrite
+* .htaccess
+
+## About Nginx ("engine x")
+* Free web server, 2002, Igor Sysoev, second most used (?)
+  * http://w3techs.com/technologies/overview/web_server/all
+  * Also used as (reversed) proxy, load balancer, ...
+* Nginx uses an asynchronous event-driven approach to handling requests
+  * Non-blocking mode in a single main thread
+  * Event-loop receiving event from a queue (like javascript event-loop)
+  * Can handle more request, handle high loads
+  * Don´t perform well on time consuming operations that blocks the tread
+[Event loop](https://assets.wp.nginx.com/wp-content/uploads/2015/06/NGINX-Event-Loop2-e1434744201287.png)
+
+
+![Pingo QR code](images/pingo-qr.png) [http://pingo.upb.de/350775](http://pingo.upb.de/350775)
+
+<!-- {_class="pingo-qr" style="top:0px"} -->
+
+
+<!-- {_data-transition="fade-in fade-out"} -->
+## Which protocols are involved when you try to get a web page?
+<!-- {_style="font-size:140%"} -->
+![chart](#)
+
+<!-- {_class="pingo-chart"} -->
+
+{Paste Handler}
+<!-- {_class="chart-input" contenteditable="true" onpaste="handlepaste(this, event)"} -->
+
+
+--
+### What happens when we try to visit a website
+www.google.com
+
+
 ---
 ## It all started here
 ![CERN](https://farm6.staticflickr.com/5226/5679904557_e3c1f784ce_b.jpg)
