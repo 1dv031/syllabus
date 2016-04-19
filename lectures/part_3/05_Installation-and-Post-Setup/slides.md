@@ -98,8 +98,8 @@ Hardware - HCL
 --
 ## OS Installation - Types
 * Attended installation
-* Unattended installation
 * Silent installation
+* Unattended installation
 * Headless installation
 * Automated installation
 * Clean installation
@@ -404,7 +404,7 @@ cd        enable     history   printf    test
 
 ![Pingo QR code](images/pingo-qr.png) [http://pingo.upb.de/930192](http://pingo.upb.de/930192)
 
-<!-- {_class="pingo-qr" style="top:240px"} -->
+<!-- {_class="pingo-qr" style="top:150px"} -->
 
 
 --
@@ -604,8 +604,6 @@ netsh advfirewall firewall add rule name="All ICMP V4"
 dir=in action=allow protocol=icmpv4
 ```
 <!-- {_style="margin-left: 50px; width: 60%"} -->
-
-
 
 
 ---
