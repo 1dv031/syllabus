@@ -8,7 +8,8 @@
   * Zones
   * Resource Record
   * Caching
-  * Querys Types
+  * Query Types
+  * Use cases
 * DHCP<!-- {_class="fragment"} -->
   * What is DHCP?
   * Terminology
@@ -28,17 +29,16 @@ These are the topics for todays lecture.
   * Services
 * 3 different use cases
   * Public
-  * Internal
-  * Active Directory
+  * Internal/Active Directory
 
-Note:
-Show a forward lookup
+![DNS Forward Lookup](images/dns-forward-lookup.png)
+<!-- {_style="width: 70%" class="fragment"} -->
 
 
 --
 ## DNS Structure
 * Tree like structure
-* Limitations
+* Limitations <!-- {_class="fragment"} -->
   * Each node name can be up to 63 characters long
   * Maximum depth of a DNS tree is 127 levels
   * Whole domain name can't exceed a total length of 255 characters
@@ -131,7 +131,7 @@ Types of name servers:
 * Primary Master
   * The primary name server loads zone data from the zone file
   * Read and Write access to the zone file
-* Secondary Master
+* Secondary Master <!-- {_class="fragment"} -->
   * Read only
   * The secondary name server loads zone data from the primary name server or another secondary name server
   * When the secondary name server starts up, contact the their "master" server, and if necessary, it downloads zone data, this is called "zone transfer".
@@ -141,7 +141,6 @@ Types of name servers:
 
 --
 ## DNS - Lookup Zones
-
 * Forward lookup zones
  * Domain names to IP addresses
  * Resource Record Types
@@ -151,7 +150,7 @@ Types of name servers:
    * SOA(Start of Authority)
    * MX (Mail Exchanger)
    * TXT (Text record)
-* Reverse lookup zones
+* Reverse lookup zones <!-- {_class="fragment"} -->
  * IP addresses to domain names
  * Resource Record Types
    * PTR (Pointer)
@@ -163,11 +162,11 @@ Types of name servers:
   * Address record
   * Identifies the IP address from a hostname
   * www.lnu.se. -> 194.47.110.233
-* CNAME
+* CNAME <!-- {_class="fragment"} -->
   * Canonical name record
   * A host name is the alias for a different hostname
-  * www.lnu.se. -> lnu.se
-* Name Server (NS) record:
+  * www.lnu.se. -> lnu.se.
+* Name Server (NS) record  <!-- {_class="fragment"} -->
   * Identifies the Name server for a zone
   * cs.lnu.se.-> ns1.cs.lnu.se.
   * lnu.se -> ando.lnu.se.
@@ -194,11 +193,11 @@ Types of name servers:
   * Mail Exchanger
   * Identifies which server is the mail server for a domain
   * lnu.se -> 10 e-mailfilter03.sunet.se.
-* PTR record
+* PTR record <!-- {_class="fragment"} -->
   * Pointer
   * Translating IP to domain name
   * 194.47.172.11 -> challenger1.lnu.se.
-* TXT record
+* TXT record <!-- {_class="fragment"} -->
   * Text record
   * Originally for arbitrary human-readable text
   * lnu.se -> "v=spf1 +mx +exists:%{ir}.%{v}.%{l}.at.%{o}.spf.lnu.se -ip4:124.248.222.0/24 ?all"
@@ -285,12 +284,12 @@ D.ROOT-SERVERS.NET.      3600000      AAAA  2001:500:2d::d
 --
 ## DNS - Caching
 * Performance
-* Time To Live:
+* Time To Live:  <!-- {_class="fragment"} -->
   * Max time
-  * Long TTL
+  * Long TTL <!-- {_class="fragment"} -->
     * Pros
     * Cons
-  * Short TTL
+  * Short TTL <!-- {_class="fragment"} -->
     * Pros
     * Cons
 
@@ -330,14 +329,14 @@ Resolver:
 
 
 --
-## DNS - Querys Types
+## DNS - Query Types
 * Recursive Queries
   * DNS client requires that the DNS server respond with either:
     * Requested resource record
     * Error message stating that the record or domain name does not exist
   * Generally made by a DNS client to a DNS server
     * or by a DNS server configured to use a forwarder
-* Iterative Queries
+* Iterative Queries <!-- {_class="fragment"} -->
   * DNS client allows the DNS server to return the best answer it can give based on its cache or zone data
   * If the queried DNS server does not have an exact match
     * the best possible information it can return is a referral
@@ -348,13 +347,29 @@ Resolver:
 <!-- {_style="width: 65%"} -->
 
 
-
 --
 ## DNS - Querys Types
 Example
 
 ![DNS query](images/dns-query.png)
 <!-- {_style="width: 50%"} -->
+
+
+--
+## DNS - Use cases
+* Public
+  * Set up the Name Server
+    * configure the zone for the domain
+    * create a secondary name server
+  * Buy the domain name from a register
+    * Point the delegation to your Name servers
+  * Create records for publicly accessible devices
+* Internal/Private <!-- {_class="fragment"} -->
+  * you can use any TLD but not recommended
+  * use a subdomain under your public domain name
+    * Delegate the control to your internal Name servers
+  * Create records for internal devices
+
 
 
 ---
@@ -389,11 +404,12 @@ Reservation: Används för att skapa en permanent IP-adress lease
 
 --
 ## DHCP - Initialization lease process
-* IP lease request - DHCP Discover
-* IP lease offer - DHCP Offer
-* IP lease selection - DHCP Request
-* IP lease confirmatory - DHCP Acknowledge
+1. IP lease request - DHCP Discover
+2. IP lease offer - DHCP Offer
+3. IP lease selection - DHCP Request
+4. IP lease confirmatory - DHCP Acknowledge
 
+<!-- {_style="font-size: 90%"} -->
 ![DHCP Initialization lease process](images/dhcp-init.png)
 <!-- {_style="width: 70%"} -->
 
@@ -405,7 +421,7 @@ Reservation: Används för att skapa en permanent IP-adress lease
   * Several scopes per DHCP server
   * Exclude static IP addresses
   * Information is not replicated between DHCP servers
-* After you create a scope, you can:
+* After you create a scope, you can:  <!-- {_class="fragment"} -->
   * Add additional IP address ranges to be excluded
   * Reserve IP addresses
   * Adjusting the length of the lease
@@ -434,8 +450,3 @@ Reservation: Används för att skapa en permanent IP-adress lease
 
 ![DHCP interaction with DNS](images/dhcp-dns-integration2.png)
 <!-- {_style="width: 50%"} -->
-
-
----
-## Summary - Take ways
-*
