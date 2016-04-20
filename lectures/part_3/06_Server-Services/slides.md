@@ -3,8 +3,16 @@
 ## Some Server services<!-- {_style="font-size:110%"} -->
 * DNS <!-- {_class="fragment"} -->
   * What is DNS?
+  * Terminology
+  * Delegation
+  * Zones
+  * Resource Record
+  * Caching
+  * Querys Types
 * DHCP<!-- {_class="fragment"} -->
   * What is DHCP?
+  * Terminology
+  * DHCP and DNS
 
 <!-- {_style="font-size: 70%"} -->
 
@@ -49,7 +57,7 @@ Draw a DNS tree
 * Sub domain
 
 ![](images/dns-terminology.png)
-<!-- {_style="position: absolute; top: 240px; left: 300px; "} -->
+<!-- {_style="position: absolute; top: 240px; left: 300px;"} -->
 
 
 --
@@ -82,17 +90,17 @@ int internationella icke kommersiella organisationer, såsom NATO (nato.int).
 * One of the goals in the design of the DNS was to decentralize the administration:
 * Parent domain contains only a pointer
 
-![delegation](images/delegation.png)
-<!-- {_style="float: left; width: 40%" class="fragment fade-out"} -->
-![delegation 2](images/delegation2.png)
-<!-- {_style="float:right; width: 60%" class="fragment fade-in"} -->
+![delegation](images/dns-delegation.png)
+<!-- {_style="position: absolute; width: 50%" class="fragment fade-out"} -->
+![delegation 2](images/dns-delegation2.png)
+<!-- {_style="float: left; width: 60%" class="fragment fade-in"} -->
 
 
 --
 ## DNS - Zones
 * Contains all domain names in the domain, except for domain names in delegated subdomains
 * Name servers loads the zone is not the domain
-![Zones](images/zones.png)
+![Zones](images/dns-zones.png)
 
 Note:
 Zoner:
@@ -345,9 +353,87 @@ Resolver:
 ## DNS - Querys Types
 Example
 
-![delegation](images/dns-query.png)
+![DNS query](images/dns-query.png)
 <!-- {_style="width: 50%"} -->
 
+
+---
+## DHCP
+Dynamic Host Configuration Protocol
+* Bootstrap Protocol (BOOTP)
+* Centralized management of IP addresses
+* Avoid IP address conflicts
+
+![DHCP overview](images/dhcp-overview.png)
+<!-- {_style="width: 60%"} -->
+
+
+--
+## DHCP – Terminology
+* Scope
+* Exclusion range
+* Address pool
+* Lease
+* Reservation
+
+<!-- {_style="font-size: 100%"} -->
+
+Note:
+DHCP-terminologi:
+Scope: Det IP-adressområde som DHCP-serven tilldelar IP-adresser ifrån
+Exclusion range: IP-adresser i scopet som inte delas ut
+Address pool: Lagrar de IP-adresserna som finns i scopet förutom de som är specificerade i exclusion range
+Lease: Är den tid en DHCP-klient kan använda sig av den tilldelade IP-adressen
+Reservation: Används för att skapa en permanent IP-adress lease
+
+
+--
+## DHCP - Initialization lease process
+* IP lease request - DHCP Discover
+* IP lease offer - DHCP Offer
+* IP lease selection - DHCP Request
+* IP lease confirmatory - DHCP Acknowledge
+
+![DHCP Initialization lease process](images/dhcp-init.png)
+<!-- {_style="width: 70%"} -->
+
+
+--
+## DHCP
+* What should you consider when you create a scope:
+  * At least one scopes per DHCP server
+  * Several scopes per DHCP server
+  * Exclude static IP addresses
+  * Information is not replicated between DHCP servers
+* After you create a scope, you can:
+  * Add additional IP address ranges to be excluded
+  * Reserve IP addresses
+  * Adjusting the length of the lease
+  * Configure settings and classes to be used within your scope
+
+
+--
+## DHCP interaction with DNS
+* DHCP service's interaction with DNS service
+  1. The client initiates a DHCP request message <!-- {_style="font-size: 90%"} -->
+  2. The server returns a DHCP Acknowledgment<!-- {_style="font-size: 90%"} -->
+  3. The client updates the A record<!-- {_style="font-size: 90%"} -->
+  4. The DHCP server updates the PTR record<!-- {_style="font-size: 90%"} -->
+
+![DHCP interaction with DNS](images/dhcp-dns-integration.png)
+<!-- {_style="width: 50%"} -->
+
+
+--
+## DHCP interaction with DNS
+* DHCP service's interaction with DNS service with older OS
+  1. The client initiates a DHCP request message <!-- {_style="font-size: 90%"} -->
+  2. The server returns a DHCP Acknowledgment <!-- {_style="font-size: 90%"} -->
+  3. The DHCP server updates the A record <!-- {_style="font-size: 90%"} -->
+  4. The DHCP server updates the PTR record <!-- {_style="font-size: 90%"} -->
+
+![DHCP interaction with DNS](images/dhcp-dns-integration2.png)
+<!-- {_style="width: 50%"} -->
 
 
 ---
