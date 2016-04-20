@@ -457,4 +457,4 @@ Reservation: Används för att skapa en permanent IP-adress lease
 * Internet can't function properly without DNS
 * DNS Zones != Domain
 * Troubleshooting DNS can be hard because of caching
-* IP address conflicts can still accure with DHCP
+* IP address conflicts can still occur with DHCP
