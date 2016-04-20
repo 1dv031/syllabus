@@ -377,7 +377,7 @@ Example
 Dynamic Host Configuration Protocol
 * Bootstrap Protocol (BOOTP)
 * Centralized management of IP addresses
-* Avoid IP address conflicts
+* Can help with IP address conflicts
 
 ![DHCP overview](images/dhcp-overview.png)
 <!-- {_style="width: 60%"} -->
@@ -450,3 +450,11 @@ Reservation: Används för att skapa en permanent IP-adress lease
 
 ![DHCP interaction with DNS](images/dhcp-dns-integration2.png)
 <!-- {_style="width: 50%"} -->
+
+
+---
+## Summary - Take ways
+* Internet can't function properly without DNS
+* DNS Zones != Domain
+* Troubleshooting DNS can be hard because of caching
+* IP address conflicts can still accure with DHCP
