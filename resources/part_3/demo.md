@@ -1,4 +1,5 @@
 ## Installation & Post setup
+<iframe width="853" height="480" src="https://www.youtube.com/embed/cRTm7FO3w98?rel=0" frameborder="0" allowfullscreen></iframe>
 * Virtual box
   * The interface
   * Creating a machine
@@ -39,3 +40,5 @@ sudo ./VBoxLinuxAdditions.run
 sudo eject
 sudo reboot
 ```
+
+***
