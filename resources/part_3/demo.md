@@ -42,3 +42,18 @@ sudo reboot
 ```
 
 ***
+
+## DNS - Part 2
+* Register a domain name
+  * Manage the domain name
+    * Add some records
+    * Change name servers
+    * Domain Transfer
+* nslookup
+  * The basics
+  * Change server
+  * Specify resource type
+  * Debug
+  * Query types
+    * recurse
+    * norecurse
