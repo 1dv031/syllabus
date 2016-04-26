@@ -1,9 +1,13 @@
 <!-- Start -->
 # Today's lecture <!-- {_style="font-size:140%"} -->
-* Web Servers
-  * What? How? Different kinds?
 * HTTP
-  * What? How
+  * History
+  * How does it work?
+* Web Servers
+  * What?
+  * How?
+  * Different kinds?
+
 
 Note:
 These are the topics for todays lecture.
@@ -52,7 +56,8 @@ These are the topics for todays lecture.
 
 
 --
-## What happens when we try to go www.google.com?
+### What happens when we try to visit a website
+www.google.com
 
 
 ---
@@ -89,6 +94,10 @@ These are the topics for todays lecture.
 ![CERN](https://farm6.staticflickr.com/5226/5679904557_e3c1f784ce_b.jpg)
 <!-- {_style="width:700px"} -->
 <p class="cc">CC Image: https://www.flickr.com/photos/arselectronica</p>
+
+Note:
+European Organization for Nuclear Research
+CERN's main function is to provide the particle accelerators and other infrastructure needed for high-energy physics research
 
 
 --
@@ -207,6 +216,9 @@ HTTP is an application protocol running on the TCP/IP stack
 * Internet Engineering Task Force (IETF)
 * Supported by most browsers and servers
 * May 14, 2015, Proposed standard [RFC 7540](https://tools.ietf.org/html/rfc7540)
+
+Note:
+The Internet Engineering Task Force (IETF) develops and promotes voluntary Internet standards, in particular the standards that comprise the Internet protocol suite (TCP/IP).
 
 
 --
