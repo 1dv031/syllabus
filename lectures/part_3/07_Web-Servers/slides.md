@@ -281,6 +281,36 @@ Virtual hosting
 
 
 --
+<!-- {_data-transition="fade-in fade-out"} -->
+## Have you installed a web server?
+
+1. No
+2. Apache
+3. Nginx
+4. IIS
+5. Other
+
+<!-- {_class="pingo-sc" style="font-size:100%"} -->
+
+
+![Pingo QR code](images/pingo-qr.png) [http://pingo.upb.de/930192](http://pingo.upb.de/930192)
+
+<!-- {_class="pingo-qr" style="top:0px"} -->
+
+
+--
+<!-- {_data-transition="fade-in fade-out"} -->
+## Have you installed a web server?
+
+![chart](#)
+
+<!-- {_class="pingo-chart"} -->
+
+{Paste Handler}
+<!-- {_class="chart-input" contenteditable="true" onpaste="handlepaste(this, event)"} -->
+
+
+--
 ## Web Servers
 
 * Apache
