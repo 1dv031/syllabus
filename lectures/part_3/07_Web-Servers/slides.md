@@ -19,7 +19,7 @@ These are the topics for todays lecture.
 * How to ask questions?
 * Did the student understand the lecture?
 
-![Pingo QR code](images/pingo-qr.png) [http://pingo.upb.de/930192](http://pingo.upb.de/930192)
+![Pingo QR code](images/pingo-qr.png) [http://pingo.upb.de/350775](http://pingo.upb.de/350775)
 
 <!-- {_class="pingo-qr" style="top:220px"} -->
 
@@ -38,7 +38,7 @@ These are the topics for todays lecture.
 <!-- {_class="pingo-sc" style="font-size:100%"} -->
 
 
-![Pingo QR code](images/pingo-qr.png) [http://pingo.upb.de/930192](http://pingo.upb.de/930192)
+![Pingo QR code](images/pingo-qr.png) [http://pingo.upb.de/350775](http://pingo.upb.de/350775)
 
 <!-- {_class="pingo-qr" style="top:0px"} -->
 
@@ -72,7 +72,7 @@ www.google.com
 <!-- {_class="pingo-sc" style="font-size:100%"} -->
 
 
-![Pingo QR code](images/pingo-qr.png) [http://pingo.upb.de/930192](http://pingo.upb.de/930192)
+![Pingo QR code](images/pingo-qr.png) [http://pingo.upb.de/350775](http://pingo.upb.de/350775)
 
 <!-- {_class="pingo-qr" style="top:0px"} -->
 
@@ -305,7 +305,7 @@ Virtual hosting
 <!-- {_class="pingo-sc" style="font-size:100%"} -->
 
 
-![Pingo QR code](images/pingo-qr.png) [http://pingo.upb.de/930192](http://pingo.upb.de/930192)
+![Pingo QR code](images/pingo-qr.png) [http://pingo.upb.de/350775](http://pingo.upb.de/350775)
 
 <!-- {_class="pingo-qr" style="top:0px"} -->
 
