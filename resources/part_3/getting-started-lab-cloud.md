@@ -1,4 +1,7 @@
 ## Getting started with OpenStack
+Before you start using our lab cloud, you should watch all Getting started video in the Youtube playlist below:
+<iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLSWJPPj5sKmpd1_CvWzGsB8p6VdGFSEv1" frameborder="0" allowfullscreen></iframe>
+
 ### Web Interface
 * [Overview of the Web interface](https://youtu.be/gTN6iSopAvo)
 * [Network](https://youtu.be/ELQKjXU4Qh0)
