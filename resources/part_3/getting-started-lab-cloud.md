@@ -1,4 +1,5 @@
-## Web Interface
+## Getting started with OpenStack
+### Web Interface
 * [Overview of the Web interface](https://youtu.be/gTN6iSopAvo)
 * [Network](https://youtu.be/ELQKjXU4Qh0)
   * [Create a router](https://youtu.be/ELQKjXU4Qh0?t=1m15s)
@@ -23,7 +24,7 @@
   * [Assign to Instance](https://youtu.be/gKl_QqffRbQ?t=12m45s)
 * [Connecting to the Instance](https://youtu.be/gKl_QqffRbQ?t=13m5s)
 
-## OpenStack CLI
+### OpenStack CLI
 * [Install the OpenStack Client](https://youtu.be/pELgVCeUe4k?t=4s)
   * [Doc: Install the OpenStack Client](http://docs.openstack.org/cli-reference/common/cli_install_openstack_command_line_clients.html)
   * [Install Python 2.7](https://www.python.org/downloads/)
@@ -42,7 +43,7 @@
   * [Add floating IP](https://youtu.be/KYyxxzS16QM?t=9m10s)  <br /> `openstack  ip floating add <IP> <ServerName>`
   * [Add security group](https://youtu.be/KYyxxzS16QM?t=10m36s)  <br /> `openstack server add security group <ServerName> <security group>`
 
-## Manage your servers
+### Manage your servers
 * [Using one machine to access others](https://youtu.be/FOlwmWzSb3Q?t=4s)
   * [Transfer your private key](https://youtu.be/FOlwmWzSb3Q?t=1m10s) <br /> `scp ~/.ssh/my-key.pem <username>@<IP>:~/.ssh/`
 * [Add key](https://youtu.be/FOlwmWzSb3Q?t=2m47s)
