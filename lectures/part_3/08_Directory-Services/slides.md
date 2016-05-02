@@ -103,6 +103,9 @@ LDAP implementations
   * Federation Services
   * Rights Management Services
 
+Note:
+1999, released with Windows 2000 Server edition
+
 
 --
 ## Active Directory - Domain Services
@@ -301,7 +304,6 @@ The global catalog server performs two key roles:
 * Required for users to be able to log in
 * Membership of universal groups
 
-
 <!-- {_style="width:65%"} -->
 
 
@@ -441,4 +443,4 @@ Note:
   * Use a sub domain
   * Limited support for other OS then Windows
   * The logical structure is transparent to users
-  * DNS is very important 
+  * DNS is very important
