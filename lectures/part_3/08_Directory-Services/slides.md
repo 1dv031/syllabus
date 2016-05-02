@@ -169,6 +169,18 @@ Active Directory reflects the logical structure of your organization:
 
 
 --
+## Active Directory - Domain Services
+### Group Policy
+* Assign centralized policies
+* Ensure that a user has the required user environment
+* Maintain company policies
+
+<!-- {_style="width:65%"} -->
+![Active Directory - Group Policy](images/active-directory_group-policy.png)
+<!-- {_style="width: 900px"} -->
+
+
+--
 ## Active Directory - Logical Structure
 ### What should I use OU for?
 1. Organizing
@@ -183,7 +195,6 @@ Active Directory reflects the logical structure of your organization:
 Note:
 How should you build the OU structure?
   In view of point 2 & 3
-
 
 
 --
@@ -246,8 +257,8 @@ The physical structure is used to:
 * Sites is not part of the namespace
 * Active Directory allows multiple domains within a site and several sites in a domain
 * You create sites for two primary reasons:
-* Optimize replication traffic
-* Login via reliable and fast connections
+  * Optimize replication traffic
+  * Login via reliable and fast connections
 
 <!-- {_style="width:65%"} -->
 
@@ -307,3 +318,95 @@ The global catalog server performs two key roles:
 * Verify DNS service
 
 <!-- {_style="width:65%"} -->
+
+
+--
+## Active Directory - Domain Services
+* Domain Accounts
+  * Clients and servers joins the domain
+  * Create user accounts on a DC
+  * Allows users/computers to log in to the domain
+  * Replicated between domain controllers
+
+<!-- {_style="width:65%"} -->
+![Active Directory - Domain Overview](images/active-directory_domain-overview.png)
+<!-- {_style="width: 600px"} -->
+
+
+--
+## Active Directory - Domain Services
+### Domain User Accounts
+* User Profile
+* Home folder
+* Logon scripts
+
+
+--
+## Active Directory - Domain Services
+### Logon process
+![Active Directory - Domain Overview](images/active-directory_domain-overview.png)
+<!-- {_style="width: 800px"} -->
+
+
+--
+## Active Directory - Domain Groups
+### Domain Groups
+* Created on domain controllers
+* Stored in Active Directory
+* Used to control access to resources in a domain
+
+
+
+--
+## Active Directory - Domain Groups
+Active Directory supports three group types
+* Domain local groups (Local Domain)
+  * Authorize within a single domain
+  * Members may come from the entire forest
+* Global groups (Global)
+  * Authorize in the whole forest
+  * Members may only come from the same domain as the group
+* Universal groups (Universal)
+  * Authorize the whole forest
+  * Members may come from the entire forest
+
+
+--
+## Active Directory - Domain Groups
+There are two different group ranges of group types
+* Distribution Group
+  * The group acts as an e-mail list
+  * They are also known as Distribution Lists in Exchange
+  * Does not support ACL
+  * Ignored during the login process
+* Security Group
+  * E-mail List
+  * You also can apply in an ACL
+  * All security-groups controlled during the login process
+
+
+--
+## Active Directory - Domain Groups
+### Implicit groups
+* Groups representing users at different context
+* Users connect automatically
+* Can not be manually added
+* Example
+  * Anonymous Logon
+  * Authenticated Users
+  * Creator Owner
+  * Everyone
+  * Network
+  * Self
+
+
+--
+## Active Directory - Domain Services
+### Extra domain controller
+* Redundancy
+* Load balance
+* Remote/Branch Offices
+* Installation options
+  * DNS
+  * Global Catalog
+  * RODC
