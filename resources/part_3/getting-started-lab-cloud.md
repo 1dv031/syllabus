@@ -15,7 +15,7 @@ Before you start using our lab cloud, you should watch all Getting started video
   ```bash
   chmod 400 my-key.pem
   mv my-key.pem ~/.ssh
-  eval `ssh-agent -s`
+  eval $(ssh-agent)
   ssh-add -k ~/.ssh/my-key.pem
     ```
 * [Create Instance](https://youtu.be/gKl_QqffRbQ?t=4s)
@@ -52,7 +52,7 @@ Before you start using our lab cloud, you should watch all Getting started video
 * [Add key](https://youtu.be/FOlwmWzSb3Q?t=2m47s)
   ```bash
   chmod 400 ~/.ssh/my-key.pem
-  eval `ssh-agent -s`
+  eval $(ssh-agent)
   ssh-add -k ~/.ssh/my-key.pem
   ```
 * [Connect to other servers](https://youtu.be/FOlwmWzSb3Q?t=4m20s)
