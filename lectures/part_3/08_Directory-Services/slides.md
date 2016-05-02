@@ -11,7 +11,7 @@
     * Profile
     * Groups
   * Additional Domain Controllers
-  * FSMO
+
 
 Note:
 These are the topics for todays lecture.
@@ -321,6 +321,20 @@ The global catalog server performs two key roles:
 
 
 --
+## Active Directory - DNS
+Active Directory - Integrated DNS
+* Logon
+* Replication
+* Locate
+  * Global Catalog
+  * Domain Controller
+* Zone information are stored in Active Directory
+* Security
+
+<!-- {_style="width:65%"} -->
+
+
+--
 ## Active Directory - Domain Services
 * Domain Accounts
   * Clients and servers joins the domain
@@ -399,6 +413,13 @@ There are two different group ranges of group types
   * Network
   * Self
 
+Note:
+• The Anonymous Logon identity Any user accessing the system through anonymous logon has the Anonymous Logon identity. This identity is used to allow anonymous access to resources, such as a Web pages published on the corporate presence servers.
+ • The Authenticated Users identity Any user accessing the system through a logon process has the Authenticated Users identity. This identity is used to allow access to shared resources within the domain, such as files in a shared folder that should be accessible to all the workers in the organization.
+ • The Creator Owner identity The person who created the file or the directory is a member of this group. Windows 2000 uses this group to automatically grant access permissions to the creator of a file or directory.
+ • The Everyone identity All interactive, network, dial-up, and authenticated users are members of the Everyone group. This group is used to give wide access to a system resource.
+ • The Network identity Any user accessing the system through a network has the Network identity. This identity is used to allow only remote users to access a resource.
+
 
 --
 ## Active Directory - Domain Services
@@ -409,4 +430,15 @@ There are two different group ranges of group types
 * Installation options
   * DNS
   * Global Catalog
-  * RODC
+  * RODC - Read Only Domain Controller
+
+
+---
+## Summary - Take ways
+* Directory Service - Centralized User/Computer management
+* Active Directory
+  * In most cases you'll only need one domain
+  * Use a sub domain
+  * Limited support for other OS then Windows
+  * The logical structure is transparent to users
+  * DNS is very important 
