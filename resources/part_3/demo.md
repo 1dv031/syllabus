@@ -82,11 +82,10 @@ sudo reboot
 * Create a machine
 * Check the name and local lookup
   * Local lookup `sudo nano /etc/hosts`
-
-```
-127.0.0.1 localhost
-192.168.20.53 ns1.devopslab.xyz ns1
-```
+    ```
+    127.0.0.1 localhost
+    192.168.20.53 ns1.devopslab.xyz ns1
+    ```
   * Computer name `sudo nano /etc/hostname`
   * Reload config for computer name `sudo hostname -F /etc/hostname`
 * Install bind
