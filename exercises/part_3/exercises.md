@@ -46,3 +46,20 @@ Your assignment is to perform the post setup for the servers you installed in Ex
 Use your exercise github repo to document all your configuration. Try to make it easy automate the post setup, perhaps make some scripts.
 
 ***
+
+## Exercise 03 - Getting started with the Cloud
+|  |  |
+| ------------- | ------------- |
+| Level  | A  |
+| Week | 17-18 |
+| Prerequisites| Watch [Demo - Getting started with OpenStack](https://youtu.be/gTN6iSopAvo?list=PLSWJPPj5sKmpd1_CvWzGsB8p6VdGFSEv1) all 7 clips |
+| Requirements | none |
+| Keywords| OpenStack |
+
+### Assignment:
+Your assignment is to get started with our cloud.
+Follow the [video tutorial](https://coursepress.lnu.se/kurs/systemadministrationi/part-3-server-installation-and-operations/lab-cloud/) and make the same configuration.
+
+Use your exercise github repo to document all your configuration. Try to make it easy to automate, perhaps make some scripts.
+
+***
