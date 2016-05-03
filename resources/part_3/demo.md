@@ -139,11 +139,9 @@ sudo reboot
     ; Name servers
     devopslab.xyz.    IN      NS      ns1.devopslab.xyz.
     devopslab.xyz.    IN      NS      ns2.devopslab.xyz.
-
     ; A records for name servers
     ns1             IN      A       194.47.174.124
     ns2             IN      A       194.47.174.125
-
     ; Other A records
     @               IN      A       194.47.174.110
     www             IN      A       194.47.174.110
