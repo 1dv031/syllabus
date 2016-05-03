@@ -63,3 +63,31 @@ Follow the [video tutorial](https://coursepress.lnu.se/kurs/systemadministration
 Use your exercise github repo to document all your configuration. Try to make it easy to automate, perhaps make some scripts.
 
 ***
+
+## Exercise 04 - Public Name Servers
+|  |  |
+| ------------- | ------------- |
+| Level  | A  |
+| Week | 18-19 |
+| Lectures| L06 |
+| Prerequisites|  Watch [L06 - Some Server services ](https://youtu.be/nIAOuSjVolo) <br /> Watch [Demo - Public Name Server](#) |
+| Requirements |  Exercise 03 and an admin jump machine |
+| Keywords| DNS, Public Name Server, Authoritative-Only DNS Server |
+
+### Assignment:
+Your assignment is to set up two public authoritative-only name servers, one master and one slave.
+
+* Install two new servers
+* Both server should have Bind 9 installed
+* Configure one as a master and the other as a slave
+* Configure a forward lookup zone for `{your-username}.devopslab.xyz`
+* Configure a reverse lookup zone for the public IP addresses that you will use.
+* The name server should be configured to:
+  * only answer for zones it has a zone file for
+  * not forward question
+  * only allow zone transfer to the slave server
+  * be accessible from the Internet
+
+Use your exercise github repo to document all your configuration. Try to make it easy automate the post setup, perhaps make some scripts.
+
+***
