@@ -84,7 +84,7 @@ sudo reboot
   * Local lookup `sudo nano /etc/hosts`
     ```
     127.0.0.1 localhost
-    <span class="highlight">192.168.20.53</span> ns1.devopslab.xyz ns1
+    192.168.20.53 ns1.devopslab.xyz ns1
     ```
   * Computer name `sudo nano /etc/hostname`
   * Reload config for computer name `sudo hostname -F /etc/hostname`
@@ -175,6 +175,7 @@ sudo reboot
   * Check reverse config `sudo named-checkzone 174.47.194.in-addr.arpa /etc/bind/zones/db.194.47.174`
   * `sudo service bind9 restart`
   * Check the logs `sudo tail -f /var/log/syslog`
+
 
 ### Secondary/Slave Name Server
 * Create a machine
