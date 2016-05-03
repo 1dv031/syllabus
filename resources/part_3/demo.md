@@ -1,3 +1,20 @@
+<style>
+pre {
+  margin: 0 0 0 0;
+  box-sizing: border-box;
+  white-space: pre;
+  word-wrap: normal;
+  overflow: auto !important;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 13px 17px;
+  font-size: 14px;
+}
+span.highlight{
+  background: none;
+  color: #de3939
+}
+</style>
+
 ## Installation & Post setup
 <iframe width="853" height="480" src="https://www.youtube.com/embed/cRTm7FO3w98?rel=0" frameborder="0" allowfullscreen></iframe>
 * Virtual box
