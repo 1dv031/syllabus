@@ -70,7 +70,7 @@ Use your exercise github repo to document all your configuration. Try to make it
 | Level  | A  |
 | Week | 18-19 |
 | Lectures| L06 |
-| Prerequisites|  Watch [L06 - Some Server services ](https://youtu.be/nIAOuSjVolo) <br /> Watch [Demo - Public Name Server](#) |
+| Prerequisites|  Watch [L06 - Some Server services ](https://youtu.be/nIAOuSjVolo) <br /> Watch [Demo - Public Name Server](https://youtu.be/zk_b8ms-pvc) |
 | Requirements |  Exercise 03 and an admin jump machine |
 | Keywords| DNS, Public Name Server, Authoritative-Only DNS Server |
 
