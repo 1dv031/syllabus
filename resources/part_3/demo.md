@@ -78,6 +78,7 @@ sudo reboot
     * norecurse
 
 ## Public Name Servers
+<iframe width="853" height="480" src="https://www.youtube.com/watch?v=zk_b8ms-pvc&list=PLSWJPPj5sKmpyXJvg2_6oIcAnjxEBexjo&index=10" frameborder="0" allowfullscreen></iframe>
 ### Master Name Server
 * Create a machine
 * Check the name and local lookup
