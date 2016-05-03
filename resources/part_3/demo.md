@@ -139,7 +139,8 @@ ns2             IN      A       194.47.174.125
 www             IN      A       194.47.174.110
 ```
 
-  * Edit revers lookup zone file `sudo nano /etc/bind/zones/db.194.47.174`
+  * Edit reverse lookup zone file `sudo nano /etc/bind/zones/db.194.47.174`
+
 ```
 $TTL    604800
 @       IN      SOA     devopslab.xyz. admin.devopslab.xyz. (
@@ -198,6 +199,7 @@ options {
 };
 ```
   * Configure the forward lookup zone `sudo nano /etc/bind/named.conf.local`
+
 ```
 zone "devopslab.xyz" {
   type slave;
