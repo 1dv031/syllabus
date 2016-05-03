@@ -160,7 +160,6 @@ sudo reboot
     ; Name servers
             IN      NS      ns1.devopslab.xyz.
             IN      NS      ns2.devopslab.xyz.
-
     ; PTR records
     124       IN      PTR      ns1.devopslab.xyz.
     125       IN      PTR      ns2.devopslab.xyz.
