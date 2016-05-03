@@ -77,7 +77,7 @@ sudo reboot
     * recurse
     * norecurse
 
-## Authoritative-Only DNS Server
+## Public Name Servers
 ### Master Name Server
 * Create a machine
 * Check the name and local lookup
