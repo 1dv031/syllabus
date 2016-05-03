@@ -59,3 +59,159 @@ sudo reboot
   * Query types
     * recurse
     * norecurse
+
+## Authoritative-Only DNS Server
+### Master Name Server
+* Create a machine
+* Check the name and local lookup
+  * Local lookup `sudo nano /etc/hosts`
+    ```
+    127.0.0.1 localhost
+    192.168.20.53 ns1.devopslab.xyz ns1
+    ```
+  * Computer name `sudo nano /etc/hostname`
+    ```
+    ns1
+    ```
+  * Reload config for computer name `sudo hostname -F /etc/hostname`
+* Install bind
+  ```bash
+  sudo apt-get update
+  sudo apt-get install bind9 bind9utils bind9-doc
+  ```
+* Configuring the Options File
+  * `sudo nano /etc/bind/named.conf.options`
+    ```
+    options {
+        directory "/var/cache/bind";
+        recursion no;
+        allow-transfer { none; };
+
+        dnssec-validation auto;
+
+        auth-nxdomain no;    # conform to RFC1035
+        listen-on-v6 { any; };
+    };
+    ```
+* Configure the Zone
+  * `sudo nano /etc/bind/named.conf.local`
+    ´´´
+    zone "devolslab.xyz" {
+      type master;
+      file "/etc/bind/zones/db.devooslab.xyz";
+      allow-transfer { 192.168.20.54; };
+    };
+
+    zone "174.47.194.in-addr.arpa" {
+      type master;
+      file "/etc/bind/zones/db.194.47.174";
+    };
+    ´´´
+  * Create zone files
+    ```
+    sudo mkdir /etc/bind/zones
+    sudo cp /etc/bind/db.local /etc/bind/zones/db.devopslab.xyz
+    sudo cp /etc/bind/db.127 /etc/bind/zones/db.194.47.174
+    ```
+  * Edit forward lookup zone file `sudo nano /etc/bind/zones/db.devopslab.xyz`
+    ```
+    $TTL    604800
+    @       IN      SOA     ns1.devopslab.xyz. admin.devopslab.xyz. (
+                                  5         ; Serial
+                             604800         ; Refresh
+                              86400         ; Retry
+                            2419200         ; Expire
+                             604800 )       ; Negative Cache TTL
+    ;
+
+    ; Name servers
+    devopslab.xyz.    IN      NS      ns1.devopslab.xyz.
+    devopslab.xyz.    IN      NS      ns2.devopslab.xyz.
+
+    ; A records for name servers
+    ns1             IN      A       194.47.174.124
+    ns2             IN      A       194.47.174.125
+
+    ; Other A records
+    @               IN      A       194.47.174.110
+    www             IN      A       194.47.174.110
+    ```
+  * Edit revers lookup zone file `sudo nano /etc/bind/zones/db.194.47.174`
+    ```
+    $TTL    604800
+    @       IN      SOA     devopslab.xyz. admin.devopslab.xyz. (
+                                  5         ; Serial
+                             604800         ; Refresh
+                              86400         ; Retry
+                            2419200         ; Expire
+                             604800 )       ; Negative Cache TTL
+    ;
+
+    ; Name servers
+            IN      NS      ns1.devopslab.xyz.
+            IN      NS      ns2.devopslab.xyz.
+
+    ; PTR records
+    124       IN      PTR      ns1.devopslab.xyz.
+    125       IN      PTR      ns2.devopslab.xyz.
+    110       IN      PTR      www.devopslab.xyz.
+    ```
+* Testing the Files and Restarting the Service
+  * Test config syntax `sudo named-checkconf`
+  * Check config `sudo named-checkzone devopslab.xyz /etc/bind/zones/db.devopslab.xyz`
+  * Check reverse config `sudo named-checkzone 174.47.194.in-addr.arpa /etc/bind/zones/db.194.47.174`
+  * `sudo service bind9 restart`
+  * Check the logs `sudo tail -f /var/log/syslog`
+
+### Secondary/Slave Name Server
+* Create a machine
+* Check the name and local lookup
+  * Local lookup `sudo nano /etc/hosts`
+    ```
+    127.0.0.1 localhost
+    192.168.20.54 ns2.devopslab.xyz ns2
+    ```
+  * Computer name `sudo nano /etc/hostname`
+    ```
+    ns2
+    ```
+  * Reload config for computer name `sudo hostname -F /etc/hostname`
+* Install bind
+  ```bash
+  sudo apt-get update
+  sudo apt-get install bind9 bind9utils bind9-doc
+  ```
+* Configuring the Options File
+  * `sudo nano /etc/bind/named.conf.options`
+    ```
+    options {
+        directory "/var/cache/bind";
+        recursion no;
+        allow-transfer { none; };
+
+        dnssec-validation auto;
+
+        auth-nxdomain no;    # conform to RFC1035
+        listen-on-v6 { any; };
+    };
+    ```
+  * Configure the forward lookup zone `sudo nano /etc/bind/named.conf.local`
+    ```
+    zone "devopslab.xyz" {
+      type slave;
+      file "db.devopslab.xyz";
+      masters { 192.168.20.53; };
+    };
+    ```
+  * Configure the reverse lookup zone `sudo nano /etc/bind/named.conf.local`
+    ```
+    zone "174.47.194.in-addr.arpa" {
+      type slave;
+      file "db.194.47.174";
+      masters { 192.168.20.53; };
+    };
+    ```
+* Testing the Files and Restarting the Service
+  * Test config syntax `sudo named-checkconf`
+  * Restart bind `sudo service bind9 restart`
+  * Check the logs `sudo tail -f /var/log/syslog`
