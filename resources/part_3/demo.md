@@ -115,7 +115,6 @@ sudo reboot
       file "/etc/bind/zones/db.devopslab.xyz";
       allow-transfer { 192.168.20.54; };
     };
-
     zone "174.47.194.in-addr.arpa" {
       type master;
       file "/etc/bind/zones/db.194.47.174";
