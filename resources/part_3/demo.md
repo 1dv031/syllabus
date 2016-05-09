@@ -245,7 +245,7 @@ sudo reboot
         <title>Welcome to jl222gk's page!</title>
       </head>
       <body>
-        <h1>Success! Site is working!</h1>
+        <h1>Success! jl222gk's page is working!</h1>
       </body>
     </html>
     ```
@@ -256,7 +256,7 @@ sudo reboot
         <title>Welcome to jl222gk's Test page!</title>
       </head>
       <body>
-        <h1>Success! Site is working!</h1>
+        <h1>Success! jl222gk's Test page is working!</h1>
       </body>
     </html>
     ```
@@ -292,3 +292,51 @@ sudo reboot
   ```
 * Disable the default site with `sudo a2dissite 000-default.conf`
 * Restart Apache 2 `sudo systemctl restart apache2`
+
+### Nginx
+* Create the Directory Structure and permissions
+  * Same as in Apache 2
+* Create Demo Pages for the sites
+  * Same as in Apache 2
+* Create Server Block Files for each site
+  * Create the first server block config file by copying the default file: `sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/example.com`
+  * Edit the file `sudo nano /etc/nginx/sites-available/example.com`
+    ```
+    server {
+      listen 80 default_server;
+      listen [::]:80 default_server ipv6only=on;
+
+      root /var/www/example.com/html;
+      index index.html index.htm;
+
+      server_name example.com www.example.com;
+
+      location / {
+          try_files $uri $uri/ =404;
+      }
+    }
+    ```
+  * Setup the second site by coping the first `sudo cp /etc/nginx/sites-available/example.com /etc/nginx/sites-available/test.com`
+    ```
+    server {
+      listen 80;
+      listen [::]:80;
+
+      root /var/www/test.com/html;
+      index index.html index.htm;
+
+      server_name test.com www.test.com;
+
+      location / {
+          try_files $uri $uri/ =404;
+      }
+    }
+    ```
+* Enable your sites
+  ```
+  sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/
+  sudo ln -s /etc/nginx/sites-available/test.com /etc/nginx/sites-enabled/
+  ```
+* Disable the default site `sudo rm /etc/nginx/sites-enabled/default`
+* Fixing long names bay changing the config file `sudo nano /etc/nginx/nginx.conf` and uncomment the line `server_names_hash_bucket_size 64;`
+* Restart the server `sudo systemctl restart nginx`
