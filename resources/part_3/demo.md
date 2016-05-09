@@ -263,12 +263,12 @@ sudo reboot
   sudo ufw status
   ```
 * Control Nginx
-  * Nginx status `systemctl status apache2`
-  * Stop Nginx service `sudo systemctl stop apache2`
-  * Start Nginx service `sudo systemctl start apache2`
-  * Restart Nginx, connections to the web server will be lost `sudo systemctl restart apache2`
+  * Apache status `systemctl status apache2`
+  * Stop Apache service `sudo systemctl stop apache2`
+  * Start Apache service `sudo systemctl start apache2`
+  * Restart Apache, connections to the web server will be lost `sudo systemctl restart apache2`
   * Reload configuration, reload without dropping connections `sudo systemctl reload apache2`
-  * Disable the Nginx service to start up at boot `sudo systemctl disable apache2`
+  * Disable the Apache service to start up at boot `sudo systemctl disable apache2`
   * Re-enable the service to start up at boot `sudo systemctl enable apache2`
 
 ## Configure Web Servers
