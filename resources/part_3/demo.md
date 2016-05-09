@@ -299,33 +299,33 @@ sudo reboot
 * Create Demo Pages for the sites
   * Same as in Apache 2
 * Create Server Block Files for each site
-  * Create the first server block config file by copying the default file: `sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/example.com`
-  * Edit the file `sudo nano /etc/nginx/sites-available/example.com`
+  * Create the first server block config file by copying the default file: `sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/jl222gk.devopslab.xyz`
+  * Edit the file `sudo nano /etc/nginx/sites-available/jl222gk.devopslab.xyz`
     ```
     server {
       listen 80 default_server;
       listen [::]:80 default_server ipv6only=on;
 
-      root /var/www/example.com/html;
+      root /var/www/jl222gk.devopslab.xyz/html;
       index index.html index.htm;
 
-      server_name example.com www.example.com;
+      server_name jl222gk.devopslab.xyz www.jl222gk.devopslab.xyz;
 
       location / {
           try_files $uri $uri/ =404;
       }
     }
     ```
-  * Setup the second site by coping the first `sudo cp /etc/nginx/sites-available/example.com /etc/nginx/sites-available/test.com`
+  * Setup the second site by coping the first `sudo cp /etc/nginx/sites-available/jl222gk.devopslab.xyz /etc/nginx/sites-available/test.jl222gk.devopslab.xyz`
     ```
     server {
       listen 80;
       listen [::]:80;
 
-      root /var/www/test.com/html;
+      root /var/www/test.jl222gk.devopslab.xyz/html;
       index index.html index.htm;
 
-      server_name test.com www.test.com;
+      server_name test.jl222gk.devopslab.xyz www.test.jl222gk.devopslab.xyz;
 
       location / {
           try_files $uri $uri/ =404;
@@ -334,8 +334,8 @@ sudo reboot
     ```
 * Enable your sites
   ```
-  sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/
-  sudo ln -s /etc/nginx/sites-available/test.com /etc/nginx/sites-enabled/
+  sudo ln -s /etc/nginx/sites-available/jl222gk.devopslab.xyz /etc/nginx/sites-enabled/
+  sudo ln -s /etc/nginx/sites-available/test.jl222gk.devopslab.xyz /etc/nginx/sites-enabled/
   ```
 * Disable the default site `sudo rm /etc/nginx/sites-enabled/default`
 * Fixing long names bay changing the config file `sudo nano /etc/nginx/nginx.conf` and uncomment the line `server_names_hash_bucket_size 64;`
