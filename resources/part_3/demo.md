@@ -225,10 +225,55 @@ sudo reboot
   * Check the logs `sudo tail -f /var/log/syslog`
 
 ## Install Web Servers
+### Nginx
+<iframe width="853" height="480" src="https://www.youtube.com/embed/LGV2Z1GQCaY?rel=0" frameborder="0" allowfullscreen></iframe>
+* Install Nginx
+  ```
+  sudo apt-get update
+  sudo apt-get install nginx
+  ```
+* Configure the firewall, use `sudo ufw app list` to see the names of install services
+  ```
+  sudo ufw allow 'Nginx Full'
+  sudo ufw allow OpenSSH
+  sudo ufw enable
+  sudo ufw status
+  ```
+* Control Nginx
+  * Nginx status `systemctl status nginx`
+  * Stop Nginx service `sudo systemctl stop nginx`
+  * Start Nginx service `sudo systemctl start nginx`
+  * Restart Nginx, connections to the web server will be lost `sudo systemctl restart nginx`
+  * Reload configuration, reload without dropping connections `sudo systemctl reload nginx`
+  * Disable the Nginx service to start up at boot `sudo systemctl disable nginx`
+  * Re-enable the service to start up at boot `sudo systemctl enable nginx`
 
+### Apache 2
+<iframe width="853" height="480" src="https://www.youtube.com/embed/zmegNRww3wQ?rel=0" frameborder="0" allowfullscreen></iframe>
+* Install Apache
+  ```
+  sudo apt-get update
+  sudo apt-get install apache2
+  ```
+* Configure the firewall, use `sudo ufw app list` to see the names of install services
+  ```
+  sudo ufw allow 'Apache Full'
+  sudo ufw allow OpenSSH
+  sudo ufw enable
+  sudo ufw status
+  ```
+* Control Nginx
+  * Nginx status `systemctl status apache2`
+  * Stop Nginx service `sudo systemctl stop apache2`
+  * Start Nginx service `sudo systemctl start apache2`
+  * Restart Nginx, connections to the web server will be lost `sudo systemctl restart apache2`
+  * Reload configuration, reload without dropping connections `sudo systemctl reload apache2`
+  * Disable the Nginx service to start up at boot `sudo systemctl disable apache2`
+  * Re-enable the service to start up at boot `sudo systemctl enable apache2`
 
 ## Configure Web Servers
 ### Apache 2
+<iframe width="853" height="480" src="https://www.youtube.com/embed/kj4iQvq6Tgg?rel=0" frameborder="0" allowfullscreen></iframe>
 * Create the Directory Structure and permissions
   ```
   sudo mkdir -p /var/www/jl222gk.devopslab.xyz/public_html
@@ -294,6 +339,7 @@ sudo reboot
 * Restart Apache 2 `sudo systemctl restart apache2`
 
 ### Nginx
+<iframe width="853" height="480" src="https://www.youtube.com/embed/Uz2V46yOUFQ?rel=0" frameborder="0" allowfullscreen></iframe>
 * Create the Directory Structure and permissions
   * Same as in Apache 2
 * Create Demo Pages for the sites
