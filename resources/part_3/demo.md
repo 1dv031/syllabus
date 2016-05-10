@@ -387,7 +387,8 @@ sudo reboot
 * Fixing long names bay changing the config file `sudo nano /etc/nginx/nginx.conf` and uncomment the line `server_names_hash_bucket_size 64;`
 * Restart the server `sudo systemctl restart nginx`
 
-## Create a Windows Jump machine
+## Create a Windows Admin machine
+<iframe width="853" height="480" src="https://www.youtube.com/embed/NNxCxQf_sUY?rel=0" frameborder="0" allowfullscreen></iframe>
 * Create a new Windows Server 2012 R2 With GUI
 * Get password
   ```
@@ -400,8 +401,11 @@ sudo reboot
   openstack ip floating add <IP> <ServerName>
   ```
 * Create a Security Group for RDP (TCP 3389)
+* Connect to the server with a RDP client
+* Set a password for the administrator account `net user administrator *``
 
-## Active Directory
+## Install Active Directory
+<iframe width="853" height="480" src="https://www.youtube.com/embed/klp6rsdwNLA?rel=0" frameborder="0" allowfullscreen></iframe>
 * Add ADDS role
   ```
   Import-Module ServerManager
