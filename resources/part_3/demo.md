@@ -386,3 +386,41 @@ sudo reboot
 * Disable the default site `sudo rm /etc/nginx/sites-enabled/default`
 * Fixing long names bay changing the config file `sudo nano /etc/nginx/nginx.conf` and uncomment the line `server_names_hash_bucket_size 64;`
 * Restart the server `sudo systemctl restart nginx`
+
+## Create a Windows Jump machine
+* Create a new Windows Server 2012 R2 With GUI
+* Get password
+  ```
+  openstack server list
+  nova get-password {Server-Id} .ssh/{your-key.pem}
+  ```
+* Get a floating IP
+  ```
+  openstack ip floating create ext_net
+  openstack ip floating add <IP> <ServerName>
+  ```
+* Create a Security Group for RDP (TCP 3389)
+
+## Active Directory
+* Add ADDS role
+  ```
+  Import-Module ServerManager
+  Add-WindowsFeature AD-Domain-Services
+  ```
+* Set Administrator Password `net user administrator *`
+* Promote DC
+  ```
+  Import-Module ADDSDeployment
+  Install-ADDSForest `
+  -CreateDnsDelegation:$false `
+  -DatabasePath "C:\Windows\NTDS" `
+  -DomainMode "Win2012R2" `
+  -DomainName "corp.mediawork.com" `
+  -DomainNetbiosName "MEDIAWORK" `
+  -ForestMode "Win2012R2" `
+  -InstallDns:$true `
+  -LogPath "C:\Windows\NTDS" `
+  -NoRebootOnCompletion:$false `
+  -SysvolPath "C:\Windows\SYSVOL" `
+  -Force:$true
+  ```
