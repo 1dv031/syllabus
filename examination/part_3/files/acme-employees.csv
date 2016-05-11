@@ -1,0 +1,49 @@
+FirstName,LastName,JobTitle,Department,Phone,AddressLine1,City,StateProvinceName,PostalCode,CountryRegionName
+Barbara,Moreland,Accountant,Economy,822-555-0145,137 Mazatlan,Seattle,Washington,98104,United States
+Mike,Seamans,Accountant,Economy,927-555-0150,1245 Clay Road,Seattle,Washington,98256,United States
+David,Liu,Accounts Manager,Economy,646-555-0185,9605 Pheasant Circle,Seattle,Washington,98251,United States
+Dragan,Tomic,Accounts Payable Specialist,Economy,117-555-0185,3884 Beauty Street,Seattle,Washington,98251,United States
+Janet,Sheperdigian,Accounts Payable Specialist,Economy,393-555-0186,6871 Thornwood Dr.,Seattle,Washington,98074,United States
+Bryan,Walton,Accounts Receivable Specialist,Economy,935-555-0199,1397 Paradise Ct.,Seattle,Washington,98006,United States
+Candy,Spoon,Accounts Receivable Specialist,Economy,920-555-0177,310 Winter Lane,Seattle,Washington,98256,United States
+Magnus,Hedlund,Facilities Administrative Assistant,Administration,583-555-0182,9533 Working Drive,Seattle,Washington,98055,United States
+Gary,Altman,Facilities Manager,Administration,110-555-0112,2598 Breck Court,Seattle,Washington,98055,United States
+Grant,Culbertson,Human Resources Administrative Assistant,Administration,955-555-0131,213 Stonewood Drive,Seattle,Washington,98251,United States
+Hao,Chen,Human Resources Administrative Assistant,Administration,806-555-0136,7691 Benedict Ct.,Seattle,Washington,98027,United States
+Jean,Trenary,Information Services Manager,Administration,685-555-0120,2383 Pepper Drive,Seattle,Washington,98052,United States
+Pat,Coleman,Janitor,Administration,720-555-0158,2425 Notre Dame Ave,Seattle,Washington,98251,United States
+Christian,Kleinerman,Maintenance Supervisor,Administration,846-555-0157,8036 Summit View Dr.,Seattle,Washington,98251,United States
+Scott,Wright,Master Scheduler,Administration,992-555-0194,9297 Kenston Dr.,Seattle,Washington,98006,United States
+Vidur,Luthra,Recruiter,Administration,153-555-0186,3030 Blackburn Ct.,Seattle,Washington,98006,United States
+Matthias,Berndt,Shipping and Receiving Clerk,Administration,139-555-0120,4312 Cambridge Drive,Seattle,Washington,98055,United States
+Pilar,Ackerman,Shipping and Receiving Supervisor,Administration,577-555-0185,5407 Cougar Way,Seattle,Washington,98104,United States
+Ken,Sanchez,Chief Executive Officer,Board of Directors,697-555-0142,4350 Minute Dr.,Seattle,Washington,98006,United States
+Laura,Norman,Chief Financial Officer,Board of Directors,615-555-0110,6937 E. 42nd Street,Seattle,Washington,98055,United States
+Terri,Duffy,Vice President of Operations,Board of Directors,819-555-0175,7559 Worth Ct.,Seattle,Washington,98055,United States
+James,Hamilton,Vice President of Development,Board of Directors,870-555-0122,9652 Los Angeles,Seattle,Washington,98272,United States
+Brian,Welcker,Vice President of Testing,Board of Directors,716-555-0127,7772 Golden Meadow,Seattle,Washington,98027,United States
+Sharon,Salavaria,Test Engineer,Test Team A,970-555-0138,7165 Brock Lane,Seattle,Washington,98055,United States
+Jossef,Goldberg,Test Engineer,Test Team A,122-555-0189,5670 Bel Air Dr.,Seattle,Washington,98055,United States
+Chris,Norred,Test Engineer,Test Team B,575-555-0126,989 Crown Ct,Seattle,Washington,98027,United States
+Tengiz,Kharatishvili,Test Engineer,Test Team B,910-555-0116,3333 Madhatter Circle,Seattle,Washington,98027,United States
+Franois,Ajenstat,Test Engineer,Test Team B,785-555-0110,1144 Paradise Ct.,Seattle,Washington,98027,United States
+Dylan,Miller,Research and Development Manager,Development,181-555-0156,7048 Laurel,Seattle,Washington,98028,United States
+Peter,Connelly,Network Administrator,Hardware Operator Team A,310-555-0133,9530 Vine Lane,Seattle,Washington,98027,United States
+Ashvini,Sharma,Network Administrator,Hardware Operator Team A,656-555-0119,6580 Poor Ridge Court,Seattle,Washington,98027,United States
+Stephanie,Conroy,Network Manager,Hardware Operator Team B,594-555-0110,7435 Ricardo,Seattle,Washington,98027,United States
+Roberto,Tamburello,Engineering Manager,Development Team A,212-555-0187,2137 Birchwood Dr,Seattle,Washington,98052,United States
+Cristian,Petculescu,Developer,Development Team A,434-555-0133,7166 Brock Lane,Seattle,Washington,98104,United States
+Zheng,Mu,Developer,Development Team A,113-555-0173,6578 Woodhaven Ln.,Seattle,Washington,98104,United States
+Yuhong,Li,Developer,Development Team A,965-555-0155,502 Alexander Pl.,Seattle,Washington,98104,United States
+Katie,McAskill-White,Developer,Development Team B,809-555-0133,4948 West 4th St,Seattle,Washington,98104,United States
+Cynthia,Randall,Developer,Development Team B,352-555-0138,463 H Stagecoach Rd.,Seattle,Washington,98028,United States
+Jack,Richins,Developer,Development Team B,552-555-0111,1356 Grove Way,Seattle,Washington,98272,United States
+Michael,Ray,Developer,Development Team B,156-555-0199,6498 Mining Rd.,Seattle,Washington,98104,United States
+Reuben,D'sa,Developer,Development Team C,191-555-0112,1064 Slow Creek Road,Seattle,Washington,98104,United States
+Brenda,Diaz,Developer,Development Team C,142-555-0139,1349 Steven Way,Seattle,Washington,98104,United States
+David,Hamilton,Developer,Development Team C,986-555-0177,4095 Cooper Dr.,Seattle,Washington,98028,United States
+Lori,Kane,Developer,Development Team D,289-555-0196,3066 Wallace Dr.,Seattle,Washington,98052,United States
+JoLynn,Dobney,Developer,Development Team D,903-555-0145,7126 Ending Ct.,Seattle,Washington,98104,United States
+John,Campbell,Developer,Development Team D,435-555-0113,2639 Anchor Court,Seattle,Washington,98104,United States
+Kimberly,Zimmerman,Developer,Development Team D,123-555-0167,8656 Lakespring Place,Seattle,Washington,98104,United States
+Danielle,Tiedt,Developer,Development Team D,500-555-0172,5203 Virginia Lane,Seattle,Washington,98028,United States
