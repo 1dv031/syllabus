@@ -5,6 +5,7 @@ In this third examination assignment You should set up a server environment suit
 ### Documentation
 During the oral examination, you will get 10 minutes available to explain and defend your solution of the assignment. To assist you and the examiner, you should provide a general documentation where you can quickly get en overview of your solution. An image of the network topology, server name and password are the minimum that should be included.
 
+The cloud environment that you will use is only for showing your solution to the customer, so try to automate and script the environment as much as possible.
 
 ### Description of Acme AB
 Below are the assignment described in the form of a description of the ACME AB's IT strategist, Brumund Dal.
