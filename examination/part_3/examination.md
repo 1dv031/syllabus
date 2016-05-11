@@ -1,6 +1,6 @@
-## Examination Assignment 3 - 1DV031
+## Examination Assignment 3
 
-In this third examination assignment You should set up a server environment suited for a specific situation. You are given a job description of a fictitious company ([ACME AB] (https://en.wikipedia.org/wiki/Acme_Corporation)) who need help with the installation and setup of the company network, both locally and publicly. To help you we have our cloud environment (labcloudftk.lnu.se) where you can solve the problem.
+In this third examination assignment You should set up a server environment suited for a specific situation. You are given a job description of a fictitious company ([ACME AB](https://en.wikipedia.org/wiki/Acme_Corporation)) who need help with the installation and setup of the company network, both locally and publicly. To help you we have our cloud environment (labcloudftk.lnu.se) where you can solve the problem.
 
 ### Documentation
 During the oral examination, you will get 10 minutes available to explain and defend your solution of the assignment. To assist you and the examiner, you should provide a general documentation where you can quickly get en overview of your solution. An image of the network topology, server name and password are the minimum that should be included.
@@ -23,7 +23,7 @@ We have need of hosting four web sites, two should run on PHP with Apache while 
 * acmed.xx222xx.devopslab.xyz (Node.js)
 
 We also need to have a DNS management that you will need to install and configure for us. You should set up name servers to be authoritative for the zone xx222xx.devopslab.xyz. When you are ready to be delegated the control for the zone you should send a email to **1dv031@lnu.se.** In the email you should specify the domain name you will be responsible for. Examples Mail: <br />
-![Exempelmail](./img/domain-name-mail.png)
+![Exempelmail](https://raw.githubusercontent.com/1dv031/syllabus/master/examination/part_3/img/domain-name-mail.png)
 
 *Please note that **xx222xx** should be replaced by your LNU username*
 
@@ -35,9 +35,9 @@ We also want you to install and set up a LAN for us, separated from the above de
 * Management of Active Directory in which our organization has been implemented in a good way. See our organizational structure below.
 * A file server with shares for the different departments and appropriate permission based on our organization.
 * A test client (Windows), standard Windows desktop that can be implemented in the cloud environment for testing.
-* We have created a CSV file with employee information that we want to be included in Active Directory, [ACME Inc. - Employees](./files/acme-employees.csv)
+* We have created a CSV file with employee information that we want to be included in Active Directory, [ACME Inc. - Employees](https://raw.githubusercontent.com/1dv031/syllabus/master/examination/part_3/files/acme-employees.csv)
 
 ### Our organization
 The image below describes our organization, this model should guide your approach. The management level should have full permissions everywhere while the various subdivisions only have access to their respective parts. Create an appropriate file structure and shares that shows that this works.
 
-![organization](./img/organization-chart.png)
+![organization](https://raw.githubusercontent.com/1dv031/syllabus/master/examination/part_3/img/organization-chart.png)
