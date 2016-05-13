@@ -1,17 +1,17 @@
 <!-- Start -->
 # Today's lecture <!-- {_style="font-size:140%"} -->
-* Cryptography Basic Principles
+* Cryptography - Basic Principles <!-- {_class="fragment"} -->
   * No just encryption
   * Asymmetric and Symmetric keys
   * Certificate
   * SSH
-* Permissions
+* Permissions <!-- {_class="fragment"} -->
   * File Permissions in Linux
   * File Permissions in Windows
   * A G DL P
-* Network
-  * Network Segmentation
+* Network <!-- {_class="fragment"} -->
   * Firewall
+  * DMZ
 
 
 Note:
@@ -39,29 +39,32 @@ What happens if Alice sends a message to Bob but denies that she has actually se
 
 
 --
-## Cryptography - Basic Principles <!-- {_style="font-size:180%;""} -->
+## Cryptography - Basic Principles <!-- {_style="font-size:180%;"} -->
 ### Secret Key Cryptography
 ![Symmetric Encryption](./images/symmetric-encryption.png)<!-- {_style="width:550px;"} -->
-* The sender applies a key to encrypt a message
-* The receiver applies the same key to decrypt the message
-* Only single key is used - symmetric encryption
-* The biggest problem with symmetric encryption is distribution of the key
+* The sender applies a key to encrypt a message <!-- {_class="fragment"} -->
+* The receiver applies the same key to decrypt the message <!-- {_class="fragment"} -->
+* Only single key is used - symmetric encryption <!-- {_class="fragment"} -->
+* The biggest problem with symmetric encryption is distribution of the key <!-- {_class="fragment"} -->
 
 
 --
-## Cryptography - Basic Principles <!-- {_style="font-size:180%;""} -->
+## Cryptography - Basic Principles <!-- {_style="font-size:180%;"} -->
 ### Public Key Cryptography
-![Asymmetric Encryption](./images/asymmetric-encryption.png)<!-- {_style="width:550px;"} -->
-* Each party has a private key and a public key.
-* The private is secret and is not revealed while the public key is shared with all those whom you want to communicate with
+![Asymmetric Encryption](./images/asymmetric-encryption.png)<!-- {_style="width:600px;"} -->
+
+* Each party has a private key and a public key <!-- {_class="fragment"} -->
+* The private is secret and is not revealed while the public key is shared with all those whom you want to communicate with <!-- {_class="fragment"} -->
+
+<!-- {_style="width:70%;"} -->
 
 
 --
 ## Cryptography - Basic Principles <!-- {_style="font-size:180%;""} -->
 ### Hash Functions
-* Does not involve any key
-* Uses a fixed length hash value that is computed on the basis of the message
-* Used to check the integrity of the message to ensure that the message has not be altered,compromised or affected by virus
+* Does not involve any key <!-- {_class="fragment"} -->
+* Uses a fixed length hash value that is computed on the basis of the message <!-- {_class="fragment"} -->
+* Used to check the integrity of the message to ensure that the message has not be altered,compromised or affected by virus <!-- {_class="fragment"} -->
 
 <!-- {_style="margin-right:25%"} -->
 ![Hash Functions](./images/hash-functions.png)<!-- {_style="width:800px;"} -->
@@ -70,11 +73,11 @@ What happens if Alice sends a message to Bob but denies that she has actually se
 --
 ## Certificates
 * Digitally signed documents
-* Verifies the validity of the public key
-* The user's guarantee that:
+* Verifies the validity of the public key <!-- {_class="fragment"} -->
+* The user's guarantee that: <!-- {_class="fragment"} -->
   * the public key really belongs to the sender
   * the transmitter holds the private key
-* What can be done with the public key
+* What can be done with the public key <!-- {_class="fragment"} -->
 
 
 --
@@ -91,15 +94,28 @@ What happens if Alice sends a message to Bob but denies that she has actually se
   * Thumbprint Algorithm
   * Thumbprint (also known as fingerprint)
 
+Note:
+Serial Number: Used to uniquely identify the certificate.
+Subject: The person, or entity identified.
+Signature Algorithm: The algorithm used to create the signature.
+Signature: The actual signature to verify that it came from the issuer.
+Issuer: The entity that verified the information and issued the certificate.
+Valid-From: The date the certificate is first valid from.
+Valid-To: The expiration date.
+Key-Usage: Purpose of the public key (e.g. encipherment, signature, certificate signing...).
+Public Key: The public key.
+Thumbprint Algorithm: The algorithm used to hash the public key certificate.
+Thumbprint (also known as fingerprint): The hash itself, used as an abbreviated form of the public key certificate.
+
 
 --
 ## Certificates
 ### Public-Key Infrastructure (PKI)
-* Anyone can send Bob a secret message
+* Anyone can send Bob a secret message <!-- {_class="fragment"} -->
   * Provided they know Bob’s public key
-* How do we know a key belongs to Bob?
+* How do we know a key belongs to Bob? <!-- {_class="fragment"} -->
   * If imposter substitutes another key, read Bob’s mail
-* One solution: PKI
+* One solution: PKI <!-- {_class="fragment"} -->
   * Trusted root authority (VeriSign, GlobalSign)
     * Everyone must know the verification key of root authority
   * Root authority can sign certificates
@@ -107,14 +123,35 @@ What happens if Alice sends a message to Bob but denies that she has actually se
   * Leads to certificate chains
 
 
-[![Chain of trust](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Chain_of_trust.svg/512px-Chain_of_trust.svg.png) <br />By Yanpas (Own work) [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0)](https://commons.wikimedia.org/wiki/File%3AChain_of_trust.svg)
+[![Chain of trust](./images/chain-of-trust.png) <br />By Yanpas (Own work) [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0)](https://commons.wikimedia.org/wiki/File%3AChain_of_trust.svg)
 
-<!-- {_style="position:fixed;right: 0px; bottom: 0px;font-size:40%"} -->
+<!-- {_style="position:fixed;right: 0px; bottom: 0px;font-size:40%; width:600px"} --> <!-- {_class="fragment"} -->
+
+
+--
+## Certificate
+[![Usage-of-Digital-Certificate"](./images/usage-of-digital-certificate-1.png) <br />Eus Kevin at English Wikipedia [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0)](https://upload.wikimedia.org/wikipedia/commons/9/96/Usage-of-Digital-Certificate.svg)
+
+<!-- {_style="font-size:40%"} -->
+
+
+--
+## Certificate
+[![Usage-of-Digital-Certificate"](./images/usage-of-digital-certificate-2.png) <br />Eus Kevin at English Wikipedia [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0)](https://upload.wikimedia.org/wikipedia/commons/9/96/Usage-of-Digital-Certificate.svg)
+
+<!-- {_style="font-size:40%"} -->
+
+
+--
+## Certificate
+[![Usage-of-Digital-Certificate"](./images/usage-of-digital-certificate-3.png) <br />Eus Kevin at English Wikipedia [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0)](https://upload.wikimedia.org/wikipedia/commons/9/96/Usage-of-Digital-Certificate.svg)
+
+<!-- {_style="font-size:40%"} -->
 
 
 --
 ## Certificates - Web Servers
-1. Client connect on port 443, requests the server identity  <!-- {_class="fragment"} -->
+1. Client connect on port 443, requests the server identity <!-- {_class="fragment"} -->
 2. Server sends a copy of the TLS Certificate, including servers public key <!-- {_class="fragment"} -->
 3. Client check against list of thrusted CA´s and that the certificate is valid. Creates a symmetric key, encrypt it with the public key from the server. <!-- {_class="fragment"} -->
 4. Server decrypt the symmetric key with its own private key. Start using the symmetric key when encrypt the messages <!-- {_class="fragment"} -->
@@ -126,7 +163,7 @@ What happens if Alice sends a message to Bob but denies that she has actually se
 
 --
 ## Perform SSH Login Without Password
-1. Create public and private keys using ssh-key-gen on localhost
+1. Create public and private keys using ssh-key-gen on localhost <!-- {_class="fragment"} -->
   ```
   ssh-keygen
   Generating public/private rsa key pair.
@@ -136,11 +173,11 @@ What happens if Alice sends a message to Bob but denies that she has actually se
   Your identification has been saved in /home/ubuntu/.ssh/id_rsa.
   Your public key has been saved in /home/ubuntu/.ssh/id_rsa.pub.
   ```
-2. Copy the public key to remote-host using ssh-copy-id
+2. Copy the public key to remote-host using ssh-copy-id <!-- {_class="fragment"} -->
   ```
   ssh-copy-id -i ~/.ssh/id_rsa.pub user@remot-ip
   ```
-3. Login to remote-host without entering the password
+3. Login to remote-host without entering the password <!-- {_class="fragment"} -->
   ```
   ssh user@remot-ip
   or
@@ -157,7 +194,7 @@ What happens if Alice sends a message to Bob but denies that she has actually se
     * The Group permissions apply only to the group that has been assigned to the file or directory
   * all users
     * The All Users permissions apply to all other users on the system
-* Permission Types
+* Permission Types <!-- {_class="fragment"} -->
   * read
     * The Read permission refers to a user's capability to read the contents of the file.
   * write
@@ -181,11 +218,11 @@ drwxr-xr-x  4 jacob  staff  136 Apr 28 10:15 libs
 ```
 <!-- {_style="margin: 0px; width:65%"} -->
 
-* r = Read, w = Write, x = Execute
-* The first character is the special permission flag that can vary.
-* The following set of three characters (rwx) is for the owner permissions.
-* The second set of three characters (rwx) is for the Group permissions.
-* The third set of three characters (rwx) is for the All Users permissions.
+* r = Read, w = Write, x = Execute <!-- {_class="fragment"} -->
+* The first character is the special permission flag that can vary <!-- {_class="fragment"} -->
+* The following set of three characters (rwx) is for the owner permissions <!-- {_class="fragment"} -->
+* The second set of three characters (rwx) is for the Group permissions <!-- {_class="fragment"} -->
+* The third set of three characters (rwx) is for the All Users permissions <!-- {_class="fragment"} -->
 
 
 --
@@ -196,7 +233,7 @@ drwxr-xr-x  4 jacob  staff  136 Apr 28 10:15 libs
   * w = 2
   * x = 1
   * -R for recursive
-* `chown owner:group filename`
+* `chown owner:group filename` <!-- {_class="fragment"} -->
 
 ```
 user@servername:~$ chmod 600 README.md
@@ -220,7 +257,7 @@ drwxr-xr-x  4 jacob  staff   136 Apr 28 10:15 libs
   * Read & Execute
   * Modify
   * Full Control
-* File permissions:
+* File permissions: <!-- {_class="fragment"} -->
   * Read
   * Write
   * Read & Execute
@@ -242,10 +279,10 @@ drwxr-xr-x  4 jacob  staff   136 Apr 28 10:15 libs
 
 --
 ## Windows Permissions
-* Inheritance:
+* Inheritance
   * NTFS permissions are inherited by default down to the underlying directories and files
   * You can block inheritance
-* Blocking of inheritance:
+* Blocking of inheritance <!-- {_class="fragment"} -->
   * Copy
     * Allows you to copy the existing permissions from the parent folder, but allows no future changes
   * Remove
@@ -258,12 +295,12 @@ drwxr-xr-x  4 jacob  staff   136 Apr 28 10:15 libs
 --
 ## Windows Permissions
 * Access Control List (ACL):
-  * An ACL is saved for each file and directory on an NTFS volume
-  * Contains a list of all user accounts, groups, and computers that have access to the file or directory
-  * Describes the type of access that user accounts, groups, and computers
-  * The ACL must contain an Access Control Entry (ACE) for the user account, group, or computer that the user belongs to access the file or directory
-  * User accounts that are not on the ACL list is implicitly denied access to the file or directory
-  * Users who are denied access in the ACL list is explicitly denied access to the file or directory
+  * An ACL is saved for each file and directory on an NTFS volume <!-- {_class="fragment"} -->
+  * Contains a list of all user accounts, groups, and computers that have access to the file or directory <!-- {_class="fragment"} -->
+  * Describes the type of access that user accounts, groups, and computers <!-- {_class="fragment"} -->
+  * The ACL must contain an Access Control Entry (ACE) for the user account, group, or computer that the user belongs to access the file or directory <!-- {_class="fragment"} -->
+  * User accounts that are not on the ACL list is implicitly denied access to the file or directory <!-- {_class="fragment"} -->
+  * Users who are denied access in the ACL list is explicitly denied access to the file or directory <!-- {_class="fragment"} -->
 
 <!-- {_style="width:65%"} -->
 
@@ -307,14 +344,14 @@ What happens with the permissions when you move or copy files and directories?
 --
 ## Windows Share
 * Shared directories
-  * you can make resources available to others by sharing
-  * on FAT partitions, you can only set permissions on the shared directory
-  * on NTFS volumes, you can set permissions on both the distributed directory and the files in the directory
+  * you can make resources available to others by sharing <!-- {_class="fragment"} -->
+  * on FAT partitions, you can only set permissions on the shared directory <!-- {_class="fragment"} -->
+  * on NTFS volumes, you can set permissions on both the distributed directory and the files in the directory <!-- {_class="fragment"} -->
 
 <!-- {_style="width:65%"} -->
 
 ![windows-share](./images/windows-share.png)
-<!-- {_style="width:600px"} -->
+<!-- {_style="width:600px"} --> <!-- {_class="fragment"} -->
 
 
 --
@@ -325,12 +362,12 @@ What happens with the permissions when you move or copy files and directories?
 
 --
 ## Role-based Access Control
-* Do not assign permissions directly to individual user accounts
-* Individuals acquire access through their roles within an organization
+* Do not assign permissions directly to individual user accounts <!-- {_class="fragment"} -->
+* Individuals acquire access through their roles within an organization <!-- {_class="fragment"} -->
 
 <br />
-### Active Directory AGDLP
-![active-directory-agdlp](./images/active-directory-agdlp.png)
+### Active Directory AGDLP <!-- {_class="fragment"} -->
+![active-directory-agdlp](./images/active-directory-agdlp.png) <!-- {_class="fragment"} -->
 
 
 ---
@@ -343,11 +380,11 @@ What happens with the permissions when you move or copy files and directories?
 ## Firewall
 ### Ring 1 - Internet Edge
 * The first attack point
-* Being exposed to attacks from outside
-* Common mistakes
+* Being exposed to attacks from outside <!-- {_class="fragment"} -->
+* Common mistakes <!-- {_class="fragment"} -->
   * Many places the most intelligent and powerful firewall
   * Most attacks occur from inside the network
-* Speed is crucial
+* Speed is crucial <!-- {_class="fragment"} -->
   * Usually a high performance hardware firewall
 
 
@@ -355,9 +392,9 @@ What happens with the permissions when you move or copy files and directories?
 ## Firewall
 ### Ring 2 - Backbone Edge
 * Between the internal network and the Internet Edge
-* Backbone networks are providing a common network that all network segments are connected to
-* Total volume of traffic flowing in and out through the backbone Firewall is smaller than that of the Internet edge firewall
-* Begins the real firewall work through dynamic application layer filtering of both inbound and outbound traffic
+* Backbone networks are providing a common network that all network segments are connected to <!-- {_class="fragment"} -->
+* Total volume of traffic flowing in and out through the backbone Firewall is smaller than that of the Internet edge firewall <!-- {_class="fragment"} -->
+* Begins the real firewall work through dynamic application layer filtering of both inbound and outbound traffic <!-- {_class="fragment"} -->
 
 <!-- {_style="width:65%"} -->
 
@@ -366,8 +403,8 @@ What happens with the permissions when you move or copy files and directories?
 ## Firewall
 ### Ring 3 - Asset network edge
 * Packet filtering is insufficient
-* Not only examine all incoming traffic with profound dynamic packet filtering, but also examine the output of user/group control.
-* User/group control is an absolute requirement:
+* Not only examine all incoming traffic with profound dynamic packet filtering, but also examine the output of user/group control <!-- {_class="fragment"} -->
+* User/group control is an absolute requirement: <!-- {_class="fragment"} -->
   * You must be able to log the user name for all outgoing
   * You must be able to log an application
   * Your organization may be held responsible for material that leaves the network
@@ -378,14 +415,13 @@ What happens with the permissions when you move or copy files and directories?
 --
 ## Firewall - Ring 4 - LocalHost security
 * Computer-based security is the last defense.
-* No firewall can completely offset the weaknesses that exist on your computer.
-* The only thing that can prevent attacks from the local network.
-* The connection between a computer and network
-* Check the inbound/outbound connections that can be made and which applications can send and receive data.
-* Antivirus should be used to block viruses from other networks
-* Operating systems and applications must be kept updated
-* Anti-Spyware, -Spam, -adware
-* Users and services should be run with minimal permissions
+* No firewall can completely offset the weaknesses that exist on your computer <!-- {_class="fragment"} -->
+* The only thing that can prevent attacks from the local network <!-- {_class="fragment"} -->
+* Check the inbound/outbound connections that can be made and which applications can send and receive data <!-- {_class="fragment"} -->
+* Antivirus should be used to block viruses from other networks <!-- {_class="fragment"} -->
+* Operating systems and applications must be kept updated <!-- {_class="fragment"} -->
+* Anti-Spyware, -Spam, -adware <!-- {_class="fragment"} -->
+* Users and services should be run with minimal permissions <!-- {_class="fragment"} -->
 
 <!-- {_style="width:70%"} -->
 
@@ -394,8 +430,8 @@ What happens with the permissions when you move or copy files and directories?
 ## Firewall
 ### Smaller networks
 * Simple networks does not need all rings
-* Public services should be located in the DMZ segment between the Internet edge and  Asset edge
-* The simplest networks only need to place a single firewall at the Internet edge
+* Public services should be located in the DMZ segment between the Internet edge and  Asset edge <!-- {_class="fragment"} -->
+* The simplest networks only need to place a single firewall at the Internet edge <!-- {_class="fragment"} -->
   * Do not forget about Localhost security
 
 <!-- {_style="width:70%"} -->
@@ -403,13 +439,13 @@ What happens with the permissions when you move or copy files and directories?
 
 --
 ## Demilitarized Zone (DMZ)
-* A network that is placed as a neutral zone between a corporate network and the Internet.
-* Prevents outside users from getting direct access to the internal corporate network.
-* Includes the company's external/public resources:
+* A network that is placed as a neutral zone between a corporate network and the Internet
+* Prevents outside users from getting direct access to the internal corporate network <!-- {_class="fragment"} -->
+* Includes the company's external/public resources: <!-- {_class="fragment"} -->
   * Web servers
   * Public Name servers
   * E-mail
   * FTP
-* If a DMZ is penetrated the attacker won't get access to information on the internal network.
+* If a DMZ is penetrated the attacker won't get access to information on the internal network <!-- {_class="fragment"} -->
 
 <!-- {_style="width:70%"} -->
