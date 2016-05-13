@@ -38,5 +38,5 @@ DNS, DHCP
 
 
 ### Resources
-- [HTML-presentation](#)
+- [HTML-presentation](https://cdn.rawgit.com/1dv031/syllabus/master/lectures/part_3/09_Basic-Security/index.html)
 - [Recording, when available](#) 2016-05-13, 10.15 (Youtube)
