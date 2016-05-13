@@ -39,4 +39,4 @@ DNS, DHCP
 
 ### Resources
 - [HTML-presentation](https://cdn.rawgit.com/1dv031/syllabus/master/lectures/part_3/09_Basic-Security/index.html)
-- [Recording, when available](#) 2016-05-13, 10.15 (Youtube)
+- [Recording](https://www.youtube.com/watch?v=cf5ob90rAnU&list=PLSWJPPj5sKmoXtn9BfzpduajP0y_fHFOd&index=9) 2016-05-13, 10.15 (Youtube)
