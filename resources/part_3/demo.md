@@ -429,7 +429,8 @@ sudo reboot
   -Force:$true
   ```
 
-## File Server
+## Windows File Server
+<iframe width="853" height="480" src="https://www.youtube.com/embed/8fQyGVRTHlU?rel=0" frameborder="0" allowfullscreen></iframe>
 * Set Administrator Password `net user administrator *`
 * Set name server to DC
 * Join domain `sconfig`

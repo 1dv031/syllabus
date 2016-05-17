@@ -40,3 +40,11 @@ DNS, DHCP
 ### Resources
 - [HTML-presentation](https://cdn.rawgit.com/1dv031/syllabus/master/lectures/part_3/09_Basic-Security/index.html)
 - [Recording](https://www.youtube.com/watch?v=cf5ob90rAnU&list=PLSWJPPj5sKmoXtn9BfzpduajP0y_fHFOd&index=9) 2016-05-13, 10.15 (Youtube)
+
+
+## Lecture 10 - Guest Lecture
+### Keywords
+
+
+### Resources
+- [Recording](https://www.youtube.com/watch?v=yZ7hA1J9eag&list=PLSWJPPj5sKmoXtn9BfzpduajP0y_fHFOd&index=10) 2016-05-16, 13.15 (Youtube)
