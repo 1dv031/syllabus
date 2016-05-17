@@ -443,7 +443,6 @@ sudo reboot
   netsh advfirewall firewall set rule group=“Remote Volume Management” new enable=yes
   netsh advfirewall firewall set rule group=“File and Printer Sharing” new enable=yes
   netsh advfirewall firewall set rule group=“Remote Service Management” new enable=yes
-  netsh advfirewall firewall set rule group=“File and Printer Sharing” new enable=yes
   netsh advfirewall firewall set rule group=“Remote Event Log Management” new enable=yes
   ```
 * Create a folder and fix permissions
