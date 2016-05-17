@@ -428,3 +428,23 @@ sudo reboot
   -SysvolPath "C:\Windows\SYSVOL" `
   -Force:$true
   ```
+
+## File Server
+* Set Administrator Password `net user administrator *`
+* Set name server to DC
+* Join domain `sconfig`
+  ```
+  Install-WindowsFeature File-Services
+  ```
+* Remote Managment for Firewall
+  ```
+  netsh advfirewall firewall set rule group=“Windows Firewall Remote Management” new enable=yes
+  netsh advfirewall firewall set rule group=“Remote Volume Management” new enable=yes
+  netsh advfirewall firewall set rule group=“File and Printer Sharing” new enable=yes
+  netsh advfirewall firewall set rule group=“Remote Service Management” new enable=yes
+  netsh advfirewall firewall set rule group=“File and Printer Sharing” new enable=yes
+  netsh advfirewall firewall set rule group=“Remote Event Log Management” new enable=yes
+  ```
+* Create a folder and fix permissions
+* Share and add AGDLP
+* Test from a Client

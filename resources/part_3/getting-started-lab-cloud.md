@@ -36,8 +36,8 @@ Before you start using our lab cloud, you should watch all Getting started video
   * `pip install python-openstackclient`
 * [Get the OpenStack RC file](https://youtu.be/pELgVCeUe4k?t=2m40s)
   * [Run the RC file](https://youtu.be/pELgVCeUe4k?t=4m16s) <br />
-    If you run **Windows**, download this script and run it like this: <br />
-    `rc-convert.bat {path to RC file}`
+    If you run **Windows**, download [this script](http://orion.lnu.se/pub/education/course/1DV031/vt16/part-3/files/windowsrc.cmd.zip) and run it like this: <br />
+    `windowsrc.cmd {path to RC file}`
   * [Test the CLI](https://youtu.be/pELgVCeUe4k?t=5m46s)
 * [Create a machine](https://youtu.be/KYyxxzS16QM?t=10s)
   * [List images](https://youtu.be/KYyxxzS16QM?t=39s) <br /> `openstack image list --limit 50`
