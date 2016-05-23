@@ -453,3 +453,6 @@ sudo reboot
 <iframe width="853" height="480" src="https://www.youtube.com/embed/zuAfIwKSftY?rel=0" frameborder="0" allowfullscreen></iframe>
 If you would like to learn more Powershell, I had a full course on the subject two year ago, you can find it [here](https://coursepress.lnu.se/kurs/systemadministration-med-powershell/)
 The lecture above is the one I think you'll need the most for this course.
+
+## Network Security
+<iframe width="853" height="480" src="https://www.youtube.com/embed/oLQJj2kNG08?rel=0" frameborder="0" allowfullscreen></iframe>
