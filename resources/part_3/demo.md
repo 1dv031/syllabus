@@ -456,3 +456,6 @@ The lecture above is the one I think you'll need the most for this course.
 
 ## Network Security
 <iframe width="853" height="480" src="https://www.youtube.com/embed/oLQJj2kNG08?rel=0" frameborder="0" allowfullscreen></iframe>
+
+## Static IP
+<iframe width="853" height="480" src="https://www.youtube.com/embed/PW9XObZZ63Y?rel=0" frameborder="0" allowfullscreen></iframe>
