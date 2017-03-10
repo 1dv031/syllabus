@@ -5,7 +5,7 @@
   * OSI model
   * TCP/IP-based computer communications
 
-### Todo:
+### Tasks:
 * 2 lecture
 * 1 seminar
 * 1 examination assignment (written examination)

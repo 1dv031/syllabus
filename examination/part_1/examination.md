@@ -2,7 +2,7 @@ Below are the instructions for the written examinations. Please note that you ne
 
 ## Examination 1 - Computer Networks
 
-For this examination you are expected to produce a written report of between 800-1000 words. Report should be delivered to the course email address, [1dv031@lnu.se](mailto:1dv031@lnu.se), as a PDF no later than **15:00 April 1st**. Please note that the report should be written in **Swedish**.
+For this examination you are expected to produce a written report of between 800-1000 words. Report should be delivered to the course email address, [1dv031@lnu.se](mailto:1dv031@lnu.se), as a PDF no later than **15:00 March 31st**. Please note that the report should be written in **Swedish**.
 
 ### Content of the report
 
@@ -27,6 +27,6 @@ The starting point for the report is the work already done for the seminar. At t
 ### The peer-review instructions
 In this course we will use so-called peer-review, the Swedish also called "referensgranskning". This means in short that you will study an other student´s written reports. The idea of the step is to demonstrate your knowledge by analyzing and providing feedback on other student's assignments and hopefully also get great feedback on your own. This dose not mean that you should grade each other rather push and give each other good feedback. In addition, it is important to be able to rise from your own bubble and reflect on the work of others.
 
-1. After the submission deadline, **15:00 April 1st**, you will get an e-mail with another students report.
+1. After the submission deadline, **15:00 March 31st**, you will get an e-mail with another students report.
 2. Read and analyze the report and give feedback, no more then 300 words
-3. Send your feedback to the [course email address](mailto:1dv031@lnu.se) and a copy to the student who wrote the report, no later than **08:00AM April 5th**
+3. Send your feedback to the [course email address](mailto:1dv031@lnu.se) and a copy to the student who wrote the report, no later than **08:00AM April 4th**
