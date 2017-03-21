@@ -1,16 +1,17 @@
 ## Lecture content
 This is a course introduction that covers the following:
-* [Course management](https://youtu.be/-MC6mAhttwE?t=36s&list=PLSWJPPj5sKmoXtn9BfzpduajP0y_fHFOd)
-* [Course Goals - What should you understand after this course](https://youtu.be/-MC6mAhttwE?t=2m1s&list=PLSWJPPj5sKmoXtn9BfzpduajP0y_fHFOd)
-  * [Part 1 - Computer Networks](https://youtu.be/-MC6mAhttwE?t=3m32s&list=PLSWJPPj5sKmoXtn9BfzpduajP0y_fHFOd)
-  * [Part 2 - Server operation methods](https://youtu.be/-MC6mAhttwE?t=4m42s&list=PLSWJPPj5sKmoXtn9BfzpduajP0y_fHFOd)
-  * [Part 3 - Server installation and operations](https://youtu.be/-MC6mAhttwE?t=5m43s&list=PLSWJPPj5sKmoXtn9BfzpduajP0y_fHFOd)
-* [Literature](https://youtu.be/-MC6mAhttwE?t=7m4s&list=PLSWJPPj5sKmoXtn9BfzpduajP0y_fHFOd)
-* [Course webpage](https://youtu.be/-MC6mAhttwE?t=7m50s&list=PLSWJPPj5sKmoXtn9BfzpduajP0y_fHFOd)
+* [Course management](https://youtu.be/56IQLyRW5x4?t=16m18s&list=PLSWJPPj5sKmr_PkB_qU4SAA-B5Rv4ICF2)
+* [Course Goals - What should you understand after this course](https://youtu.be/56IQLyRW5x4?t=17m52s&list=PLSWJPPj5sKmr_PkB_qU4SAA-B5Rv4ICF2)
+  * [Part 1 - Computer Networks](https://youtu.be/56IQLyRW5x4?t=27m53s&list=PLSWJPPj5sKmr_PkB_qU4SAA-B5Rv4ICF2)
+  * [Part 2 - Server operation methods](https://youtu.be/56IQLyRW5x4?t=34m04s&list=PLSWJPPj5sKmr_PkB_qU4SAA-B5Rv4ICF2)
+  * [Part 3 - Server installation and operations](https://youtu.be/56IQLyRW5x4?t=35m12s&list=PLSWJPPj5sKmr_PkB_qU4SAA-B5Rv4ICF2)
+  * [Week Plan](https://youtu.be/56IQLyRW5x4?t=37m44s&list=PLSWJPPj5sKmr_PkB_qU4SAA-B5Rv4ICF2)
+* [Literature](https://youtu.be/56IQLyRW5x4?t=43m20s&list=PLSWJPPj5sKmr_PkB_qU4SAA-B5Rv4ICF2)
+
 
 ## Keywords
 Course introduction
 
 ## Resources
 - [HTML-presentation](https://cdn.rawgit.com/1dv031/syllabus/master/lectures/00_Course-Introduction/index.html#/)
-- [Recording](https://www.youtube.com/watch?v=-MC6mAhttwE&list=PLSWJPPj5sKmoXtn9BfzpduajP0y_fHFOd&index=1) 2016-03-21, 10.15 (Youtube)
+- [Recording](https://www.youtube.com/watch?v=56IQLyRW5x4&t=14m57s&list=PLSWJPPj5sKmr_PkB_qU4SAA-B5Rv4ICF2&index=1) 2017-03-21, 13.15 (Youtube)
