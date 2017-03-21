@@ -99,7 +99,6 @@ Goals:
 * Methods of operation of server operating system and services
   * physical
   * virtualization
-  * containers
 
 <!-- {_class="lnu-margin-right-30"} -->
 Todo:
@@ -120,7 +119,7 @@ Start in 2 weeks
 Goals:
 * install and manage Linux and Windows server operating systems
   * Windows Server & Linux Server
-  * script programing (Bash & PowerShell)
+  * script programing
 
 <!-- {_style="margin-right: 25%"} -->
 * install and manage some server services
