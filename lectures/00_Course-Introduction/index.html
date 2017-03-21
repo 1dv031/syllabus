@@ -43,10 +43,9 @@
         <script type="text/template">
           <!-- .slide: data-state="lnu-intro" class="center" -->
 
-          ### System Administration I
+          ### System Administration I <!-- .element: style="margin-top: 150px" -->
           ### (1DV031)
           # Course Introduction
-          <!-- .element: style="font-size: 165%;" -->
 
           ![Lnu Logo](../images/lnu-logotype.png)
           ![Lnu Tree](../images/lnu-symbol.png)
@@ -89,7 +88,7 @@ Reveal.initialize({
   width: 1280,
   height: 720,
   // Factor of the display size that should remain empty around the content
-  controls: true,
+  controls: false,
   progress: true,
   history: true,
   center: false,
@@ -117,7 +116,8 @@ Reveal.configure({
       var lectureSafe = document.getElementById('lectureSafe');
       lectureSafe.style.display = (lectureSafe.style.display == 'block')?'none':'block';
     }, // toggle Lnu safe background by pressing '1'
-  }
+  },
+  slideNumber: true
 });
 
 </script>
