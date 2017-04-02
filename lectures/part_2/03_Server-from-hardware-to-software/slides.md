@@ -1,67 +1,27 @@
-<!-- Start -->
-# Student interact during lectures
-<!-- {_style="font-size:170%"} -->
-* How to get feedback from distance students?
-* How to ask questions?
-* Did the student understand the lecture?
+## Today's lecture
+### Server - from hardware to software
+* Hardware
+  * CPU
+  * Memory
+  * IO
+  * Storage
+  * Network
+* Operating system
+  * The purpose of operating systems
+  * Some background - History of operating systems
+  * Different components of operating systems
+  * Kernel
+  * Operating System Architecture
+* Software
 
-<!-- {_style="font-size:120%"} -->
-
-### Ask questions <!-- {_class="fragment"} -->
-* [Pingo](http://trypingo.com) for multiple choice
-* LCT Chat and Slack for text
-
-<!-- {_class="fragment"} -->
-
-
---
-## What is a Server?
-1. Computer program that provides services to other computer programs
-2. The computer that a server program runs in
-3. A software that awaits and fulfills requests from client software
-<!-- {_style="margin-right: 30%;"} -->
-4. A computer with specialized hardware
-5. A service application working in the background
-
-<!-- {_class="pingo-sc"} -->
-
-![Pingo QR code](images/pingo-qr.png) [http://pingo.upb.de/321168](http://pingo.upb.de/321168)
-
-<!-- {_class="pingo-qr"} -->
-
-
----
-# Today's lecture
-## Server - from hardware to software
-1. Hardware
-2. Operating system
-3. Software
-
-<!-- {_style="font-size:150%"} -->
+<!-- {_style="font-size:60%"} -->
 
 Note:
 These are the topics for todays lecture <br/>
 We will disuse these from a **Server perspective** <br/ >
-After the lecture we will meet up in a **group discussion** in Discord, **only for students**
 
 
 ---
-## Which one is a Server?
-1. &nbsp;
-2. &nbsp;
-3. &nbsp;
-4. &nbsp;
-
-<!-- {_class="pingo-sc" style="font-size:140%"} -->
-![Pingo QR code](images/pingo-qr.png) [http://pingo.upb.de/321168](http://pingo.upb.de/321168)
-
-<!-- {_class="pingo-qr"} -->
-
-Note:
-Which one is a Server?
-
-
---
 ## Basic components of a computer
 * Input Unit
 * Storage Unit
@@ -192,19 +152,61 @@ Show these components
 
 
 --
-## Have you ever installed a server OS?
-1. Yes
-2. No
+## What is operating systems?
+> An operating system (OS) is system software that manages computer hardware and software resources and provides common services for computer programs. All computer programs, excluding firmware, require an operating system to function.
 
-<!-- {_class="pingo-sc" style="font-size:140%"} -->
-
-![Pingo QR code](images/pingo-qr.png) [http://pingo.upb.de/321168](http://pingo.upb.de/321168)
-
-<!-- {_class="pingo-qr" style="top:240px"} -->
+Wikipedia, 2017 <!-- {_style="text-align: right; font-size:70%"} -->
 
 
 --
-## Basic components of an OS
+## The purpose of operating systems
+* To provide an environment for a computer user to execute programs on computer hardware in a convenient and efficient manner.
+* To allocate the separate resources of the computer as needed to solve the problem given. The allocation process should be as fair and efficient as possible.
+* As a control program it serves two major functions:
+  1. supervision of the execution of user programs to prevent errors and improper use of the computer
+  2. management of the operation and control of I/O devices.
+
+
+--
+## The purpose of operating systems
+![Component Relation](images/os-component-relation.png)<!-- {_style="width:50%"} -->
+
+<!-- {_style="display: inline-block;"} -->
+
+
+--
+## History of operating systems
+Before Operating Systems if you wanted to change what the computer was doing, you had to change how the wires were connected.
+![Harvard Mark 1 in use, 1944 ](http://www.i-programmer.info/images/stories/ComputerCreators/Aiken/harvardm144.jpg)
+
+Harvard Mark 1 in use, 1944 Source: [Computer History Museum](http://www.computerhistory.org/timeline/?year=1944)
+
+<!-- {_style="font-size:50%"} -->
+
+
+--
+## History of operating systems
+* Mainframes <!-- {_class="fragment"} -->
+  * GM-NAA I/O was the first operating system, produced in 1956 by General Motors' Research division
+  * [IBM 704](https://en.wikipedia.org/wiki/IBM_704)
+    * [OS/360](https://en.wikipedia.org/wiki/OS/360_and_successors)
+    * [DOS/360](https://en.wikipedia.org/wiki/DOS/360_and_successors)
+* Minicomputers<!-- {_class="fragment"} -->
+  * [DEC PDP-7](https://en.wikipedia.org/wiki/PDP-7), Digital Equipment Corporation
+    * Unix operating system, AT&T Bell Laboratories in the late 1960
+* Microcomputers<!-- {_class="fragment"} -->
+  * Home computers 8-bit
+    * BBC Micro, Commodore 64, Apple II series, Atari
+  * Personal Computer
+    * Interchangeable hardware, ISA, and PCI buses, increasing need for "standard" operating systems to control them
+    * MS-DOS, PC DOS
+    * Small boot program in ROM which loaded the OS itself from disk, BIOS or Firmware
+
+Note: Early operating systems were very diverse, with each vendor or customer producing one or more operating systems specific to their particular mainframe computer. Every operating system, even from the same vendor, could have radically different models of commands, operating procedures, and such facilities as debugging aids. Typically, each time the manufacturer brought out a new machine, there would be a new operating system, and most applications would have to be manually adjusted, recompiled, and retested.
+
+
+--
+## Basic components of operating systems
 * Process Manager
 * Memory management
   * Registers, CPU cache, random access memory and disk storage
@@ -225,8 +227,17 @@ Note:
 
 --
 <!-- {_data-transition="fade-out"} -->
-## Operating System Architecture
-![Kernel architecture](images/operating-system-architecture-all.png)
+## Components of operating systems
+### Kernel
+* the core of the operating system
+* provides the most basic level of control over all of the computer's hardware devices, with the help of device drivers or firmware
+* usually loaded into a protected area of memory
+* The kernel performs its tasks, such as running processes and handling interrupts, in kernel space/mode
+
+
+--
+## Components of operating systems
+### Modes
 * User mode
   * no ability to directly access hardware or reference memory
   * delegate to system APIs to access hardware or memory
@@ -240,6 +251,13 @@ Note:
 
 Note:
 We will go thru these OS architectures but first we must understand User and Kernel mode.
+
+
+--
+<!-- {_data-transition="fade-in fade-out"} -->
+## Components of operating systems
+### Operating System Architecture
+![Kernel architecture](images/operating-system-architecture-all.png)
 
 
 --
@@ -267,25 +285,6 @@ Microkernel is the **near-minimum** amount of software that can provide the mech
 
 Note:
 Hybrid kernel is a kernel architecture based on a **combination of microkernel and monolithic kernel** architecture used in computer operating systems. This kernel approach **combines** the **speed and simpler** design of monolithic kernel with the **modularity and execution safety** of microkernel.
-
-
---
-<!-- {_data-transition="fade-in fade-out"} -->
-## What is the big drawbacks with a Monolithic Kernel?
-1. The kernel size increase
-2. User code can easily get executed in the kernel
-3. It is slow
-4. Lack of extensibility
-5. The bad maintainability
-
-<!-- {_class="pingo-sc"} -->
-
-![Pingo QR code](images/pingo-qr.png) [http://pingo.upb.de/321168](http://pingo.upb.de/321168)
-
-<!-- {_class="pingo-qr"} -->
-
-Note:
-What is the big drawbacks with a Monolithic Kernel?
 
 
 --
@@ -319,23 +318,6 @@ What is the big drawbacks with a Monolithic Kernel?
 
 
 --
-## What software type is a Server?
-1. Application
-2. Service
-3. Both
-4. None of the above
-
-<!-- {_class="pingo-sc"} -->
-
-![Pingo QR code](images/pingo-qr.png) [http://pingo.upb.de/321168](http://pingo.upb.de/321168)
-
-<!-- {_class="pingo-qr" style="top:150px"} -->
-
-Note:
-What software type is a Server?
-
-
---
 ## Server software
 > A server is a program that awaits and fulfills requests <br/>
 > from client programs in the same or other computers.
@@ -352,12 +334,3 @@ What software type is a Server?
 
 Note:
 Command-line interface
-
-
----
-## The life cycle of a machine and its OS
-![Evard's OS Life Cycle](images/os-lifecycle.png) <!-- {_class="fragment"} -->
-
-Note:
-Evards, lit p. 42
-https://www.usenix.org/legacy/publications/library/proceedings/lisa97/full_papers/20.evard/20_html/main.html
