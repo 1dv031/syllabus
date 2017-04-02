@@ -35,8 +35,7 @@
             <td>
                 <ul>
                     <li><strong>08:00am April 4th - Deadline</strong> hand in peer-review</li>
-                    <li>Lecture 03 - Operating system (Live)</li>
-                    <li>Lecture 04 - “Server” from hardware to software (Live)</li>
+                    <li>Lecture 03 - “Server” from hardware to software (Live)</li>
                     <li>Go through the Study Material</li>
                     <li>Start working on Seminar 2</li>
                 </ul>
@@ -57,8 +56,8 @@
             <td>
                 <ul>
                     <li><strong>08:00am April 19th - Deadline</strong> hand in peer-review</li>
-                    <li>Lecture 05 - OS installation and post setup</li>
-                    <li>Lecture 06 - Linux and Bash</li>
+                    <li>Lecture 04 - OS installation and post setup</li>
+                    <li>Lecture 05 - Linux and Bash</li>
                     <li>Exercise 01 - Server OS Installation</li>
                     <li>Exercise 02 - Post Setup</li>
                     <li>Supervision</li>
@@ -69,7 +68,7 @@
             <td>w17</td>
             <td>
                 <ul>
-                    <li>Lecture 7 - Some Server services (Live)</li>
+                    <li>Lecture 06 - Some Server services (Live)</li>
                     <li>Exercise 03 - Getting started with the Cloud</li>
                     <li>Exercise 04 - Public Name Servers</li>
                     <li>Supervision</li>
@@ -80,7 +79,7 @@
             <td>w18</td>
             <td>
                 <ul>
-                    <li>Lecture 8 - Web servers (Live)</li>
+                    <li>Lecture 07 - Web servers (Live)</li>
                     <li>Exercise 05 - Web server</li>
                     <li>Working on Examination Assignment 3</li>
                     <li>Supervision</li>
@@ -91,7 +90,7 @@
             <td>w19</td>
             <td>
                 <ul>
-                    <li>Lecture 9 - Directory Services (Live)</li>
+                    <li>Lecture 08 - Directory Services (Live)</li>
                     <li>Working on Examination Assignment 3</li>
                     <li>Supervision</li>
                 </ul>
@@ -101,7 +100,7 @@
             <td>w20</td>
             <td>
                 <ul>
-                    <li>Lecture 10 - Basic security (Live)</li>
+                    <li>Lecture 09 - Basic security (Live)</li>
                     <li>Working on Examination Assignment 3</li>
                     <li>Supervision</li>
                 </ul>

@@ -1,7 +1,7 @@
 Below are the instructions for the written examinations. Please note that you need to complete both the seminars and the written examinations to pass the course.
 
 ## Examination 2 - Server operation methods
-For this examination you are expected to produce a written report of between 1500-2000 words. Report should be delivered to the course email address, [1dv031@lnu.se](mailto:1dv031@lnu.se), as a PDF no later than **01:00PM [CEST] April 15th**. Please note that the report should be written in **Swedish**.
+For this examination you are expected to produce a written report of between 1500-2000 words. Report should be delivered to the course email address, [1dv031@lnu.se](mailto:1dv031@lnu.se), as a PDF no later than **10:00AM [CEST] April 13th**. Please note that the report should be written in **Swedish**.
 
 ### Content of the report
 The starting point for the report is the work already done for the seminar. At the seminar you presented your findings about how and where you can run you applications. In the report you will analyze our different scenarios and come to a recommendation of how and where these scenarios should be run.  The report should contain four parts (but the parts do not need separate headings):
@@ -48,6 +48,6 @@ The customer doesn't always think about everything, it's you job to find these t
 ## The peer-review instructions
 In this course we will use so-called peer-review, the Swedish also called "referensgranskning". This means in short that you will study an other student´s written reports. The idea of the step is to demonstrate your knowledge by analyzing and providing feedback on other student's assignments and hopefully also get great feedback on your own. This dose not mean that you should grade each other rather push and give each other good feedback. In addition, it is important to be able to rise from your own bubble and reflect on the work of others.
 
-1. After the submission deadline, **01:00PM [CEST] April 15th**, you will get an e-mail with another students report.
+1. After the submission deadline, **10:00AM [CEST] April 13th**, you will get an e-mail with another students report.
 2. Read and analyze the report and give feedback, no more then **300 words.**
 3. Send your feedback to the [course email address](mailto:1dv031@lnu.se) and a copy to the student who wrote the report, no later than **08:00AM [CEST] April 19th**
