@@ -10,4 +10,4 @@
 
 ## Video
 * [Introduction to Virtualization](https://www.youtube.com/watch?v=zLJbP6vBk2M)
-* [Cloud Wars: Amazon (AWS) vs. Google (GCP) vs. Microsoft (Azure)](https://www.youtube.com/watch?v=342KEaxFVjM) (bad sound :( ) 
+* [Cloud Wars: Amazon (AWS) vs. Google (GCP) vs. Microsoft (Azure)](https://www.youtube.com/watch?v=342KEaxFVjM) (bad sound)  
