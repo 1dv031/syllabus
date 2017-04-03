@@ -6,6 +6,7 @@ Below follows the seminar questions.
 
 ### Topics
 **Hardware**
+
 Explain the below hardware parts and how they relate to each other
 * Storage
 * RAM
@@ -17,24 +18,26 @@ Explain the below hardware parts and how they relate to each other
 
 **Operating system**
 * What is a operating system and how is it related to:
- * Applications?
- * Servers?
- * Services?
+  * Applications?
+  * Servers?
+  * Services?
  
 * Describe the difference between these difference operating system
- * Windows
- * Linux
- * Mac OS X
- * Unix
+  * Windows
+  * Linux
+  * Mac OS X
+  * Unix
+ 
  Try to focus on the different characteristics!
+ 
  
 **Pysical vs. Virtualization**
 * Describe the difference between the following:
- * Virtual machine
- * Hypervisor
- * Containers
- * Cloud computing
- * Data centers
+  * Virtual machine
+  * Hypervisor
+  * Containers
+  * Cloud computing
+  * Data centers
 
 
 ### Presenting the findings at the seminar
