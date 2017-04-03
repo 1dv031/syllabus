@@ -15,7 +15,7 @@ Explain the below hardware parts and how they relate to each other
 * Microprocessor
 * Processor register
 
-##Operating system
+###Operating system
 * What is a operating system and how is it related to:
   * Applications?
   * Servers?
@@ -30,7 +30,7 @@ Explain the below hardware parts and how they relate to each other
  Try to focus on the different characteristics!
  
  
-##Pysical vs. Virtualization
+###Pysical vs. Virtualization
 * Describe the difference between the following:
   * Virtual machine
   * Hypervisor
