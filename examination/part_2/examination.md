@@ -4,34 +4,32 @@ Below are the instructions for the written examinations. Please note that you ne
 For this examination you are expected to produce a written report of between 1500-2000 words. Report should be delivered to the course email address, [1dv031@lnu.se](mailto:1dv031@lnu.se), as a PDF no later than **10:00AM [CEST] April 13th**. Please note that the report should be written in **Swedish**.
 
 ### Content of the report
-The starting point for the report is the work already done for the seminar. At the seminar you presented your findings about how and where you can run you applications. In the report you will analyze our different scenarios and come to a recommendation of how and where these scenarios should be run.  The report should contain four parts (but the parts do not need separate headings):
+In the report you will analyze our different scenarios and come to a recommendation of how and where these scenarios should be run.  The report should contain four parts:
 
-1. The first part should be an **introduction** to the four scenarios. What is the scenario about, what demands does it have?
-2. The second part will be a background or **theory** about the different ways to run applications in general. This work should already be done if you have completed the seminar, you will then only need to summarize your findings.
-3. Now knowing what the problem is, introduction, and different ways to solve the problem, theory, you will now **analyze** the scenarios. What theory is good/bad for the scenario, don't come to a conclusion here that is the final step.
+1. The first part should be an **introduction** to the three scenarios. What is the scenario about, what demands does it have?
+2. The second part will be a background or **theory** about the different ways to run applications in general. This work should partly be done if you have completed the seminar.
+3. Now knowing what the problem is, introduction, and different ways to solve the problem, theory, you will now **analyze** the scenarios. What is good/bad for the different scenarios, don't come to a conclusion here that is the final step.
 4. **Conclusion** - Here you will make you recommendation based on your analysis.
 
 <br/>
 ### Scenarios
-Four different customers have contacted you for a recommendation. <br />
-
-#### The companies
-1. **A startup company** - This is a typical web startup company with a web application as a product. The company is expecting to expand big time in the coming months and will have a commercial campaign soon that will drive lots of users to there web application. The main office is in Stockholm but the application is worldwide with big markets in North America and Asia.
-
-2. **Swedish state authority** (Svensk statlig myndighet) - This customer stores sensible personal data and have big demands on availability and security.
-
-3. **Media bank** - This is a company that store media files for its customers. They are focusing on images, videos and other big data files. They have a slogan - "Safe, available and fast"
-
-4. **IT consultant** - This company develops web applications for its customers (among other things). The company develops web solutions for different customers and also have the responsibility to operate/maintain the applications. Today they have about 100 different applications and expect thats the volume the five coming years.
-
+Three different customers have contacted you for a recommendation about how the should run their applications. Own hardware? Data Centers? Cloud solutions? What operating systems could be recomended? What servers/applications could they be needing?
 <br />
-The customer doesn't always think about everything, it's you job to find these things and point them out to the customer. Here are some topics that the customer might have forgotten:
+Try to recommend solutions for the different customers and don´t forget to think about:
 
 * Security
 * Performance
 * Scalability
-* Availability
-* Localization
+* Cost
+* Availabilty (up-time)
+<br />
+
+#### The companies
+1. **A startup company** - This is a typical web startup company with a web application as a product. The company is expecting to expand big time in the coming year and will have a commercial campaign soon that they hope will drive lots of users to there web application.  have any cach flow so th ebudget is pretty small. The main office is in Stockholm but the application is worldwide with big markets in North America and Asia.
+
+2. **Swedish state authority** (Svensk statlig myndighet) - This customer is a Univeristy in Sweden where some data contains personal information about students and employees. The services needed at this moment is mainly about storing documents, results, course informations and handling emails. The University also have a lot of close releations to other Universities and state authorities, mainly in Sweden.
+
+3. **IT consultant** - This company develops web applications for its customers (among other things). The company develops web solutions for different customers and also have the responsibility to operate/maintain the applications. Today they have about 100 different applications and expect thats the volume the five coming years. The have contracts with each customer where they have to pay financial penalty if the applications have downtime.
 
 <br />
 ### Some tips
