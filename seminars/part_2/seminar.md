@@ -11,7 +11,7 @@ Explain the below hardware parts and how they relate to each other
 * RAM
 * Swap disk
 * CPU
-* CPU chache memory
+* CPU cache memory
 * Microprocessor
 * Processor register
 
