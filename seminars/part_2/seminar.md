@@ -30,7 +30,7 @@ Explain the below hardware parts and how they relate to each other
  
 **Pysical vs. Virtualization**
 * Describe the difference between the following:
- * Virtual mashine
+ * Virtual machine
  * Hypervisor
  * Containers
  * Cloud computing
