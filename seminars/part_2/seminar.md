@@ -4,8 +4,7 @@ Below are the instructions for the seminar. Please note that you need to complet
 This seminar will concentrate on **hardware**, **operating system**, **how and where you can run you applications.**
 Below follows the seminar questions.
 
-### Topics
-**Hardware**
+###Hardware
 
 Explain the below hardware parts and how they relate to each other
 * Storage
@@ -16,13 +15,13 @@ Explain the below hardware parts and how they relate to each other
 * Microprocessor
 * Processor register
 
-**Operating system**
+##Operating system
 * What is a operating system and how is it related to:
   * Applications?
   * Servers?
   * Services?
  
-* Describe the difference between these difference operating system
+* Describe the difference between these operating system
   * Windows
   * Linux
   * Mac OS X
@@ -31,7 +30,7 @@ Explain the below hardware parts and how they relate to each other
  Try to focus on the different characteristics!
  
  
-**Pysical vs. Virtualization**
+##Pysical vs. Virtualization
 * Describe the difference between the following:
   * Virtual machine
   * Hypervisor
@@ -40,7 +39,7 @@ Explain the below hardware parts and how they relate to each other
   * Data centers
 
 
-### Presenting the findings at the seminar
+## Presenting the findings at the seminar
 
 At the seminar we will discuss your findings from the questions above. Since there are a lot of questions and five members to each seminar group, some questions will probably be left out - but you cannot tell which before hand so you should be able to answer the questions above. Remember that a constructive contribution to the discussion is more important than "being right".
 
