@@ -38,7 +38,6 @@ http://www.byte-notes.com/five-basic-components-computer-system
 
 
 --
-## Basic components of a computer
 ### Input Unit
 * Accepts/reads the list of instructions/data
 * Converts this to computer acceptable format
@@ -53,7 +52,6 @@ Note:
 
 
 --
-## Basic components of a computer
 ### Storage Unit
 *or the primary/main storage*
 * Receives instructions/data from input devices
@@ -70,7 +68,6 @@ Note:
 
 
 --
-## Basic components of a computer
 ### Central Processing Unit (CPU)
 * Responsible for all events inside the computer
 * Controls all internal and external devices
@@ -91,7 +88,6 @@ ALU is the place where the actual execution of the instructions take place durin
 
 
 --
-## Basic components of a computer
 ### Output Unit
 * Accepts the results produced by the computer
 * Converts these coded results to human acceptable (readable) form
