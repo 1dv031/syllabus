@@ -79,7 +79,7 @@ Note:
     * Actual execution of the instructions
     * Intermediate results are temporarily transferred back to the primary storage
   * Control Unit<!-- {_class="fragment"} -->
-    * How dose the input device knows that it's time to feed data into the storage unit?
+    * How does the input device knows that it's time to feed data into the storage unit?
     * How does the ALU know what should be done with the data once it is received?
     * Why is it only the final results that are sent to the output devices and not the intermediate results?
 
