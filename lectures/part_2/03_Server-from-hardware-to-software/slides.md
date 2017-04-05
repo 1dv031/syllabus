@@ -156,18 +156,18 @@ Wikipedia, 2017 <!-- {_style="text-align: right; font-size:70%"} -->
 
 --
 ## The purpose of operating systems
+![Component Relation](images/os-component-relation.png)<!-- {_style="width:50%"} -->
+
+<!-- {_style="display: inline-block;"} -->
+
+
+--
+## The purpose of operating systems
 * To provide an environment for a computer user to execute programs on computer hardware in a convenient and efficient manner.
 * To allocate the separate resources of the computer as needed to solve the problem given. The allocation process should be as fair and efficient as possible.
 * As a control program it serves two major functions:
   1. supervision of the execution of user programs to prevent errors and improper use of the computer
   2. management of the operation and control of I/O devices.
-
-
---
-## The purpose of operating systems
-![Component Relation](images/os-component-relation.png)<!-- {_style="width:50%"} -->
-
-<!-- {_style="display: inline-block;"} -->
 
 
 --
@@ -202,7 +202,7 @@ Note: Early operating systems were very diverse, with each vendor or customer pr
 
 
 --
-## Basic components of operating systems
+### Components of operating systems
 * Process Manager
 * Memory management
   * Registers, CPU cache, random access memory and disk storage
