@@ -1,6 +1,6 @@
 ## Literature
 ### The Practice of System and Network Administration
-* 26 Datacenters Overview 449
+* 25 Datacenters Overview 449
 * 35 Centralization Overview 639
 * 36 Centralization Recommendations 645
 
