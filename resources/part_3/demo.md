@@ -60,7 +60,7 @@ sudo reboot
 
 ***
 
-
+<!--
 ## Domain registration and nslookup
 <iframe width="853" height="480" src="https://www.youtube.com/embed/O92qhxqpa98?rel=0" frameborder="0" allowfullscreen></iframe>
 * Register a domain name
@@ -459,3 +459,4 @@ The lecture above is the one I think you'll need the most for this course.
 
 ## Static IP
 <iframe width="853" height="480" src="https://www.youtube.com/embed/PW9XObZZ63Y?rel=0" frameborder="0" allowfullscreen></iframe>
+-->
