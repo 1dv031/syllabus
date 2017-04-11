@@ -9,7 +9,7 @@
   * Web server
   * Catalog services
 
-### Todo:
+### Tasks:
 * 5 lectures
 * x exercises
 * 1 examination assignment

@@ -1,4 +1,5 @@
 ## Lecture 4 - OS installation and post setup
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Yh_A6E9EaL8?&list=PLSWJPPj5sKmr_PkB_qU4SAA-B5Rv4ICF2" frameborder="0" allowfullscreen></iframe>
 ### Keywords
 Server OS Installation, Linux vs. Windows,
 

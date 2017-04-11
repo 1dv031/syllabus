@@ -9,8 +9,8 @@ Do not forget to document your network in your exercise repo.
 | ------------- | ------------- |
 | Level  | A  |
 | Week | 16-17 |
-| Lectures| L05 |
-| Prerequisites| Watch [L05 - OS installation and post setup ](https://youtu.be/Yh_A6E9EaL8) <br /> Watch [Demo - Installation & Post Setup](https://youtu.be/cRTm7FO3w98) |
+| Lectures| L04 |
+| Prerequisites| Watch [L04 - OS installation and post setup ](https://youtu.be/Yh_A6E9EaL8) <br /> Watch [Demo - Installation & Post Setup](https://youtu.be/cRTm7FO3w98) |
 | Requirements | [Virtual Box](https://www.virtualbox.org/wiki/Downloads) <br /> [Windows Server 2012 R2 Evaluation ISO](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2012-r2) <br /> [Ubuntu Server 14.04 ISO](http://www.ubuntu.com/download/server) |
 | Keywords| Server OS Installation |
 
@@ -24,8 +24,8 @@ Your assignment is to install Windows Server 2012 R2 Core and Ubuntu Server 14.0
 | ------------- | ------------- |
 | Level  | A  |
 | Week | 16-17 |
-| Lectures| L05 |
-| Prerequisites| Watch [L05 - OS installation and post setup ](https://youtu.be/Yh_A6E9EaL8) <br /> Watch [Demo - Installation & Post Setup](https://youtu.be/cRTm7FO3w98) |
+| Lectures| L04 |
+| Prerequisites| Watch [L04 - OS installation and post setup ](https://youtu.be/Yh_A6E9EaL8) <br /> Watch [Demo - Installation & Post Setup](https://youtu.be/cRTm7FO3w98) |
 | Requirements | Exercise 01 |
 | Keywords| Post Setup, OS Updates, Network settings, Firewall|
 
@@ -46,6 +46,8 @@ Your assignment is to perform the post setup for the servers you installed in Ex
 Use your exercise github repo to document all your configuration. Try to make it easy automate the post setup, perhaps make some scripts.
 
 ***
+
+<!--
 
 ## Exercise 03 - Getting started with the Cloud
 |  |  |
@@ -91,3 +93,4 @@ Your assignment is to set up two public authoritative-only name servers, one mas
 Use your exercise github repo to document all your configuration. Try to make it easy automate the post setup, perhaps make some scripts.
 
 ***
+-->
