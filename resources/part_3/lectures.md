@@ -1,12 +1,15 @@
-## Lecture 5 - OS installation and post setup
+## Lecture 4 - OS installation and post setup
 ### Keywords
 Server OS Installation, Linux vs. Windows,
 
 ### Resources
 - [HTML-presentation](https://cdn.rawgit.com/1dv031/syllabus/master/lectures/part_3/05_Installation-and-Post-Setup/index.html)
-- [Recording](https://www.youtube.com/watch?v=Yh_A6E9EaL8&index=5&list=PLSWJPPj5sKmoXtn9BfzpduajP0y_fHFOd) 2016-04-18, 13.15 (Youtube)
+- [Recording](https://www.youtube.com/watch?v=Yh_A6E9EaL8&index=5&list=PLSWJPPj5sKmr_PkB_qU4SAA-B5Rv4ICF2) 2016-04-18, 13.15 (Youtube)
 
+## Lecture 5 - Linux and Bash
+In the works
 
+<!--
 ## Lecture 6 - Some Server services
 ### Keywords
 DNS, DHCP
@@ -48,3 +51,4 @@ DNS, DHCP
 
 ### Resources
 - [Recording](https://www.youtube.com/watch?v=yZ7hA1J9eag&list=PLSWJPPj5sKmoXtn9BfzpduajP0y_fHFOd&index=10) 2016-05-16, 13.15 (Youtube)
+-->
