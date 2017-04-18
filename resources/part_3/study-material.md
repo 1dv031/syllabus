@@ -4,17 +4,7 @@ Coming soon
 
 ## Links   
 ### Bash
-* [Bash Home Page](http://cnswww.cns.cwru.edu/~chet/bash/bashtop.html)
-* [Bash Reference Manual](http://cnswww.cns.cwru.edu/~chet/bash/bashref.html) <- Start here
-* [Bash FAQ](http://cnswww.cns.cwru.edu/~chet/bash/FAQ)
-* [Bash Guide for Beginners](http://tldp.org/LDP/Bash-Beginners-Guide/html/index.html)
-* Bash programming tutorial from developer
-	* [Part 1](http://www.ibm.com/developerworks/library/l-bash/)
-	* [Part 2](http://www.ibm.com/developerworks/library/l-bash2/)
-	* [Part 3](http://www.ibm.com/developerworks/library/l-bash3/)
-* [Bash programming introduction (from 2000)](http://en.tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
-* [Advanced Bash Scripting Guide](http://www.tldp.org/LDP/abs/html/)
-* [Collection of Bash Examples](http://www.fifi.org/doc/bash/examples/)
+* See the linux learning object - https://github.com/CS-LNU-Learning-Objects/linux
 
 ### Windows PowerShell
 * [Scripting with Windows PowerShell](https://technet.microsoft.com/en-us/library/bb978526.aspx)
