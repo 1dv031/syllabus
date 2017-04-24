@@ -290,6 +290,41 @@ Example
 
 
 --
+## DNS Zone files
+* Not a standard
+* Example zone file
+
+```
+example.org.    IN      SOA      ns1.example.org. admin.example.org. (
+                        2006051501      ; Serial
+                        10800           ; Refresh
+                        3600            ; Retry
+                        604800          ; Expire
+                        300             ; Negative Response TTL
+                )
+
+; DNS Servers
+                IN      NS      ns1.example.org.
+                IN      NS      ns2.example.org.
+
+; MX Records
+                IN      MX 10   mx.example.org.
+                IN      MX 20   mail.example.org.
+
+                IN      A       192.168.1.1
+
+; Machine Names
+ns1             IN      A       192.168.1.2
+ns2             IN      A       192.168.1.3
+mail            IN      A       192.168.1.5
+
+; Aliases
+www             IN      CNAME   example.org.
+```
+<!-- {_style="font-size: 33%; margin: 0px; width:50%"} -->
+
+
+--
 ## DNS - Resource Record Types
 * A or AAAA record
   * Address record
