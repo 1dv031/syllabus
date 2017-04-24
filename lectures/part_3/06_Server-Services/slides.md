@@ -13,7 +13,6 @@
 * DHCP<!-- {_class="fragment"} -->
   * What is DHCP?
   * Terminology
-  * DHCP and DNS
 
 <!-- {_style="font-size: 70%"} -->
 
@@ -70,8 +69,8 @@ Draw a DNS tree
   * net
   * org
   * int
-* Today, as of January 2016
-  * 1205 top-level domains
+* Today, as of February 2017
+  * 1528 top-level domains
 
 Note:
 De ursprungliga toppdomänerna:
@@ -270,7 +269,7 @@ Resolver:
 Example
 
 ![DNS query](images/dns-query.png)
-<!-- {_style="width: 50%"} -->
+<!-- {_style="width: 45%"} -->
 
 
 --
@@ -445,7 +444,7 @@ Reservation: Används för att skapa en permanent IP-adress lease
 
 <!-- {_style="font-size: 90%"} -->
 ![DHCP Initialization lease process](images/dhcp-init.png)
-<!-- {_style="width: 70%"} -->
+<!-- {_style="width: 60%"} -->
 
 
 --
