@@ -81,7 +81,7 @@
       width: 1280,
       height: 720,
       // Factor of the display size that should remain empty around the content
-      controls: true,
+      controls: false,
       progress: true,
       history: true,
       center: false,
@@ -123,7 +123,8 @@
           var lectureSafe = document.getElementById('lectureSafe');
           lectureSafe.style.display = (lectureSafe.style.display == 'block')?'none':'block';
         }, // toggle Lnu safe background by pressing '1'
-      }
+      },
+      slideNumber: true
     });
 
     function handlepaste (elem, e) {
