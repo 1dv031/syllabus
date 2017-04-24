@@ -157,88 +157,6 @@ Types of name servers:
 
 
 --
-## DNS - Resource Record Types
-* A or AAAA record
-  * Address record
-  * Identifies the IP address from a hostname
-  * www.lnu.se. -> 194.47.110.233
-* CNAME <!-- {_class="fragment"} -->
-  * Canonical name record
-  * A host name is the alias for a different hostname
-  * www.lnu.se. -> lnu.se.
-* Name Server (NS) record  <!-- {_class="fragment"} -->
-  * Identifies the Name server for a zone
-  * cs.lnu.se.-> ns1.cs.lnu.se.
-  * lnu.se -> ando.lnu.se.
-
-
---
-## DNS - Resource Record Types
-* SOA
-  * Start of Authority
-  * The name server has the best information on DNS zone
-  * Make sure the server is responsible (authoritative) for the DNS zone
-  * An SOA record is required in all DNS zones
-  * Only one SOA record per DNS zone
-  * Includes
-    * Primary name server
-    * Email of the domain administrator
-    * Domain serial number
-    * Several timers relating to refreshing the zone.
-
-
---
-## DNS - Resource Record Types
-* MX record
-  * Mail Exchanger
-  * Identifies which server is the mail server for a domain
-  * lnu.se -> 10 e-mailfilter03.sunet.se.
-* PTR record <!-- {_class="fragment"} -->
-  * Pointer
-  * Translating IP to domain name
-  * 194.47.172.11 -> challenger1.lnu.se.
-* TXT record <!-- {_class="fragment"} -->
-  * Text record
-  * Originally for arbitrary human-readable text
-  * lnu.se -> "v=spf1 +mx +exists:%{ir}.%{v}.%{l}.at.%{o}.spf.lnu.se -ip4:124.248.222.0/24 ?all"
-
-
---
-## DNS Zone files
-* Not a standard
-* Example zone file
-
-```
-example.org.    IN      SOA      ns1.example.org. admin.example.org. (
-                        2006051501      ; Serial
-                        10800           ; Refresh
-                        3600            ; Retry
-                        604800          ; Expire
-                        300             ; Negative Response TTL
-                )
-
-; DNS Servers
-                IN      NS      ns1.example.org.
-                IN      NS      ns2.example.org.
-
-; MX Records
-                IN      MX 10   mx.example.org.
-                IN      MX 20   mail.example.org.
-
-                IN      A       192.168.1.1
-
-; Machine Names
-ns1             IN      A       192.168.1.2
-ns2             IN      A       192.168.1.3
-mail            IN      A       192.168.1.5
-
-; Aliases
-www             IN      CNAME   example.org.
-```
-<!-- {_style="font-size: 33%; margin: 0px; width:50%"} -->
-
-
---
 ## DNS - Root Name Servers
 * There are 13 logical root name server
 * http://letter.root-servers.org/, where letter ranges from a to m
@@ -371,6 +289,87 @@ Example
   * Create records for internal devices
 
 
+--
+## DNS - Resource Record Types
+* A or AAAA record
+  * Address record
+  * Identifies the IP address from a hostname
+  * www.lnu.se. -> 194.47.110.233
+* CNAME <!-- {_class="fragment"} -->
+  * Canonical name record
+  * A host name is the alias for a different hostname
+  * www.lnu.se. -> lnu.se.
+* Name Server (NS) record  <!-- {_class="fragment"} -->
+  * Identifies the Name server for a zone
+  * cs.lnu.se.-> ns1.cs.lnu.se.
+  * lnu.se -> ando.lnu.se.
+
+
+--
+## DNS - Resource Record Types
+* SOA
+  * Start of Authority
+  * The name server has the best information on DNS zone
+  * Make sure the server is responsible (authoritative) for the DNS zone
+  * An SOA record is required in all DNS zones
+  * Only one SOA record per DNS zone
+  * Includes
+    * Primary name server
+    * Email of the domain administrator
+    * Domain serial number
+    * Several timers relating to refreshing the zone.
+
+
+--
+## DNS - Resource Record Types
+* MX record
+  * Mail Exchanger
+  * Identifies which server is the mail server for a domain
+  * lnu.se -> 10 e-mailfilter03.sunet.se.
+* PTR record <!-- {_class="fragment"} -->
+  * Pointer
+  * Translating IP to domain name
+  * 194.47.172.11 -> challenger1.lnu.se.
+* TXT record <!-- {_class="fragment"} -->
+  * Text record
+  * Originally for arbitrary human-readable text
+  * lnu.se -> "v=spf1 +mx +exists:%{ir}.%{v}.%{l}.at.%{o}.spf.lnu.se -ip4:124.248.222.0/24 ?all"
+
+
+--
+## DNS Zone files
+* Not a standard
+* Example zone file
+
+```
+example.org.    IN      SOA      ns1.example.org. admin.example.org. (
+                        2006051501      ; Serial
+                        10800           ; Refresh
+                        3600            ; Retry
+                        604800          ; Expire
+                        300             ; Negative Response TTL
+                )
+
+; DNS Servers
+                IN      NS      ns1.example.org.
+                IN      NS      ns2.example.org.
+
+; MX Records
+                IN      MX 10   mx.example.org.
+                IN      MX 20   mail.example.org.
+
+                IN      A       192.168.1.1
+
+; Machine Names
+ns1             IN      A       192.168.1.2
+ns2             IN      A       192.168.1.3
+mail            IN      A       192.168.1.5
+
+; Aliases
+www             IN      CNAME   example.org.
+```
+<!-- {_style="font-size: 33%; margin: 0px; width:50%"} -->
+
 
 ---
 ## DHCP
@@ -426,30 +425,6 @@ Reservation: Används för att skapa en permanent IP-adress lease
   * Reserve IP addresses
   * Adjusting the length of the lease
   * Configure settings and classes to be used within your scope
-
-
---
-## DHCP interaction with DNS
-* DHCP service's interaction with DNS service
-  1. The client initiates a DHCP request message <!-- {_style="font-size: 90%"} -->
-  2. The server returns a DHCP Acknowledgment<!-- {_style="font-size: 90%"} -->
-  3. The client updates the A record<!-- {_style="font-size: 90%"} -->
-  4. The DHCP server updates the PTR record<!-- {_style="font-size: 90%"} -->
-
-![DHCP interaction with DNS](images/dhcp-dns-integration.png)
-<!-- {_style="width: 50%"} -->
-
-
---
-## DHCP interaction with DNS
-* DHCP service's interaction with DNS service with older OS
-  1. The client initiates a DHCP request message <!-- {_style="font-size: 90%"} -->
-  2. The server returns a DHCP Acknowledgment <!-- {_style="font-size: 90%"} -->
-  3. The DHCP server updates the A record <!-- {_style="font-size: 90%"} -->
-  4. The DHCP server updates the PTR record <!-- {_style="font-size: 90%"} -->
-
-![DHCP interaction with DNS](images/dhcp-dns-integration2.png)
-<!-- {_style="width: 50%"} -->
 
 
 ---
