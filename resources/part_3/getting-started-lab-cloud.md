@@ -24,7 +24,7 @@ The interface can be a bit different since we have updated the Openstack version
 
 ### OpenStack CLI
 * [Install the OpenStack Client](https://www.youtube.com/watch?list=PLSWJPPj5sKmpd1_CvWzGsB8p6VdGFSEv1&v=pELgVCeUe4k&t=4s)
-  * [Doc: Install the OpenStack Client](http://docs.openstack.org/cli-reference/common/cli_install_openstack_command_line_clients.html)
+  * [Doc: Install the OpenStack Client](https://docs.openstack.org/user-guide/common/cli-install-openstack-command-line-clients.html)
   * [Install Python 2.7](https://www.python.org/downloads/)
   * [setuptools package](https://pypi.python.org/pypi/setuptools)
   * `easy_install pip`
