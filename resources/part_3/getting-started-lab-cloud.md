@@ -9,9 +9,9 @@ Before you start using our lab cloud, you should watch all Getting started video
   * [Create a network](https://youtu.be/ELQKjXU4Qh0?t=3m) <br />
     DNS: 194.47.199.41, 194.47.110.97
   * [Add an interface for the router](https://youtu.be/ELQKjXU4Qh0?t=6m10s)
-* [Key pair](https://youtu.be/6I90SwLjuVQ)
-  * [Create a Key Pair](https://youtu.be/6I90SwLjuVQ?t=32s)
-  * [Add Key to your computer](https://youtu.be/6I90SwLjuVQ?t=59s)
+* [Key pair](https://youtu.be/QWmx1K9duHk)
+  * [Create a Key Pair](https://youtu.be/QWmx1K9duHk?t=32s)
+  * [Add Key to your computer](https://youtu.be/QWmx1K9duHk?t=59s)
   ```bash
   chmod 400 my-key.pem
   mv my-key.pem ~/.ssh
