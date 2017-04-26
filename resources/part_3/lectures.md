@@ -11,12 +11,13 @@ Server OS Installation, Linux vs. Windows,
 You find this lecture under the learning object about Linux - https://github.com/CS-LNU-Learning-Objects/linux
 
 ## Lecture 6 - Some Server services
+<iframe width="560" height="315" src="https://www.youtube.com/embed/--m9YpZ8Av4?&list=PLSWJPPj5sKmr_PkB_qU4SAA-B5Rv4ICF2" frameborder="0" allowfullscreen></iframe>
 ### Keywords
 DNS, DHCP
 
 ### Resources
 - [HTML-presentation](https://cdn.rawgit.com/1dv031/syllabus/master/lectures/part_3/06_Server-Services/index.html)
-- [Recording](#) 2017-04-24, 13.15 (Youtube)
+- [Recording](https://www.youtube.com/watch?v=--m9YpZ8Av4&list=PLSWJPPj5sKmr_PkB_qU4SAA-B5Rv4ICF2) 2017-04-24, 13.15 (Youtube)
 
 
 ## Lecture 7 - Web Servers

@@ -60,7 +60,7 @@ sudo reboot
 
 ***
 
-<!--
+
 ## Domain registration and nslookup
 <iframe width="853" height="480" src="https://www.youtube.com/embed/O92qhxqpa98?rel=0" frameborder="0" allowfullscreen></iframe>
 * Register a domain name
@@ -224,6 +224,8 @@ sudo reboot
   * Restart bind `sudo service bind9 restart`
   * Check the logs `sudo tail -f /var/log/syslog`
 
+
+<!--
 ## Install Web Servers
 ### Nginx
 <iframe width="853" height="480" src="https://www.youtube.com/embed/LGV2Z1GQCaY?rel=0" frameborder="0" allowfullscreen></iframe>

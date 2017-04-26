@@ -47,7 +47,7 @@ Use your exercise github repo to document all your configuration. Try to make it
 
 ***
 
-<!--
+
 
 ## Exercise 03 - Getting started with the Cloud
 |  |  |
@@ -72,7 +72,7 @@ Use your exercise github repo to document all your configuration. Try to make it
 | Level  | A  |
 | Week | 18-19 |
 | Lectures| L06 |
-| Prerequisites|  Watch [L06 - Some Server services ](https://youtu.be/nIAOuSjVolo) <br /> Watch [Demo - Public Name Server](https://youtu.be/zk_b8ms-pvc) |
+| Prerequisites|  Watch [L06 - Some Server services ](https://youtu.be/--m9YpZ8Av4) <br /> Watch [Demo - Public Name Server](https://youtu.be/zk_b8ms-pvc) |
 | Requirements |  Exercise 03 and an admin jump machine |
 | Keywords| DNS, Public Name Server, Authoritative-Only DNS Server |
 
@@ -93,4 +93,3 @@ Your assignment is to set up two public authoritative-only name servers, one mas
 Use your exercise github repo to document all your configuration. Try to make it easy automate the post setup, perhaps make some scripts.
 
 ***
--->
