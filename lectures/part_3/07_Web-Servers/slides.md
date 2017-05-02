@@ -13,7 +13,7 @@ Note:
 These are the topics for todays lecture.
 
 
---
+---
 ## It all started here
 ![CERN](https://farm6.staticflickr.com/5226/5679904557_e3c1f784ce_b.jpg)
 <!-- {_style="width:700px"} -->
@@ -214,36 +214,6 @@ Virtual hosting
   * Name-based
   * IP-based
   * Port-based
-
-
---
-<!-- {_data-transition="fade-in fade-out"} -->
-## Have you installed a web server?
-
-1. No
-2. Apache
-3. Nginx
-4. IIS
-5. Other
-
-<!-- {_class="pingo-sc" style="font-size:100%"} -->
-
-
-![Pingo QR code](images/pingo-qr.png) [http://pingo.upb.de/350775](http://pingo.upb.de/350775)
-
-<!-- {_class="pingo-qr" style="top:0px"} -->
-
-
---
-<!-- {_data-transition="fade-in fade-out"} -->
-## Have you installed a web server?
-
-![chart](#)
-
-<!-- {_class="pingo-chart"} -->
-
-{Paste Handler}
-<!-- {_class="chart-input" contenteditable="true" onpaste="handlepaste(this, event)"} -->
 
 
 --
