@@ -225,7 +225,6 @@ sudo reboot
   * Check the logs `sudo tail -f /var/log/syslog`
 
 
-<!--
 ## Install Web Servers
 ### Nginx
 <iframe width="853" height="480" src="https://www.youtube.com/embed/LGV2Z1GQCaY?rel=0" frameborder="0" allowfullscreen></iframe>
@@ -389,6 +388,8 @@ sudo reboot
 * Fixing long names bay changing the config file `sudo nano /etc/nginx/nginx.conf` and uncomment the line `server_names_hash_bucket_size 64;`
 * Restart the server `sudo systemctl restart nginx`
 
+
+<!--
 ## Create a Windows Admin machine
 <iframe width="853" height="480" src="https://www.youtube.com/embed/NNxCxQf_sUY?rel=0" frameborder="0" allowfullscreen></iframe>
 * Create a new Windows Server 2012 R2 With GUI
