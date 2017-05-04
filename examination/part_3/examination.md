@@ -3,7 +3,7 @@
 In this third examination assignment You should set up a server environment suited for a specific situation. You are given a job description of a fictitious company ([ACME AB](https://en.wikipedia.org/wiki/Acme_Corporation)) who need help with the installation and setup of the company network, both locally and publicly. To help you we have our cloud environment (labcloudftk.lnu.se) where you can solve the problem.
 
 ### Documentation
-During the oral examination, you will get 10 minutes available to explain and defend your solution of the assignment. To assist you and the examiner, you should provide a general documentation where you can quickly get en overview of your solution. An image of the network topology, server name and password are the minimum that should be included.
+During the oral examination which is 30 minutes you will get 10 minutes available to explain and defend your solution of the assignment. To assist you and the examiner, you should provide a general documentation where you can quickly get en overview of your solution. An image of the network topology, server name and *password* are the minimum that should be included.
 
 The cloud environment that you will use is only for showing your solution to the customer, so try to automate and script the environment as much as possible.
 
