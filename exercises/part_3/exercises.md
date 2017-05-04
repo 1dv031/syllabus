@@ -47,8 +47,6 @@ Use your exercise github repo to document all your configuration. Try to make it
 
 ***
 
-
-
 ## Exercise 03 - Getting started with the Cloud
 |  |  |
 | ------------- | ------------- |
@@ -93,3 +91,18 @@ Your assignment is to set up two public authoritative-only name servers, one mas
 Use your exercise github repo to document all your configuration. Try to make it easy automate the post setup, perhaps make some scripts.
 
 ***
+
+
+## Exercise 05 - Web servers
+|  |  |
+| ------------- | ------------- |
+| Level  | A  |
+| Week | 18-19 |
+| Prerequisites| Watch [L07 - Web Server ](https://youtu.be/c0bjNkpVOG4) <br /> Watch [Demo - Install Nginx](https://youtu.be/LGV2Z1GQCaY) <br /> Watch [Demo - Install Apache](https://youtu.be/zmegNRww3wQ) <br /> Watch [Demo - Configure Nginx](https://youtu.be/Uz2V46yOUFQ) <br /> Watch [Demo - Configure Apache](https://youtu.be/kj4iQvq6Tgg) | |
+| Requirements | none |
+| Keywords| Apache, Nginx |
+
+### Assignment:
+Watch the demos of installing and configuring Apache and Nginx and make the same configuration.
+
+Use your exercise github repo to document all your configuration. Try to make it easy to automate, perhaps make some scripts.

@@ -21,12 +21,13 @@ DNS, DHCP
 
 
 ## Lecture 7 - Web Servers
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c0bjNkpVOG4?&list=PLSWJPPj5sKmr_PkB_qU4SAA-B5Rv4ICF2&t=14m50s" frameborder="0" allowfullscreen></iframe>
 ### Keywords
-
+Web Server, Apache, Nginx
 
 ### Resources
 - [HTML-presentation](https://cdn.rawgit.com/1dv031/syllabus/master/lectures/part_3/07_Web-Servers/index.html)
-- [Recording](#) 2017-05-02, 13.15 (Youtube)
+- [Recording](https://www.youtube.com/watch?v=c0bjNkpVOG4&index=6&list=PLSWJPPj5sKmr_PkB_qU4SAA-B5Rv4ICF2&t=14m50s) 2017-05-02, 13.15 (Youtube)
 
 ## Lecture 8 - Directory Services
 ### Keywords
