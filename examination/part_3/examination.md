@@ -16,7 +16,7 @@ Hello! <br />
 We are in need of a new server environment where we can handle our local network and the operations of our web applications.
 
 ### DMZ
-We have need of hosting four web sites, two will run PHP on an Apache while the other two to be hosted on a Nginx and running a node.js applications. The PHP applications will be a fresh [Wordpress (latest version) installation](https://codex.wordpress.org/Installing_WordPress) (will require mySQL as a database server) and the Node.js (LTS version) application should be some kind of template application that shows that the server and application is running correctly ([Hint - see bash scripting video](https://github.com/CS-LNU-Learning-Objects/linux) )
+We have need of hosting four web sites, two will run PHP on an Apache while the other two to be hosted on a Nginx and running a node.js applications. The PHP applications will be a fresh [Wordpress (latest version) installation](https://codex.wordpress.org/Installing_WordPress) (will require mySQL/mariaDB as a database server) and the Node.js (LTS version) application should be some kind of template application that shows that the server and application is running correctly ([Hint - see bash scripting video](https://github.com/CS-LNU-Learning-Objects/linux) )
 
 You must be able to access the sites for the outside with the help of the below URLs.
 
