@@ -15,7 +15,7 @@ Below are the assignment described in the form of a description of the ACME AB's
 Hello! <br />
 We are in need of a new server environment where we can handle our local network and the operations of our web applications.
 
-### DMZ
+### Part 1 - DMZ
 We have need of hosting four web sites, two will run PHP on an Apache while the other two to be hosted on a Nginx and running a node.js applications. The PHP applications will be a fresh [Wordpress (latest version) installation](https://codex.wordpress.org/Installing_WordPress) (will require mySQL/mariaDB as a database server) and the Node.js (LTS version) application should be some kind of template application that shows that the server and application is running correctly ([Hint - see bash scripting video](https://github.com/CS-LNU-Learning-Objects/linux) )
 
 You must be able to access the sites for the outside with the help of the below URLs.
@@ -25,14 +25,16 @@ You must be able to access the sites for the outside with the help of the below 
 * acmec.xx222xx.devopslab.xyz (PHP, Wordpress)
 * acmed.xx222xx.devopslab.xyz (Node.js, Express-template)
 
-We also need to have a DNS management that you will need to install and configure for us. You should set up name servers to be authoritative for the zone xx222xx.devopslab.xyz. When you are ready to be delegated the control for the zone you should send a email to **1dv031@lnu.se.** In the email you should specify the domain name you will be responsible for. Examples Mail: <br />
-![Exempelmail](https://raw.githubusercontent.com/1dv031/syllabus/master/examination/part_3/img/domain-name-mail.png)
+We also need to have a DNS management that you will need to install and configure for us. You should set up name servers to be authoritative for the zone xx222xx.devopslab.xyz. When you are ready to be delegated the control for the zone you will "buy" the domain name and register your name servers from [DNS Manager](https://www.devopslab.xyz). Log in with the same credentials as you have at our Lab Cloud. When logged in you can register your name servers, if you get an error look at the error messaged and fix your name servers and try again.
 
 *Please note that **xx222xx** should be replaced by your LNU username*
 
 Web Server and DNS servers should be in their own DMZ separate from the LAN.
 
-### LAN
+### Part 2 - LAN
+*Will be published after the Directory lecture.*
+
+<!--
 We also want you to install and set up a LAN for us, separated from the above described DMZ. In this scenario it will work to use the designated cloud service (labcloudftk.lnu.se). We have the following demands on our LAN:
 
 * Management of Active Directory in which our organization has been implemented in a good way. See our organizational structure below.
@@ -44,3 +46,4 @@ We also want you to install and set up a LAN for us, separated from the above de
 The image below describes our organization, this model should guide your approach. The management level should have full permissions everywhere while the various subdivisions only have access to their respective parts. Create an appropriate file structure and shares that shows that this works.
 
 ![organization](https://raw.githubusercontent.com/1dv031/syllabus/master/examination/part_3/img/organization-chart.png)
+-->
