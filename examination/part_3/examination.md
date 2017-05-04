@@ -16,12 +16,14 @@ Hello! <br />
 We are in need of a new server environment where we can handle our local network and the operations of our web applications.
 
 ### DMZ
-We have need of hosting four web sites, two should run on PHP with Apache while the other two to be hosted on a Nginx and node.js applications. We would then have two Web servers with two Web sites on each, each Web server must be a separate virtual machine. It is desirable to install server script languages but not a requirement. These four web sites only need to run a simple "Hello World application" for now. You must be able to access the sites for the outside with the help of the below URLs.
+We have need of hosting four web sites, two will run PHP on an Apache while the other two to be hosted on a Nginx and running a node.js applications. The PHP applications will be a fresh [Wordpress (latest version) installation](https://codex.wordpress.org/Installing_WordPress) (will require mySQL as a database server) and the Node.js (LTS version) application should be some kind of template application that shows that the server and application is running correctly ([Hint - see bash scripting video](https://github.com/CS-LNU-Learning-Objects/linux) )
 
-* acmea.xx222xx.devopslab.xyz (PHP)
-* acmeb.xx222xx.devopslab.xyz (Node.js)
-* acmec.xx222xx.devopslab.xyz (PHP)
-* acmed.xx222xx.devopslab.xyz (Node.js)
+You must be able to access the sites for the outside with the help of the below URLs.
+
+* acmea.xx222xx.devopslab.xyz (PHP, Wordpress)
+* acmeb.xx222xx.devopslab.xyz (Node.js, Express-template)
+* acmec.xx222xx.devopslab.xyz (PHP, Wordpress)
+* acmed.xx222xx.devopslab.xyz (Node.js, Express-template)
 
 We also need to have a DNS management that you will need to install and configure for us. You should set up name servers to be authoritative for the zone xx222xx.devopslab.xyz. When you are ready to be delegated the control for the zone you should send a email to **1dv031@lnu.se.** In the email you should specify the domain name you will be responsible for. Examples Mail: <br />
 ![Exempelmail](https://raw.githubusercontent.com/1dv031/syllabus/master/examination/part_3/img/domain-name-mail.png)
