@@ -130,7 +130,7 @@ Active Directory database consists of three partitions
     * User
     * Groups
 
-<!-- {_style="font-size:70%"} -->
+<!-- {_style="font-size:60%"} -->
 
 ![Active Directory Database](images/active-directory_database.png)
 <!-- {_style="position: absolute; top: 500px; left:600px; width: 200px"} -->
@@ -168,7 +168,7 @@ Active Directory reflects the logical structure of your organization:
 <!-- {_style="width:65%"} -->
 
 ![Active Directory - Organizational Units ](images/active-directory_organizational-units.png)
-<!-- {_style="width: 800px"} -->
+<!-- {_style="width: 700px"} -->
 
 
 --
@@ -190,7 +190,7 @@ Active Directory reflects the logical structure of your organization:
 2. Delegation of administration
 3. Group Policies
 
-<!-- {_style="font-size:85%"} -->
+<!-- {_style="font-size:75%"} -->
 
 ![Active Directory - Organizational Units ](images/active-directory_organizational-units-structure.png)
 <!-- {_style="position: absolute; top: 350px; left:0px"} -->
@@ -223,7 +223,7 @@ How should you build the OU structure?
 <!-- {_style="width:65%"} -->
 
 ![Active Directory - Tree ](images/active-directory_tree.png)
-<!-- {_style="position: absolute; top: 400px; left:100px; width: 600px"} -->
+<!-- {_style="position: absolute; top: 400px; left:100px; width: 550px"} -->
 
 
 --
@@ -238,7 +238,7 @@ Forest
 <!-- {_style="width:65%"} -->
 
 ![Active Directory - Forest](images/active-directory_forest.png)
-<!-- {_style="width: 600px"} -->
+<!-- {_style="width: 550px"} -->
 
 
 --
@@ -290,7 +290,7 @@ The global catalog server performs two key roles:
 * provides network logon
 * provides directory information regardless of which domain in the forest that the information is
 
-<!-- {_style="width:65%"} -->
+<!-- {_style="width:60%"} -->
 
 
 --
@@ -346,7 +346,7 @@ Active Directory - Integrated DNS
 
 <!-- {_style="width:65%"} -->
 ![Active Directory - Domain Overview](images/active-directory_domain-overview.png)
-<!-- {_style="width: 600px"} -->
+<!-- {_style="width: 550px"} -->
 
 
 --
