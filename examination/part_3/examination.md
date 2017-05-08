@@ -32,6 +32,7 @@ We also need to have a DNS management that you will need to install and configur
 Web Server and DNS servers should be in their own DMZ separate from the LAN.
 
 ### Part 2 - LAN
+<!--
 We also want you to install and set up a LAN for us, separated from the above described DMZ. In this scenario it will work to use the designated cloud service (labcloudftk.lnu.se). We have the following demands on our LAN:
 
 * Management of Active Directory in which our organization has been implemented in a good way. See our organizational structure below.
@@ -43,3 +44,4 @@ We also want you to install and set up a LAN for us, separated from the above de
 The image below describes our organization, this model should guide your approach. The management level should have full permissions everywhere while the various subdivisions only have access to their respective parts. Create an appropriate folder/file structure and shares that shows that this works. You should use AGDLP strategy to implement the role based access control.
 
 ![organization](https://raw.githubusercontent.com/1dv031/syllabus/master/examination/part_3/img/organization-chart.png)
+-->
