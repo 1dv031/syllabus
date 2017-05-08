@@ -388,8 +388,6 @@ sudo reboot
 * Fixing long names bay changing the config file `sudo nano /etc/nginx/nginx.conf` and uncomment the line `server_names_hash_bucket_size 64;`
 * Restart the server `sudo systemctl restart nginx`
 
-
-<!--
 ## Create a Windows Admin machine
 <iframe width="853" height="480" src="https://www.youtube.com/embed/NNxCxQf_sUY?rel=0" frameborder="0" allowfullscreen></iframe>
 * Create a new Windows Server 2012 R2 With GUI
@@ -409,6 +407,9 @@ sudo reboot
 
 ## Install Active Directory
 <iframe width="853" height="480" src="https://www.youtube.com/embed/klp6rsdwNLA?rel=0" frameborder="0" allowfullscreen></iframe>
+Please note:
+**When you create the machine for the domain controller, if you want to use a static IP you must do that with the CLI when you create the machine. I've made a video on this, see below...**
+
 * Add ADDS role
   ```
   Import-Module ServerManager
@@ -432,7 +433,15 @@ sudo reboot
   -Force:$true
   ```
 
-## Windows File Server
+## Network Security
+<iframe width="853" height="480" src="https://www.youtube.com/embed/oLQJj2kNG08?rel=0" frameborder="0" allowfullscreen></iframe>
+
+## Static IP
+<iframe width="853" height="480" src="https://www.youtube.com/embed/PW9XObZZ63Y?rel=0" frameborder="0" allowfullscreen></iframe>
+Please note:
+**When I create the security group for the LAN I choose Other Protocol and then specified -1. You can not do this int the version of Openstack we use now. Therefor you need to create 3 rules; one for ALL ICMP, one for ALL UDP and one for All TCP**
+
+## Windows File Server and AGDLP
 <iframe width="853" height="480" src="https://www.youtube.com/embed/8fQyGVRTHlU?rel=0" frameborder="0" allowfullscreen></iframe>
 * Set Administrator Password `net user administrator *`
 * Set name server to DC
@@ -456,10 +465,3 @@ sudo reboot
 <iframe width="853" height="480" src="https://www.youtube.com/embed/zuAfIwKSftY?rel=0" frameborder="0" allowfullscreen></iframe>
 If you would like to learn more Powershell, I had a full course on the subject two year ago, you can find it [here](https://coursepress.lnu.se/kurs/systemadministration-med-powershell/)
 The lecture above is the one I think you'll need the most for this course.
-
-## Network Security
-<iframe width="853" height="480" src="https://www.youtube.com/embed/oLQJj2kNG08?rel=0" frameborder="0" allowfullscreen></iframe>
-
-## Static IP
-<iframe width="853" height="480" src="https://www.youtube.com/embed/PW9XObZZ63Y?rel=0" frameborder="0" allowfullscreen></iframe>
--->
