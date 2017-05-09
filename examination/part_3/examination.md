@@ -16,8 +16,13 @@ Hello! <br />
 We are in need of a new server environment where we can handle our local network and the operations of our web applications.
 
 ### Part 1 - DMZ
-We have need of hosting four web sites, two will run PHP on an Apache while the other two to be hosted on a Nginx and running a node.js applications. The PHP applications will be a fresh [Wordpress (latest version) installation](https://codex.wordpress.org/Installing_WordPress) (will require mySQL/mariaDB as a database server) and the Node.js (LTS version) application should be some kind of template application that shows that the server and application is running correctly ([Hint - see bash scripting video](https://github.com/CS-LNU-Learning-Objects/linux) )
 
+We have need of hosting four web sites, two will run PHP on an Apache while the other two to be hosted through a Nginx and running a Node.js applications. The PHP applications will be a fresh [Wordpress (latest version) installation](https://codex.wordpress.org/Installing_WordPress) (will require mySQL/mariaDB as a database server) and the Node.js (LTS version) application should be some kind of template application that shows that the server and application is running correctly ([Hint - see bash scripting video](https://github.com/CS-LNU-Learning-Objects/linux) )
+
+The web servers should listen to the standard port. That means that in the case of node.js / nginx the nginx should perform as a reversed proxy that sends the traffic to the node-application (which could listen to another port).
+To get some help configuring the nginx as an reversed proxy see this article: https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-16-04#set-up-nginx-as-a-reverse-proxy-server
+
+#### DNS
 You must be able to access the sites for the outside with the help of the below URLs.
 
 * acmea.xx222xx.devopslab.xyz (PHP, Wordpress)
