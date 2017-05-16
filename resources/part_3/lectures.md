@@ -34,13 +34,12 @@ Web Server, Apache, Nginx
 
 ### Resources
 - [HTML-presentation](https://cdn.rawgit.com/1dv031/syllabus/master/lectures/part_3/08_Directory-Services/index.html)
-- [Recording](https://www.youtube.com/watch?v=dmbzpaC4hxU&list=PLSWJPPj5sKmr_PkB_qU4SAA-B5Rv4ICF2&t=14m56s) 2016-05-08, 13.15 (Youtube)
+- [Recording](https://www.youtube.com/watch?v=dmbzpaC4hxU&list=PLSWJPPj5sKmr_PkB_qU4SAA-B5Rv4ICF2&t=14m56s) 2017-05-08, 13.15 (Youtube)
 
 
 ## Lecture 9 - Basic security
-### Keywords
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cf5ob90rAnU?list=PLSWJPPj5sKmr_PkB_qU4SAA-B5Rv4ICF2" frameborder="0" allowfullscreen></iframe>
 
 ### Resources
 - [HTML-presentation](https://cdn.rawgit.com/1dv031/syllabus/master/lectures/part_3/09_Basic-Security/index.html)
-- [Recording](#) 2017-05-15, 13.15 (Youtube)
+- [Recording](https://www.youtube.com/watch?v=cf5ob90rAnU&index=9&list=PLSWJPPj5sKmr_PkB_qU4SAA-B5Rv4ICF2) 2016-05-16, 13.15 (Youtube)
