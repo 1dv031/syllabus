@@ -1,6 +1,6 @@
 Below are the instructions for the alternative to seminar. Please note that you need to complete both the seminar/this assignment and the written examination to pass this part of the course. This is for those that didn't pass the real seminar.
 
-## Alternative to seminar 2
+### Alternative to seminar 2
 
 This assignment will be a bigger written assignment. The assignment will have the same questions as the original assignment but with a extra task. The answers to the below questions will be presented in a written report.
 
