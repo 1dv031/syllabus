@@ -1,4 +1,4 @@
-Below are the instructions for the re-seminar. Please note that you need to complete both the seminar and the written examination to pass this part of the course. The re-seminar is a alternative assignment for those that didn't pass the seminar.
+Below are the instructions for the alternative to seminar. Please note that you need to complete both the seminar/this assignment and the written examination to pass this part of the course. This is for those that didn't pass the real seminar.
 
 ## Alternative to seminar 1
 
