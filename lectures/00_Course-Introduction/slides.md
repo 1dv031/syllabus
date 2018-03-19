@@ -2,7 +2,10 @@
 ## Course management
 | | | |
 |-|-|-|
-| <!-- {_class="table-cell"} -->  ![Jacob](https://www.gravatar.com/avatar/b47109ad8c128221c9dd060d15c89cc9.jpg?s=80) <!-- {_class="grayscale"} --> | <!-- {_class="table-cell"} --> Jacob Lindehoff (Course manager) |
+| <!-- {_class="table-cell"} -->  ![Ola](https://www.gravatar.com/avatar/b47109ad8c128221c9dd060d15c89cc9.jpg?s=80) <!-- {_class="grayscale"} --> | <!-- {_class="table-cell"} --> Jacob Lindehoff (Course manager) |
+| <!-- {_class="table-cell"} -->  ![Haofei](https://www.gravatar.com/avatar/b47109ad8c128221c9dd060d15c89cc9.jpg?s=80) <!-- {_class="grayscale"} --> | <!-- {_class="table-cell"} --> Jacob Lindehoff (Teaching assistant) |
+| <!-- {_class="table-cell"} -->  ![Maxim](https://www.gravatar.com/avatar/b47109ad8c128221c9dd060d15c89cc9.jpg?s=80) <!-- {_class="grayscale"} --> | <!-- {_class="table-cell"} --> Jacob Lindehoff (Teaching assistant) |
+| <!-- {_class="table-cell"} -->  ![Jacob](https://www.gravatar.com/avatar/b47109ad8c128221c9dd060d15c89cc9.jpg?s=80) <!-- {_class="grayscale"} --> | <!-- {_class="table-cell"} --> Jacob Lindehoff (Course instructor) |
 | <!-- {_class="table-cell"} --> ![John](https://www.gravatar.com/avatar/2261038623688f4d83dc10c53b85efb8.jpg?s=80)<!-- {_class="grayscale"} --> | <!-- {_class="table-cell"} --> John Häggerud (Course instructor) |
 | <!-- {_class="table-cell"} --> ![Thomas](https://lnu.se/ImageVault/publishedmedia/i2aokmyjfagvw0z0uamf/eivth_thomas_ivarsson.jpg)<!-- {_class="grayscale" style="width:80px"} --> | <!-- {_class="table-cell"} --> Thomas Ivarsson |
 
