@@ -25,8 +25,8 @@
             <td>
                 <ul>
                     <li>Work with Examination 1 - Computer Networks</li>
-                    <li><strong>March 31st – Deadline</strong> Seminar 1</li>
-                    <li><strong>15.00 March 31st – Deadline handling</strong> in Examination 1</li>
+                    <li><strong>March 29th – Deadline</strong> Seminar 1</li>
+                    <li><strong>18.00 March 29th – Deadline handling</strong> in Examination 1</li>
                 </ul>
             </td>
         </tr>
@@ -34,7 +34,7 @@
             <td>w14</td>
             <td>
                 <ul>
-                    <li><strong>08:00am April 4th - Deadline</strong> hand in peer-review</li>
+                    <li><strong>08:00am April 5th - Deadline</strong> hand in peer-review</li>
                     <li>Lecture 03 - “Server” from hardware to software (Live)</li>
                     <li>Go through the Study Material</li>
                     <li>Start working on Seminar 2</li>
