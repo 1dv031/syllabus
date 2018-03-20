@@ -13,4 +13,4 @@ This is a course introduction that covers the following:
 Course introduction
 
 ## Resources
-- [Recording](https://www.youtube.com/watch?v=774AGog-tuY) 2018-03-20, 10.15 (Youtube)
+- [Recording](https://www.youtube.com/watch?v=774AGog-tuY&t=4m24s) 2018-03-20, 10.15 (Youtube)
