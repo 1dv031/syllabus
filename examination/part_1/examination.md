@@ -1,8 +1,8 @@
-Below are the instructions for the written examinations. Please note that you need to complete both the seminars and the written examinations to pass the course.
+Below are the instructions for the written examinations. Please note that you need to complete both the seminars, the written examinations and peer review reports to pass the course.
 
 ## Examination 1 - Computer Networks
 
-For this examination you are expected to produce a written report of between 800-1000 words. Report should be submitted as a PDF no later than **18:00 March 29th**. Details on how to submit will come soon. Please note that the report should be written in **English**.
+For this examination you are expected to produce a written report of between 800-1000 words. The report should be published on internet (preferably as a Google Doc) as a PDF no later than **18:00 March 30th**. Please note that the report should be written in **English**. Put the URL to the report in this [Google spreadsheet](https://docs.google.com/spreadsheets/d/1uATMAwxdPm9tbzKcopdJ-HLte7VGXkgEjjEyTN5UgIc/edit#gid=1498161455)
 
 ### Content of the report
 
@@ -23,10 +23,12 @@ The starting point for the report is the work already done for the seminar. At t
 * Keep within the limits!
 * Make sure to make references to the course literature and any other literature that is relevant for your topic.
 * Use a [recognized system](https://lnu.se/en/library/Writing-and-referencing/referencing/) ([SWE](https://lnu.se/ub/skriva-och-referera/skriva-referenser/)) for incorporating references in your text.
+* We will run your report through the anti plagiarism system Urkund. **Do not copy text from other student's reports nor from any other documents!**
 
 ### The peer-review instructions
 In this course we will use so-called peer-review, the Swedish also called "referensgranskning". This means in short that you will study another student´s written reports. The idea of the step is to demonstrate your knowledge by analysing and providing feedback on other student's assignments and hopefully also get great feedback on your own. This does not mean that you should grade each other rather push and give each other good feedback. In addition, it is important to be able to rise from your own bubble and reflect on the work of others.
 
-1. After the submission deadline, **18:00 March 29th**, you will given another students report.
-2. Read and analyze the report and give feedback, no more then 300 words
-3. Submit the feedback and email a copy to the student who wrote the report, no later than **08:00AM April 5th**
+1. After the submission deadline, **18:00 March 30th**, we will add information in the spreadsheet about what report your should review.
+2. Read and analyse the report allocated to you and give feedback, no more then 300 words
+3. Submit the URL to the review in [the spreadsheet](https://docs.google.com/spreadsheets/d/1uATMAwxdPm9tbzKcopdJ-HLte7VGXkgEjjEyTN5UgIc/edit#gid=1498161455), no later than **08:00AM April 5th**
+4. Read the review and give a short feedback to the review directly in the spreadsheet. Was the criticism you got fair, valid and/or helpful?
