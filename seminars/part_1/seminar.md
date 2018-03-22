@@ -1,12 +1,12 @@
-Below are the instructions for the seminar. Please note that you need to complete both the seminar and the written examination to pass this part of the course.
+Below are the instructions for the seminar. Please note that you need to complete both the seminars, the written examinations and peer review reports to pass the course.
 
 ## Seminar 1
 
-These are the instructions for the first seminar. Before the seminar you will work with Wireshark to analyze a number of files containing captured network traffic. At the seminar you will discuss your findings.
+These are the instructions for the first seminar. Before the seminar you will work with Wireshark to analyse a number of files containing captured network traffic. At the seminar you will discuss your findings.
 
-### Analyzing the capture files
+### Analysing the capture files
 
-These are the files you will work can be found in this [ZIP archive](https://cdn.rawgit.com/1dv031/syllabus/master/seminars/part_1/captures/capturefiles.zip). Each file contains some communication to be analyzed.
+These are the files you will work can be found in this [ZIP archive](https://cdn.rawgit.com/1dv031/syllabus/master/seminars/part_1/captures/capturefiles.zip). Each file contains some communication to be analysed.
 
 For each file, try to answer the following questions:
 
@@ -27,7 +27,7 @@ As for a more in-depth analysis of each file, use Wireshark functions to answer 
 5. Can we see/reconstruct the communication to gain any knowledge about its content/data?
 
 <br />
-Hint: You will find useful functions in the menus under "Analyze" and "Statistics". For more information about Wireshark you can try [the user guide](https://www.wireshark.org/docs/wsug_html_chunked/) or look around at the web site, [wireshark.org](https://www.wireshark.org/), where you also can download Wireshark.
+Hint: You will find useful functions in the menus under "Analyse" and "Statistics". For more information about Wireshark you can try [the user guide](https://www.wireshark.org/docs/wsug_html_chunked/) or look around at the web site, [wireshark.org](https://www.wireshark.org/), where you also can download Wireshark.
 
 ### Presenting the findings at the seminar
 
