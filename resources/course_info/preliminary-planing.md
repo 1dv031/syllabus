@@ -26,7 +26,7 @@
                 <ul>
                     <li>Work with Examination 1 - Computer Networks</li>
                     <li><strong>March 29th – Deadline</strong> Seminar 1</li>
-                    <li><strong>18.00 March 29th – Deadline handling</strong> in Examination 1</li>
+                    <li><strong>18.00 March 30th – Deadline handling</strong> in Examination 1</li>
                 </ul>
             </td>
         </tr>
@@ -47,7 +47,7 @@
                 <ul>
                     <li>Work with Examination 2</li>
                     <li><strong>April 12th – Deadline</strong> Seminar 2</li>
-                    <li><strong>10.00am April 13th – Deadline</strong> handling in Examination 2</li>
+                    <li><strong>12.00am April 14th – Deadline</strong> handling in Examination 2</li>
                 </ul>
             </td>
         </tr>
@@ -119,7 +119,7 @@
             <td>w22</td>
             <td>
                 <ul>
-                    <li><strong>May 31st – Deadline</strong> Examination Assignment 3</li>
+                    <li><strong>May 30st – Deadline</strong> Examination Assignment 3</li>
 
                 </ul>
             </td>
