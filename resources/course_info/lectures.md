@@ -1,12 +1,14 @@
 ## Lecture content
 This is a course introduction that covers the following:
-* Course management
-* Course Goals - What should you understand after this course
   * Part 1 - Computer Networks
   * Part 2 - Server operation methods
   * Part 3 - Server installation and operations
-  * Week Plan
-* Literature
+ 
+ In the introduction video you will get info about how the course will work and persons involved.
+ 
+ ## Practical detils
+
+ For communication on the course we mainly use the slack room for the course. Seminars and help with the practical work will be either on campus in Kalamr or for distance studnets in the Adobe Connect room for the course.
 
 
 ## Keywords
