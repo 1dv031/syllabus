@@ -1,4 +1,4 @@
-## Preliminary planing (deadlines)
+## Planning (deadlines)
 
 <table width="70%">
     <thead>
