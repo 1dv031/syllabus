@@ -1,7 +1,7 @@
-Below are the instructions for the written examinations. Please note that you need to complete both the seminars and the written examinations to pass the course.
+Below are the instructions for the written examinations. Please note that you need to complete both the seminars, the written examinations and peer review reports to pass the course.
 
 ## Examination 2 - Server operation methods
-For this examination you are expected to produce a written report of between 1500-2000 words. Report should be published on internet (preferably as a Google Doc) as a PDF no later than **10:00AM [CEST] April 13th**. Please note that the report should be written in **Swedish**.
+For this examination you are expected to produce a written report of between 1500-2000 words. Report should be published on internet (preferably as a Google Doc) as a PDF no later than **12:00AM [CEST] April 14th**. Please note that the report should be written in **English**. Put the URL to the report in this [Google spreadsheet](https://docs.google.com/spreadsheets/d/1uATMAwxdPm9tbzKcopdJ-HLte7VGXkgEjjEyTN5UgIc/edit#gid=1498161455)
 
 ### Content of the report
 In the report you will analyse our different scenarios and come to a recommendation of how and where these scenarios should be run.  The report should contain four parts:
@@ -49,3 +49,4 @@ In this course we will use so-called peer-review, is Swedish called "referensgra
 1. After the submission deadline, **12:00AM [CEST] April 14th**, you should find a link to the report you will referee in the shared Google spreadsheet.
 2. Read and analyze the report and give feedback, no more then **300 words** in a PDF document published on internet.
 3. Put the URL to your feedback document in the Google spreadsheet **08:00AM [CEST] April 19th**
+4. Read the review and give a short feedback to the review directly in the spreadsheet. Was the criticism you got fair, valid and/or helpful?
