@@ -41,7 +41,7 @@ Explain the below hardware parts and how they relate to each other
 
 ## Presenting the findings at the seminar
 
-At the seminar we will discuss your findings from the questions above. Since there are a lot of questions and five members to each seminar group, some questions will probably be left out - but you cannot tell which before hand so you should be able to answer the questions above. Remember that a constructive contribution to the discussion is more important than "being right".
+At the seminar we will discuss your findings from the questions above. Since there are a lot of questions and up to six members to each seminar group, some questions will probably be left out - but you cannot tell which before hand so you should be able to answer the questions above. Remember that a constructive contribution to the discussion is more important than "being right".
 
 A few pointers:
 
