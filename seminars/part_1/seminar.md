@@ -31,7 +31,7 @@ Hint: You will find useful functions in the menus under "Analyse" and "Statistic
 
 ### Presenting the findings at the seminar
 
-At the seminar we will discuss your findings from the analysis above. Since there are eight files and five members to each seminar group, some files will probably be left out - but you cannot tell which before hand so you should be able to answer the questions above for each of the eight files. Remember that a constructive contribution to the discussion is more important than "being right".
+At the seminar we will discuss your findings from the analysis above. Since there are eight files and maximum six members to each seminar group, some files will probably be left out - but you cannot tell which before hand so you should be able to answer the questions above for each of the eight files. Remember that a constructive contribution to the discussion is more important than "being right".
 
 A few pointers:
 
