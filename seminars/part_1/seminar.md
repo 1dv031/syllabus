@@ -6,7 +6,7 @@ These are the instructions for the first seminar. Before the seminar you will wo
 
 ### Analysing the capture files
 
-These are the files you will work can be found in this [ZIP archive](https://cdn.rawgit.com/1dv031/syllabus/master/seminars/part_1/captures/capturefiles.zip). Each file contains some communication to be analysed.
+The files you will work with can be found in this [ZIP archive](https://cdn.rawgit.com/1dv031/syllabus/master/seminars/part_1/captures/capturefiles.zip). Each file contains some communication to be analysed.
 
 For each file, try to answer the following questions:
 
