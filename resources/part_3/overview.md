@@ -11,7 +11,7 @@
 
 ### Tasks:
 * 5 lectures
-* x exercises
+* 5 exercises
 * 1 examination assignment
-* 1 oral hearing
+* 1 oral exam
 * Tutoring
