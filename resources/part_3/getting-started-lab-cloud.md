@@ -12,7 +12,7 @@ The interface can be a bit different since we have updated the Openstack version
     DNS: 194.47.199.41, 194.47.110.97
   * [Add an interface for the router](https://www.youtube.com/watch?list=PLSWJPPj5sKmpd1_CvWzGsB8p6VdGFSEv1&v=ELQKjXU4Qh0&t=6m10s)
 * [Key pair](https://www.youtube.com/watch?list=PLSWJPPj5sKmpd1_CvWzGsB8p6VdGFSEv1&v=QWmx1K9duHk)
-  * [Create a Key Pair](https://www.youtube.com/watch?list=PLSWJPPj5sKmpd1_CvWzGsB8p6VdGFSEv1&v=QWmx1K9duHk&t=32s)
+  * [Create a Key Pair](https://www.youtube.com/watch?list=PLSWJPPj5sKmpd1_CvWzGsB8p6VdGFSEv1&v=QWmx1K9duHk&t=32s) (OBS You don't have to create your own keys, they ones you should use are already created for you!) Make sure to actually log in with SSH on Linux using kesy only, do not active log in using password. For Windows when you do use passwaords, make sure you use secure passwords from the start!
   * [Add Key to your computer](https://www.youtube.com/watch?list=PLSWJPPj5sKmpd1_CvWzGsB8p6VdGFSEv1&v=QWmx1K9duHk&t=59s)
   ```bash
   chmod 400 my-key.pem
