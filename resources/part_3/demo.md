@@ -353,7 +353,7 @@ sudo reboot
       listen 80 default_server;
       listen [::]:80 default_server ipv6only=on;
 
-      root /var/www/jl222gk.devopslab.xyz/html;
+      root /var/www/jl222gk.devopslab.xyz/public_html;
       index index.html index.htm;
 
       server_name jl222gk.devopslab.xyz www.jl222gk.devopslab.xyz;
@@ -369,7 +369,7 @@ sudo reboot
       listen 80;
       listen [::]:80;
 
-      root /var/www/test.jl222gk.devopslab.xyz/html;
+      root /var/www/test.jl222gk.devopslab.xyz/public_html;
       index index.html index.htm;
 
       server_name test.jl222gk.devopslab.xyz www.test.jl222gk.devopslab.xyz;
