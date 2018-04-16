@@ -119,6 +119,7 @@ sudo reboot
     zone "174.47.194.in-addr.arpa" {
       type master;
       file "/etc/bind/zones/db.194.47.174";
+      allow-transfer { 192.168.20.54; };
     };
     ```
   * Create zone files
