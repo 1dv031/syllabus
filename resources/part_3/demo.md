@@ -79,6 +79,13 @@ sudo reboot
 
 ## Public Name Servers
 <iframe width="853" height="480" src="https://www.youtube.com/embed/zk_b8ms-pvc?rel=0" frameborder="0" allowfullscreen></iframe>
+
+### Master and Slave
+1. Make sure to configure and enable ufw firewall
+2. Setup security groups in the lab cloud that allow DNS communication for the nameservers with DNS clients, and UDP communication between the nameservers
+3. Check that the nameservers exchange zone files successfully: update the serial number of the zone files on the master -> restart bind on master -> check the logs. If the files were exchanged correctly, you should see something along the lines of "updated X zone files, downloaded Y bits..." in the logs of the slave
+4. Use the floating IPs in the zone files and in /etc/bind/named.conf.local, using local IPs does not seem to be working properly
+
 ### Master Name Server
 * Create a machine
 * Check the name and local lookup
@@ -108,6 +115,8 @@ sudo reboot
       listen-on-v6 { any; };
     };
     ```
+  * Add `OPTIONS="-4"` to /etc/default/bind9
+  
 * Configure the Zone
   * `sudo nano /etc/bind/named.conf.local`
     ```
@@ -197,6 +206,7 @@ sudo reboot
         directory "/var/cache/bind";
         recursion no;
         allow-transfer { none; };
+        allow-notify { <floating ip address of the slave> ; } ;
 
         dnssec-validation auto;
 
