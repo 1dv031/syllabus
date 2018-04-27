@@ -218,7 +218,7 @@ sudo reboot
     ```
     zone "devopslab.xyz" {
       type slave;
-      file "db.devopslab.xyz";
+      file "/db.devopslab.xyz";
       masters { 192.168.20.53; 192.168.20.54; }; 
     };
     ```
@@ -226,7 +226,7 @@ sudo reboot
     ```
     zone "174.47.194.in-addr.arpa" {
       type slave;
-      file "db.194.47.174";
+      file "/db.194.47.174";
       masters { 192.168.20.53; 192.168.20.54; }; 
     };
     ```
