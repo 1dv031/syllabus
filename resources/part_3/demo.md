@@ -219,7 +219,7 @@ sudo reboot
     zone "devopslab.xyz" {
       type slave;
       file "db.devopslab.xyz";
-      masters { 192.168.20.53; };
+      masters { 192.168.20.53; 192.168.20.54; }; 
     };
     ```
   * Configure the reverse lookup zone `sudo nano /etc/bind/named.conf.local`
@@ -227,7 +227,7 @@ sudo reboot
     zone "174.47.194.in-addr.arpa" {
       type slave;
       file "db.194.47.174";
-      masters { 192.168.20.53; };
+      masters { 192.168.20.53; 192.168.20.54; }; 
     };
     ```
 * Testing the Files and Restarting the Service
