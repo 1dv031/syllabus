@@ -1,7 +1,3 @@
-## Literature
-### The Practice of System and Network Administration
-Coming soon
-
 ## Links   
 ### Bash
 * See the linux learning object - https://github.com/CS-LNU-Learning-Objects/linux
