@@ -2,10 +2,20 @@
 
 In this third examination assignment You should set up a server environment suited for a specific situation. You are given a job description of a fictitious company ([ACME AB](https://en.wikipedia.org/wiki/Acme_Corporation)) who need help with the installation and setup of the company network, both locally and publicly. To help you we have our cloud environment (cscloud.lnu.se) where you can solve the problem.
 
-### Documentation
-During the oral examination, which is 30 minutes, you will get 10 minutes available to explain and defend your solution of the assignment. To assist you and the examiner, you should provide a general documentation where you can quickly get en overview of your solution. An image of the network topology, server name and *password* are the minimum that should be included.
+### Oral examination
+This assignment will have a oral examination where both theoretical questions will be asked by the examiner and the solution will be presented by the student. The theoretical questions will focus on the third part of the course, with questions taken from the lectures, exercises and study material. During the oral examination, which is 30 minutes, you will also get 10 minutes available to explain and defend your solution of the assignment. To assist you and the examiner, you should provide a general documentation where you can quickly get en overview of your solution. An image of the network topology, server name and *password* and working urls to the web sites described below are the minimum that should be included. This documentation should be presented in the private repository you have been given (named {username}-examination). The cloud environment that you will use is only for showing your solution to the customer, so try to automate and script the environment as much as possible. All script used in your solution must be in your repository.
 
-The cloud environment that you will use is only for showing your solution to the customer, so try to automate and script the environment as much as possible.
+#### Grading
+The assignment have the following grades: Underkänd, Godkänd, Väl godkänd. The following criteria will be used:
+
+- Underkänd
+  - For a performance which is unacceptable in all respects
+- Underkänd med chans till komplettering
+  -  For a performance which does not meet minimum requirements for acceptance on each examination steps. 
+- Godkänd
+  - For a performance meeting the requirements for acceptance on each examination steps meaning the students have a good knowledge of the subject and can discuss about the oral questions in a good way. The student  have solved the assignments showing he/she have a good level of understanding for all aspects of the relevant material.
+- Väl godkänd
+  - For a good performance - meaning the students have a very good knowledge of the subject and can discuss about the oral questions on a high level. The student have solved the assignments before the deadline and presented a working application showing he/she have a high level of understanding for all aspects of the relevant material. Things the examiner will look at may be how the student thinks about security and how easy it would be to reproduce the solution (e.g. most of the solution is scripted)
 
 ### Description of Acme AB
 Below are the assignment described in the form of a description of the ACME AB's IT strategist, Brumund Dal.
