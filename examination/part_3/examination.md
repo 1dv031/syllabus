@@ -1,9 +1,9 @@
 ## Examination Assignment 3
 
-In this third examination assignment You should set up a server environment suited for a specific situation. You are given a job description of a fictitious company ([ACME AB](https://en.wikipedia.org/wiki/Acme_Corporation)) who need help with the installation and setup of the company network, both locally and publicly. To help you we have our cloud environment (labcloudftk.lnu.se) where you can solve the problem.
+In this third examination assignment You should set up a server environment suited for a specific situation. You are given a job description of a fictitious company ([ACME AB](https://en.wikipedia.org/wiki/Acme_Corporation)) who need help with the installation and setup of the company network, both locally and publicly. To help you we have our cloud environment (cscloud.lnu.se) where you can solve the problem.
 
 ### Documentation
-During the oral examination which is 30 minutes you will get 10 minutes available to explain and defend your solution of the assignment. To assist you and the examiner, you should provide a general documentation where you can quickly get en overview of your solution. An image of the network topology, server name and *password* are the minimum that should be included.
+During the oral examination, which is 30 minutes, you will get 10 minutes available to explain and defend your solution of the assignment. To assist you and the examiner, you should provide a general documentation where you can quickly get en overview of your solution. An image of the network topology, server name and *password* are the minimum that should be included.
 
 The cloud environment that you will use is only for showing your solution to the customer, so try to automate and script the environment as much as possible.
 
@@ -17,7 +17,7 @@ We are in need of a new server environment where we can handle our local network
 
 ### Part 1 - DMZ
 
-We have need of hosting four web sites, two will run PHP on an Apache while the other two to be hosted through a Nginx and running a Node.js applications. The PHP applications will be a fresh [Wordpress (latest version) installation](https://codex.wordpress.org/Installing_WordPress) (will require mySQL/mariaDB as a database server) and the Node.js (LTS version) application should be some kind of template application that shows that the server and application is running correctly ([Hint - see bash scripting video](https://github.com/CS-LNU-Learning-Objects/linux) )
+We have need of hosting four web sites, two will run PHP on an Apache web server while the other two to be hosted through a Nginx and running Node.js applications. The PHP applications will be a fresh [Wordpress (latest version) installation](https://codex.wordpress.org/Installing_WordPress) (will require mySQL/mariaDB as a database server) and the Node.js (LTS version) application should be some kind of template application that shows that the server and application is running correctly ([Hint - see bash scripting video](https://github.com/CS-LNU-Learning-Objects/linux) )
 
 The web servers should listen to the standard port. That means that in the case of node.js / nginx the Nginx should perform as a reversed proxy that sends the traffic to the node-application (which could listen to another port).
 To get some help configuring the Nginx as an reversed proxy see this article: https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-16-04. Especially the the part "Set Up Nginx as a Reverse Proxy Server".
@@ -30,7 +30,7 @@ You must be able to access the sites for the outside with the help of the below 
 * acmec.xx222xx.devopslab.xyz (PHP, Wordpress)
 * acmed.xx222xx.devopslab.xyz (Node.js, Express-template)
 
-We also need to have a DNS management that you will need to install and configure for us. You should set up name servers to be authoritative for the zone xx222xx.devopslab.xyz. When you are ready to be delegated the control for the zone you will "buy" the domain name and register your name servers from [DNS Manager](https://www.devopslab.xyz). Log in with the same credentials as you have at our Lab Cloud. When logged in you can register your name servers, if you get an error look at the error messaged and fix your name servers and try again.
+We also need to have DNS management that you will need to install and configure for us. You should set up name servers to be authoritative for the zone xx222xx.devopslab.xyz. When you are ready to be delegated the control for the zone you will "buy" the domain name and register your name servers from [DNS Manager](https://www.devopslab.xyz). Log in with the same credentials as you have at our Lab Cloud. When logged in you can register your name servers, if you get an error look at the error messaged and fix your name servers and try again.
 
 *Please note that **xx222xx** should be replaced by your LNU username*
 
