@@ -17,9 +17,9 @@ We are in need of a new server environment where we can handle our local network
 
 ### Part 1 - DMZ
 
-We have need of hosting four web sites, two will run PHP on an Apache web server while the other two to be hosted through a Nginx and running Node.js applications. The PHP applications will be a fresh [Wordpress (latest version) installation](https://codex.wordpress.org/Installing_WordPress) (will require mySQL/mariaDB as a database server) and the Node.js (LTS version) application should be some kind of template application that shows that the server and application is running correctly ([Hint - see bash scripting video](https://github.com/CS-LNU-Learning-Objects/linux) )
+In the DMZ we need to serve four different web sites, two will run PHP on Apache web servers while the other two to be hosted through Nginx web servers and run Node.js applications. The PHP applications should be a fresh [Wordpress (latest version) installation](https://codex.wordpress.org/Installing_WordPress) (this requires mySQL or mariaDB as a database server) and the Node.js (LTS version) applications should be some kind of template application that shows that the server and application is running correctly ([Hint - see bash scripting video](https://github.com/CS-LNU-Learning-Objects/linux) )
 
-The web servers should listen to the standard port. That means that in the case of node.js / nginx the Nginx should perform as a reversed proxy that sends the traffic to the node-application (which could listen to another port).
+The web servers should listen to the standard port. That means that in the case of Node.js / Nginx the Nginx should perform as a reversed proxy that sends the traffic to the node-application (which could listen to another port).
 To get some help configuring the Nginx as an reversed proxy see this article: https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-16-04. Especially the the part "Set Up Nginx as a Reverse Proxy Server".
 
 #### DNS
@@ -30,14 +30,14 @@ You must be able to access the sites for the outside with the help of the below 
 * acmec.xx222xx.devopslab.xyz (PHP, Wordpress)
 * acmed.xx222xx.devopslab.xyz (Node.js, Express-template)
 
-We also need to have DNS management that you will need to install and configure for us. You should set up name servers to be authoritative for the zone xx222xx.devopslab.xyz. When you are ready to be delegated the control for the zone you will "buy" the domain name and register your name servers from [DNS Manager](https://www.devopslab.xyz). Log in with the same credentials as you have at our Lab Cloud. When logged in you can register your name servers, if you get an error look at the error messaged and fix your name servers and try again.
+To be able to handle the domain name we also need to have DNS management. You should set up two name servers, one primary and one secondary, to be authoritative for the zone xx222xx.devopslab.xyz. When you are ready to be delegated the control for the zone you will "buy" the domain name and register your name servers from [DNS Manager](https://www.devopslab.xyz). Log in with the same credentials as you have at our CS Cloud. When logged in you can register your name servers, if you get an error look at the error messaged and fix your name servers and try again.
 
 *Please note that **xx222xx** should be replaced by your LNU username*
 
 Web Server and DNS servers should be in their own DMZ separate from the LAN.
 
 ### Part 2 - LAN
-We also want you to install and set up a LAN for us, separated from the above described DMZ. In this scenario it will work to use the designated cloud service (labcloudftk.lnu.se). We have the following demands on our LAN:
+We also want you to install and set up a LAN for us, separated from the above described DMZ. In this scenario it will work to use the designated cloud service (cscloud.lnu.se). We have the following demands on our LAN:
 
 * Management of Active Directory in which our organization has been implemented in a good way. See our organizational structure below.
 * DomainName should be ad.*xx222xx*.devopslab.xyz and the DomainNetbiosName should be Acme
