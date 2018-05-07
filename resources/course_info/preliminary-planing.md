@@ -68,7 +68,7 @@
             <td>w17</td>
             <td>
                 <ul>
-                    <li>Lecture 06 - Some Server services (Live)</li>
+                    <li>Lecture 06 - Some Server services</li>
                     <li>Exercise 03 - Getting started with the Cloud</li>
                     <li>Exercise 04 - Public Name Servers</li>
                     <li>Supervision</li>
@@ -79,7 +79,7 @@
             <td>w18</td>
             <td>
                 <ul>
-                    <li>Lecture 07 - Web servers (Live)</li>
+                    <li>Lecture 07 - Web servers</li>
                     <li>Exercise 05 - Web server</li>
                     <li>Working on Examination Assignment 3</li>
                     <li>Supervision</li>
@@ -90,7 +90,7 @@
             <td>w19</td>
             <td>
                 <ul>
-                    <li>Lecture 08 - Directory Services (Live)</li>
+                    <li>Lecture 08 - Directory Services</li>
                     <li>Working on Examination Assignment 3</li>
                     <li>Supervision</li>
                 </ul>
@@ -100,7 +100,7 @@
             <td>w20</td>
             <td>
                 <ul>
-                    <li>Lecture 09 - Basic security (Live)</li>
+                    <li>Lecture 09 - Basic security</li>
                     <li>Working on Examination Assignment 3</li>
                     <li>Supervision</li>
                 </ul>
