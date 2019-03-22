@@ -44,6 +44,7 @@ To present your findings from above you will produce a report **in PDF-format** 
   2. Describe the difference between TCP and UDP. In what cases do we use UDP - and why? (ca. 200 words)
   3. Explain the difference between HTTP and HTTPS. What is SSL and TLS and in what other cases are they used? (ca 300 words)
   4. What is DNSSec? (ca 200 words)
+  5. Explain what network segmentation means (ca 300 words)
 
 5. In this last part you present what you have learned from working with this examination.
 
