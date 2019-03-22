@@ -4,8 +4,3 @@
   * transmitter/receiver model
   * OSI model
   * TCP/IP-based computer communications
-
-### Tasks:
-* 2 lecture
-* 1 seminar
-* 1 examination assignment (written examination)

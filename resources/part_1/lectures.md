@@ -22,7 +22,7 @@ OSI model, TCP/IP, Unicast, Broadcast, Multicast, Anycast, CSMA/CD, CSMA/CA, Dup
 
 ### Resources
 - [HTML-presentation](https://cdn.rawgit.com/1dv031/syllabus/master/lectures/part_1/01-02_Computer-Networks/index.html#/)
-- [Recording](https://www.youtube.com/watch?v=lL1s-BwSU6I) 2016-03-21, 10.15 (Youtube)
+- [Recording](https://www.youtube.com/watch?v=lL1s-BwSU6I) (Youtube)
 
 ## Lecture 02 - Some TCP/IP protocols
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0RterY5_61k" frameborder="0" allowfullscreen></iframe>
@@ -46,4 +46,4 @@ TCP/IP, Application layer, Transport layer, 3-way handshake, Internet/Network la
 
 ### Resources
 - [HTML-presentation](https://cdn.rawgit.com/1dv031/syllabus/master/lectures/part_1/01-02_Computer-Networks/index.html)
-- [Recording](https://www.youtube.com/watch?v=0RterY5_61k) 2016-03-23, 10.15 (Youtube)
+- [Recording](https://www.youtube.com/watch?v=0RterY5_61k) (Youtube)
