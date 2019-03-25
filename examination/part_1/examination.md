@@ -51,6 +51,7 @@ To present your findings from above you will produce a report **in PDF-format** 
 
 ### Some tips
 
+* Any questions? Use the supervision scheduled in our schema.
 * Use spell check! And if possible grammar check!
 * Read it out loud. If it is hard for you to read, it is probably hard for someone else.
 * Let some else read it and get their feedback on the content, the language and the narrative.
