@@ -16,7 +16,7 @@ For each file, try to answer the following questions:
 6. Who are the communicating parties at each layer (focus on addresses)?
 7. Could we spot any sensitive data (like passwords) in the communication?
 
-***No need to rewrite information about same protocol if they appear in more then one capture file.***
+***No need to rewrite information about same protocol (question 3, 4, 5) if they appear in more then one capture file.***
 
 <br />
 As for a more in-depth analysis of each file, use Wireshark functions to answer the following questions:
