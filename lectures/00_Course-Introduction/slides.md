@@ -52,11 +52,7 @@ http://kursplan.lnu.se/kursplaner/kursplan-1DV031-2.pdf
 
 <!-- {_class="lnu-font-size-80 lnu-margin-right-30"} -->
 Note:
-Course Goals <br />
-Taken from the course Syllabus <br />
-10 week course at 1/2 speed <br />
-Only the basics <br />
-IT-Technician study programme <br />
+
 
 
 ---
