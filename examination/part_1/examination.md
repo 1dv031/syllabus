@@ -8,12 +8,15 @@ The files you will work with can be found in this [ZIP archive](https://cdn.rawg
 
 For each file, try to answer the following questions:
 
-1. What protocols are used in the communication?
-2. At what layer of the OSI (or TCP/IP) model do they operate?
-3. What RFC(s) (if any) will help us learn more about this protocol?
-4. What is the purpose of the protocol?
-5. Who are the communicating parties at each layer (focus on addresses)?
-6. How are they related to one another?
+1. Could you try to describe in words what is going on in the communication. In other word try to explain the scenario that was recorded.
+2. What protocols are used in the communication?
+3. At what layer of the OSI (or TCP/IP) model do each of the protocol operate?
+4. What RFC(s) (if any) will help us learn more about each protocol?
+5. What is the purpose of each protocol?
+6. Who are the communicating parties at each layer (focus on addresses)?
+7. Could we spot any sensitive data (like passwords) in the communication?
+
+***No need to rewrite information about same protocol if they appear in more then one capture file.***
 
 <br />
 As for a more in-depth analysis of each file, use Wireshark functions to answer the following questions:
@@ -21,8 +24,6 @@ As for a more in-depth analysis of each file, use Wireshark functions to answer 
 1. How many packets were exchanged?
 2. How much data was sent?
 3. What was the average packet size?
-4. How much data did each communicating party send?
-5. Can we see/reconstruct the communication to gain any knowledge about its content/data?
 
 <br />
 Hint: You will find useful functions in the menus under "Analyze" and "Statistics". For more information about Wireshark you can try [the user guide](https://www.wireshark.org/docs/wsug_html_chunked/) or look around at the web site, [wireshark.org](https://www.wireshark.org/), where you also can download Wireshark.
@@ -39,7 +40,7 @@ To present your findings from above you will produce a report **in PDF-format** 
 
 3. Also present what did you do to find the answers? Here you can present central tools, references and descriptions of your methods and your rational behind choosing them.
 
-4. Also answer the below questions:
+4. Also answer the below questions in your report:
   1. Explain the TCP/IP-model. What it is, how it it used and why it is important to understand. (ca. 200 words)
   2. Describe the difference between TCP and UDP. In what cases do we use UDP - and why? (ca. 200 words)
   3. Explain the difference between HTTP and HTTPS. What is SSL and TLS and in what other cases are they used? (ca 300 words)
@@ -51,11 +52,9 @@ To present your findings from above you will produce a report **in PDF-format** 
 ### Some tips
 
 * Use spell check! And if possible grammar check!
-* Remember: this is a story even if the form is not that of a fairy tale or a novel. Think about your narrative and style!
 * Read it out loud. If it is hard for you to read, it is probably hard for someone else.
 * Let some else read it and get their feedback on the content, the language and the narrative.
-* Keep within the limits!
 * Make sure to make references to the course literature and any other literature that is relevant for your topic.
-* Use a [recognized system](https://lnu.se/en/library/Writing-and-referencing/referencing/) ([SWE](https://lnu.se/ub/skriva-och-referera/skriva-referenser/)) for incorporating references in your text.
+  * Use a [recognized system](https://lnu.se/en/library/Writing-and-referencing/referencing/) ([SWE](https://lnu.se/ub/skriva-och-referera/skriva-referenser/)) for incorporating references in your text.
 * We will run your report through the anti plagiarism system Urkund. **Do not copy text from other student's reports nor from any other documents!**
 
