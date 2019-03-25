@@ -38,7 +38,7 @@ http://kursplan.lnu.se/kursplaner/kursplan-1DV031-2.pdf
 * TCP/IP based communication
   * Analyze traffic
   * Understand the TCP/IP- and OSI-Model
-    * Be familiar of different protocols and there purpose
+  * Be familiar of different protocols and there purpose
 * Essential network terminology
 * An operating systems different components and how they integrates with the underlaying hardware
 * Install and administrate a Linux server operating system
@@ -48,7 +48,7 @@ http://kursplan.lnu.se/kursplaner/kursplan-1DV031-2.pdf
 * Install and administrate some server services
   * DNS
   * Web servers
-    * Reversed proxy, load balancer
+  * Reversed proxy, load balancer..
 
 <!-- {_class="lnu-font-size-80 lnu-margin-right-30"} -->
 Note:
@@ -66,7 +66,9 @@ IT-Technician study programme <br />
   * Part 2: Server operations
 * Activities
   * Mainly pre-recorded lectures
+    * Some old, some new
   * Peer-instructions
+    * LIVE, see your schedule
   * Supervision
   * 2 examination assignments
     * Written report examination (part 1)
@@ -93,7 +95,7 @@ Last part very practical & hands on
   * Oral examination of the theoretical parts
 
 
-<!-- Literature -->
+---
 ## Literature
 * Open learning resources on the course page
 * The Practice of cloud system administration (not mandatory in this course) 
