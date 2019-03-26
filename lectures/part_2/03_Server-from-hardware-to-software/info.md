@@ -12,5 +12,5 @@ server, hardware, operating system
 - [Recording](https://youtu.be/V2B21MCQ0GM?t=10m22s&list=PLSWJPPj5sKmr_PkB_qU4SAA-B5Rv4ICF2) (Youtube)
 
 ### Reading
-En enklare artikel om operativsystem från [OSU DevOps BootCamp](https://devopsbootcamp.osuosl.org)
+En enklare artikel om operativsystem från [OSU DevOps BootCamp](https://devopsbootcamp.osuosl.org) <br />
 [https://devopsbootcamp.osuosl.org/operating-systems.html](https://devopsbootcamp.osuosl.org/operating-systems.html)
