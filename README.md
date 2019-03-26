@@ -5,17 +5,14 @@ This repro is a place holder for the course web page, https://coursepress.lnu.se
 
 ## Course Info
 **Course code:** 1DV031 <br />
-**Course coordinator:** Jacob Lidnehoff <br />
 **Prerequisites:** Basic programming 1DV021 or equivalent.
 ### Contents of the course:
-* transmitter / receiver model
 * OSI model
 * TCP/IP-based computer communications
-* different operation methods for operating systems and services (incl. Docker and virtual)
-* server operating systems (incl. Windows Server and Linux Server)
-* script programming (incl. PowerShell and Bash)
+* server operating systems (Linux Server)
+* script programming (Bash)
 * Web server (incl. Apache and Nginx)
-* directory service (incl. Active Directory)
+* DNS service
 
 ## Licens
 COPYRIGHT FOR THIS WORK
