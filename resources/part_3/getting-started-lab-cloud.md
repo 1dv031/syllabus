@@ -1,8 +1,33 @@
 ## Getting started with OpenStack
-Before you start using our lab cloud, you should watch all Getting started video in the Youtube playlist below.
-The interface can be a bit different since we have updated the Openstack version since the demo was recorded.
+This part is combining some newly recorded material for managing your cloud accounts on our OpenStack cloud.
+Before you start using our lab cloud, make sure you watch trough these videos. The interface can be a bit different since we have updated the Open Stack version since the demo was recorded.
 
-<iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLSWJPPj5sKmpd1_CvWzGsB8p6VdGFSEv1" frameborder="0" allowfullscreen></iframe>
+### Getting started - Create your network
+In this video we talk about our cloud environment, CS Cloud, that is built on [OpenStack](https://www.openstack.org/). You learn what it is and how you could log into it and start using it. The video also shows how to start to set up a new network for your OpenStack project.
+<iframe width="420" height="240" src="https://www.youtube.com/embed/S1XWOxj3GmU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Create an instance
+In this video you will learn how to create an instance or machine in your network
+<iframe width="420" height="240" src="https://www.youtube.com/embed/48vUTOmZAfg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Connect to an instance through SSH
+When we now have created our machine we want to connect to and log in on it. This is done by using SSH and a pre-produced SSH-key.
+<iframe width="420" height="240" src="https://www.youtube.com/embed/7wbvCgKRKZA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Using the OpenStackClient (OSC) - with docker
+In this video we go through how to run a docker container that includes the OSC. 
+<iframe width="420" height="240" src="https://www.youtube.com/embed/Odd59bAj598" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**OBS! For more demos about cli-commands you can whats the older recording below (see OpenStack CLI).**
+
+### Using OpenStack cli in a script
+In this video we will create a bash script that will use the OpenSlack CLI
+[Video to come]
+
+## Older videos
+Here are some older videos that could still be of importance. The are recorded in an older version of OpenStack but most of the instructions are still relevant. Some of the contents is the same as the new videos above.
+
+<iframe width="420" height="240" src="https://www.youtube.com/embed/videoseries?list=PLSWJPPj5sKmpd1_CvWzGsB8p6VdGFSEv1" frameborder="0" allowfullscreen></iframe>
 
 ### Web Interface
 * [Overview of the Web interface](https://www.youtube.com/watch?list=PLSWJPPj5sKmpd1_CvWzGsB8p6VdGFSEv1&v=gTN6iSopAvo)
@@ -12,7 +37,7 @@ The interface can be a bit different since we have updated the Openstack version
     DNS: 194.47.199.41, 194.47.110.97
   * [Add an interface for the router](https://www.youtube.com/watch?list=PLSWJPPj5sKmpd1_CvWzGsB8p6VdGFSEv1&v=ELQKjXU4Qh0&t=6m10s)
 * [Key pair](https://www.youtube.com/watch?list=PLSWJPPj5sKmpd1_CvWzGsB8p6VdGFSEv1&v=QWmx1K9duHk)
-  * [Create a Key Pair](https://www.youtube.com/watch?list=PLSWJPPj5sKmpd1_CvWzGsB8p6VdGFSEv1&v=QWmx1K9duHk&t=32s) (OBS You don't have to create your own keys, they ones you should use are already created for you!) Make sure to actually log in with SSH on Linux using kesy only, do not active log in using password. For Windows when you do use passwaords, make sure you use secure passwords from the start!
+  * [Create a Key Pair](https://www.youtube.com/watch?list=PLSWJPPj5sKmpd1_CvWzGsB8p6VdGFSEv1&v=QWmx1K9duHk&t=32s) (OBS You don't have to create your own keys, they ones you should use are already created for you!) Make sure to actually log in with SSH on Linux using keys only, do not active log in using password. For Windows when you do use passwords, make sure you use secure passwords from the start!
   * [Add Key to your computer](https://www.youtube.com/watch?list=PLSWJPPj5sKmpd1_CvWzGsB8p6VdGFSEv1&v=QWmx1K9duHk&t=59s)
   ```bash
   chmod 400 my-key.pem
@@ -26,7 +51,7 @@ The interface can be a bit different since we have updated the Openstack version
 * [Install the OpenStack Client](https://www.youtube.com/watch?list=PLSWJPPj5sKmpd1_CvWzGsB8p6VdGFSEv1&v=pELgVCeUe4k&t=4s)
   * [Doc: Install the OpenStack Client](https://docs.openstack.org/user-guide/common/cli-install-openstack-command-line-clients.html)
   * [Install Python 2.7](https://www.python.org/downloads/)
-  * [setuptools package](https://pypi.python.org/pypi/setuptools)
+  * [setup tools package](https://pypi.python.org/pypi/setuptools)
   * `easy_install pip`
   * `pip install python-openstackclient`
 * [Get the OpenStack RC file](https://www.youtube.com/watch?list=PLSWJPPj5sKmpd1_CvWzGsB8p6VdGFSEv1&v=pELgVCeUe4k&t=2m40s)
