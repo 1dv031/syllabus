@@ -1,6 +1,6 @@
 ## Examination Assignment 3
 
-In this examination assignment You should set up a server environment suited for a specific situation. You are given a job description of a fictitious company ([ACME AB](https://en.wikipedia.org/wiki/Acme_Corporation)) who need help with the installation and setup of the companys web and DNS services. To help you we have our cloud environment (cscloud.lnu.se) where you can solve the problem. In the examination it is also included a oral hearing where the theoretical part of the course will be examine.
+In this examination assignment You should set up a server environment suited for a specific situation. You are given a job description of a fictitious company ([ACME AB](https://en.wikipedia.org/wiki/Acme_Corporation)) who need help with the installation and setup of the companys web and DNS services. To help you we have our cloud environment (cscloud.lnu.se) where you can solve the problem. In the examination includes an oral hearing where the theoretical part of the course will be examine.
 
 ## Description of the practical assignment
 Below are the assignment described in the form of a description of the ACME AB's IT strategist, Brumund Dal.
@@ -8,7 +8,7 @@ Below are the assignment described in the form of a description of the ACME AB's
 ---
 
 Hello! <br />
-We are in need of a new server environment where we can handle our DNS Servers and the operations of our web applications.
+We are in need of a new server environment where we can handle our DNS servers and the operations of our web applications.
 
 ### Web servers
 
@@ -33,6 +33,23 @@ To be able to handle the domain name we also need to have DNS management. You sh
 Web Servers and DNS servers should be in our own DMZ network.
 
 ---
+<br><br>
+### Requirements of the assignment
+* The network structure should of course work meaning
+  * The DNS servers are correctly configuring meaning that the domain names acmea.xx222xx.devopslab.xyz and acmeb.xx222xx.devopslab.xyz is pointing to the web servers described above
+  * The web servers is correctly installed and listening for HTTP requests
+  * The load balancer is balancing the traffic between the two Node.js instances
+  * The applications on the web servers is correctly installed and working as intended  
+* There be some shell scripts handling part of the work:
+  * Installation and configuration of the load balancer (adding the configuration file though code)
+  * Installation and configuration of Apache and PHP
+  * Downloading and installation of the latest Wordpress
+  * Downloading and installation of the Node.js Applications
+* The documentation is done in the README.md file of the examination repository in the 1dv031 organization
+* All the script and configuration files you have used to solve the problem should be version controlled in your github repository
+
+<br><br>
+For those of you striving for higher grade you could implement more scripting like scripts for reproducing and tearing down the open stack environment (network, routers, instances and so on).
 
 ### Documentation of the project
 You should document your project in your github repository by saving all scripted files, your configuration files and anything else that will help the examiner to backtrack your work. The repository must have a README.md where give a description of your project. Explain your network structure (add image over the topology) and explain and motivate the choices you have done in your project. Also write down in the end of the readme if you have done anything in the project that you think is relevant for getting higher grade then "Godkänd" (see grading below).
