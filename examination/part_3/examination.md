@@ -2,7 +2,7 @@
 
 In this examination assignment You should set up a server environment suited for a specific situation. You are given a job description of a fictitious company ([ACME AB](https://en.wikipedia.org/wiki/Acme_Corporation)) who need help with the installation and setup of the companys web and DNS services. To help you we have our cloud environment (cscloud.lnu.se) where you can solve the problem. In the examination it is also included a oral hearing where the theoretical part of the course will be examine.
 
-### Description of the practical assignment
+## Description of the practical assignment
 Below are the assignment described in the form of a description of the ACME AB's IT strategist, Brumund Dal.
 
 ---
@@ -10,7 +10,7 @@ Below are the assignment described in the form of a description of the ACME AB's
 Hello! <br />
 We are in need of a new server environment where we can handle our DNS Servers and the operations of our web applications.
 
-### DMZ
+### Web servers
 
 In the DMZ we need to serve two different web sites
 
@@ -19,7 +19,7 @@ In the DMZ we need to serve two different web sites
 
 The web servers should listen to the standard port. 
 
-#### DNS
+### DNS service
 You must be able to access the sites for the outside with the help of the below URLs.
 
 * acmea.xx222xx.devopslab.xyz (PHP, Wordpress)
@@ -30,21 +30,22 @@ To be able to handle the domain name we also need to have DNS management. You sh
 
 *Please note that **xx222xx** should be replaced by your LNU username*
 
-Web Servers and DNS servers should be in their own DMZ network.
+Web Servers and DNS servers should be in our own DMZ network.
 
+---
 
-#### Documentation of the project
+### Documentation of the project
 You should document your project in your github repository by saving all scripted files, your configuration files and anything else that will help the examiner to backtrack your work. The repository must have a README.md where give a description of your project. Explain your network structure (add image over the topology) and explain and motivate the choices you have done in your project. Also write down in the end of the readme if you have done anything in the project that you think is relevant for getting higher grade then "Godkänd" (see grading below).
 
 **Some days after the examination your cloud account will be deleted with all of your instances so be sure to take backup of your work if you want to save it.**
 
 
-### The oral examination
+## The oral examination
 This assignment will have a oral examination where theoretical questions will be asked by the examiner. The theoretical questions will focus on the last part of the course, with questions taken from the lectures, exercises and study material. During the oral examination, which is 30 minutes, there could also be some questions where you have to be ready to show your practical assignment. Be ready to share your screen and perform task like "log in to your instance and show and explain your load balancer configuration", "Show your DNS configuration" and so on.
 
 To assist you and the examiner, you should provide a general documentation where you can quickly get an overview of your solution. An image of the network topology, server name, *passwords* and working urls to the web sites described below are the minimum that should be included. This documentation should be presented in the private repository you have been given (named {username}-examination). The cloud environment that you will use is only for showing your solution to the customer, so try to automate and script the environment as much as possible. All script used in your solution must be in your repository.
 
-#### Grading
+## Grading
 The assignment have the following grades: Underkänd, Godkänd, Väl godkänd. The following criteria will be used:
 
 - Underkänd
