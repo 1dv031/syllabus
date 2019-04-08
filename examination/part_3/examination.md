@@ -1,6 +1,6 @@
 ## Examination Assignment 3
 
-In this examination assignment You should set up a server environment suited for a specific situation. You are given a job description of a fictitious company ([ACME AB](https://en.wikipedia.org/wiki/Acme_Corporation)) who need help with the installation and setup of the companys web and DNS services. To help you we have our cloud environment (cscloud.lnu.se) where you can solve the problem. In the examination includes an oral hearing where the theoretical part of the course will be examine.
+In this examination assignment You should set up a server environment suited for a specific situation. You are given a job description of a fictitious company ([ACME AB](https://en.wikipedia.org/wiki/Acme_Corporation)) who need help with the installation and setup of the companys web and DNS services. To help you we have our cloud environment (cscloud.lnu.se) where you can solve the problem. The examination includes an oral hearing where the theoretical part of the course will be examine.
 
 ## Description of the practical assignment
 Below are the assignment described in the form of a description of the ACME AB's IT strategist, Brumund Dal.
@@ -14,8 +14,8 @@ We are in need of a new server environment where we can handle our DNS servers a
 
 In the DMZ we need to serve two different web sites
 
-* The first web site runs on a Apache web server with support for PHP and will be hosting a [Wordpress (latest version) installation](https://codex.wordpress.org/Installing_WordPress)(this requires mySQL or mariaDB as a database server). To show proof of concept just install a fresh Wordpress installation on the server showing that the server is correct configured.
-* The second web site is running on Node.js instances. This web site have higher traffic rate and must be able to scale with a load balancer. We want to use Nginx to handle this. So install a Nginx as a load balancer and two Node.js instances behind with the same Node.js (LTS version) application installed. To show us it will work you should use some kind of template application that shows that the server and application is running correctly ([Hint - see bash scripting video](https://github.com/CS-LNU-Learning-Objects/linux)). The application running on this instances will be a stateless application meaning that no sessions is needed to be handled.
+* The first web site runs on a Apache web server with support for PHP and will be hosting a [Wordpress (latest version) installation](https://codex.wordpress.org/Installing_WordPress)(this requires mySQL or mariaDB as a database server also installed on the same instance). To show proof of concept just install a fresh Wordpress installation on the server showing that the server is correct configured.
+* The second web site is running on Node.js instances. This web site have higher traffic rate and must be able to scale with a load balancer. We want to use Nginx to handle this. So install a Nginx as a load balancer and two Node.js instances behind with the same Node.js (LTS version) application installed. To show us it will work you should use some kind of template application that shows that the server and application is running correctly ([Hint - see bash scripting video](https://www.youtube.com/watch?v=H1b9dVDz2TE)). The application running on this instances will be a stateless application meaning that no sessions is needed to be handled.
 
 The web servers should listen to the standard port. 
 
@@ -33,7 +33,7 @@ To be able to handle the domain name we also need to have DNS management. You sh
 Web Servers and DNS servers should be in our own DMZ network.
 
 ---
-<br><br>
+<br>
 ### Requirements of the assignment
 * The network structure should of course work meaning
   * The DNS servers are correctly configuring meaning that the domain names acmea.xx222xx.devopslab.xyz and acmeb.xx222xx.devopslab.xyz is pointing to the web servers described above
