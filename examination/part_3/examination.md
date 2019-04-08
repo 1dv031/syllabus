@@ -60,8 +60,6 @@ You should document your project in your github repository by saving all scripte
 ## The oral examination
 This assignment will have a oral examination where theoretical questions will be asked by the examiner. The theoretical questions will focus on the last part of the course, with questions taken from the lectures, exercises and study material. During the oral examination, which is 30 minutes, there could also be some questions where you have to be ready to show your practical assignment. Be ready to share your screen and perform task like "log in to your instance and show and explain your load balancer configuration", "Show your DNS configuration" and so on.
 
-To assist you and the examiner, you should provide a general documentation where you can quickly get an overview of your solution. An image of the network topology, server name, *passwords* and working urls to the web sites described below are the minimum that should be included. This documentation should be presented in the private repository you have been given (named {username}-examination). The cloud environment that you will use is only for showing your solution to the customer, so try to automate and script the environment as much as possible. All script used in your solution must be in your repository.
-
 ## Grading
 The assignment have the following grades: Underkänd, Godkänd, Väl godkänd. The following criteria will be used:
 
