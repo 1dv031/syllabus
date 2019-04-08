@@ -17,7 +17,7 @@ In the DMZ we need to serve two different web sites
 * The first web site runs on a Apache web server with support for PHP and will be hosting a [Wordpress (latest version) installation](https://codex.wordpress.org/Installing_WordPress)(this requires mySQL or mariaDB as a database server also installed on the same instance). To show proof of concept just install a fresh Wordpress installation on the server showing that the server is correct configured.
 * The second web site is running on Node.js instances. This web site have higher traffic rate and must be able to scale with a load balancer. We want to use Nginx to handle this. So install a Nginx as a load balancer and two Node.js instances behind with the same Node.js (LTS version) application installed. To show us it will work you should use some kind of template application that shows that the server and application is running correctly ([Hint - see bash scripting video](https://www.youtube.com/watch?v=H1b9dVDz2TE)). The application running on this instances will be a stateless application meaning that no sessions is needed to be handled.
 
-The web servers should listen to the standard port. 
+The web servers should listen to the standard port(s). 
 
 ### DNS service
 You must be able to access the sites for the outside with the help of the below URLs.
