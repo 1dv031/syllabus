@@ -32,7 +32,7 @@
             <td>w15</td>
             <td>
                 <ul>
-                    <li>Lecture - “Server” from hardware to software (Pre-recorded)</li>
+                    <li>Lecture - “Hardware to software (Pre-recorded)</li>
                     <li>Go through the Study Material</li>
                     <li>Work with Examination 1 - Computer Networks</li>
                     <li>Supervision</li>
