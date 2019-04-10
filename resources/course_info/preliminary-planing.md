@@ -12,8 +12,8 @@
             <td>w13</td>
             <td>
                 <ul>
-                    <li>Lecture 00 – Introduction (Live)</li>
-                    <li>Lecture 01 - Introduction to computer communication and the OSI model (pre-recorded)</li>
+                    <li>Introduction (Live)</li>
+                    <li>Lecture - Introduction to computer communication and the OSI model (pre-recorded)</li>
                     <li>Go through the Study Material</li>
                 </ul>
             </td>
@@ -22,7 +22,7 @@
             <td>w14</td>
             <td>
                 <ul>
-                    <li>Lecture 02 - Some TCP/IP protocols (pre-recorded)</li>
+                    <li>Lecture - Some TCP/IP protocols (pre-recorded)</li>
                     <li>Go through the Study Material</li>
                     <li>Work with Examination 1 - Computer Networks</li>
                     <li>Supervision</li>
@@ -32,10 +32,11 @@
             <td>w15</td>
             <td>
                 <ul>
-                    <li>Lecture 03 - “Server” from hardware to software (Pre-recorded)</li>
+                    <li>Lecture - “Server” from hardware to software (Pre-recorded)</li>
                     <li>Go through the Study Material</li>
                     <li>Work with Examination 1 - Computer Networks</li>
                     <li>Supervision</li>
+                    <li>Peer-instruction 11/4, 13:15</li>
                 </ul>
             </td>
         </tr>
@@ -43,8 +44,9 @@
             <td>w16</td>
             <td>
                 <ul>
-                    <li>Work with Examination 2</li>
                     <li><strong>08.00am April 15th – Deadline</strong> handling in Examination 1</li>
+                    <li>Lecture - OS installation and post setup (pre-recorded)</li>
+                    <li>Lecture - Linux and Bash (learning object)</li>
                 </ul>
             </td>
         </tr>
@@ -52,10 +54,8 @@
             <td>w17</td>
             <td>
                 <ul>
-                    <li>Lecture 04 - OS installation and post setup (pre-recorded)</li>
-                    <li>Lecture 05 - Linux and Bash (learning object)</li>
-                    <li>Exercise 01 - Server OS Installation</li>
-                    <li>Exercise 02 - Post Setup</li>
+                    <li>Work with Examination 2</li>
+                    <li>Lecture - DNS servers (pre-recorded)</li>
                     <li>Supervision</li>
                 </ul>
             </td>
@@ -64,9 +64,9 @@
             <td>w18</td>
             <td>
                 <ul>
-                    <li>Lecture 06 - Some Server services (pre-recorded)</li>
-                    <li>Exercise 03 - Getting started with the Cloud</li>
-                    <li>Exercise 04 - Public Name Servers</li>
+                    <li>Work with Examination 2</li>
+                    <li>Peer-instruction 30/4, 13:15</li>
+                    <li>Lecture - HTTP servers (pre-recorded)</li>
                     <li>Supervision</li>
                 </ul>
             </td>
@@ -75,8 +75,8 @@
             <td>w19</td>
             <td>
                 <ul>
-                    <li>Lecture 07 - Web servers (pre-recorded)</li>
-                    <li>Exercise 05 - Web server</li>
+                    <li>Work with Examination 2</li>
+                    <li>Lecture - Basic Security</li>
                     <li>Supervision</li>
                 </ul>
             </td>
@@ -85,7 +85,6 @@
             <td>w20</td>
             <td>
                 <ul>
-                    <li>Working on Examination Assignment 2</li>
                     <li>Supervision</li>
                 </ul>
             </td>
@@ -113,6 +112,7 @@
             <td>w22</td>
             <td>
                 <ul>
+                    <li>Peer-instruction 29/5, 13:15</li>
                     <li><strong>June 3th 08:00am – Deadline</strong> Examination Assignment 2</li>
                     <li><strong>Oral examination, see schedule</li>
                 </ul>
