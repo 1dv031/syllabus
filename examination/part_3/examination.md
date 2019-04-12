@@ -57,8 +57,8 @@ You should document your project in your github repository by saving all scripte
 **Some days after the examination your cloud account will be deleted with all of your instances so be sure to take backup of your work if you want to save it.**
 
 
-## The oral examination
-This assignment will have a oral examination where theoretical questions will be asked by the examiner. The theoretical questions will focus on the last part of the course, with questions taken from the lectures, exercises and study material. During the oral examination, which is 30 minutes, there could also be some questions where you have to be ready to show your practical assignment. Be ready to share your screen and perform task like "log in to your instance and show and explain your load balancer configuration", "Show your DNS configuration" and so on.
+## The oral hearing
+This assignment will have a oral hearing where theoretical questions will be asked by the examiner. The theoretical questions will focus on the last part of the course, with questions taken from the lectures, exercises and study material. During the oral examination, which is 30 minutes, there could also be some questions where you have to be ready to show your practical assignment. Be ready to share your screen and perform task like "log in to your instance and show and explain your load balancer configuration", "Show your DNS configuration" and so on.
 
 ## Grading
 The assignment have the following grades: Underkänd, Godkänd, Väl godkänd. The following criteria will be used:
