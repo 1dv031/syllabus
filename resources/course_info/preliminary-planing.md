@@ -86,7 +86,7 @@
             <td>
                 <ul>
                     <li>Supervision</li>
-                    <li>Late deadline, 13/5 08:00</li>
+                    <li><strong>Late deadline Exam 1, 13/5 08:00</strong></li>
                 </ul>
             </td>
         </tr>
