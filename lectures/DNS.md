@@ -5,7 +5,7 @@
 A presentation about the Domain Name System
 
 ## Resources
-- [Recording](https://youtu.be/CqM1Slw2bGw?t=381) (Youtube)
+- [Recording VT19](https://youtu.be/vWweLXKCzBQ) (Youtube)
 
 
 ## Articles
