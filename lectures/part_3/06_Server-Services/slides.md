@@ -1,18 +1,12 @@
 <!-- Start -->
-# Today's lecture <!-- {_style="font-size:140%"} -->
-## Some Server services<!-- {_style="font-size:110%"} -->
-* DNS <!-- {_class="fragment"} -->
+#### Content
+* DNS
   * What is DNS?
   * Terminology
+  * Hierarchy
   * Delegation
   * Zones
-  * Resource Record
   * Caching
-  * Query Types
-  * Use cases
-* DHCP<!-- {_class="fragment"} -->
-  * What is DHCP?
-  * Terminology
 
 <!-- {_style="font-size: 70%"} -->
 
@@ -21,46 +15,52 @@ These are the topics for todays lecture.
 
 
 ---
-## DNS - Domain Name System
-* Create user-friendly names:
-  * Servers
-  * Clients
-  * Services
-* 3 different use cases
-  * Public
-  * Internal/Active Directory
+#### DNS - Domain Name System
+* IP to domain names and vice versa
+  * Client/Server
+    * DNS query
+    * Name servers
 
 ![DNS Forward Lookup](images/dns-forward-lookup.png)
 <!-- {_style="width: 70%" class="fragment"} -->
 
 
 --
-## DNS Structure
-* Tree like structure
-* Limitations <!-- {_class="fragment"} -->
-  * Each node name can be up to 63 characters long
-  * Maximum depth of a DNS tree is 127 levels
-  * Whole domain name can't exceed a total length of 255 characters
-  * Nodes that have the same parent must have different names
-Note:
-Draw a DNS tree
-
-
---
-## DNS Terminology
+#### DNS Structure & Terminology
 * root
-* TLD - top-level domains
 * FQDN - Fully Qualified Domain Name
+  * Absolute domain name for a computer or host on Internet
+  * a.cs.lnu.se
+  * www.lnu.se
+* TLD - top-level domains
+  * .se
 * Domain
-* Host
+  * lnu.se
 * Sub domain
+  * cs
+* Host
+  * a
+
 
 ![](images/dns-terminology.png)
-<!-- {_style="position: absolute; top: 240px; left: 300px;"} -->
+<!-- {_style="width: 40%; position: absolute; top: 240px; left: 500px;"} -->
 
 
 --
-## DNS - top-level domains
+#### DNS - Root Name Servers
+* There are 13 root name server
+* http://root-servers.org
+  * http://letter.root-servers.org/, where letter ranges from a to m
+* Internet Corporation for Assigned Names and Numbers, ICANN
+  * nonprofit organization
+  * responsible for coordinating the namespaces of the Internet
+    * generic top-level domains (gTLDs)
+    * country-code top-level domains (ccTLDs)
+    * the operation of root name servers
+
+
+--
+#### DNS - top-level domains
 * The original top-level domains:
   * com
   * edu
@@ -69,8 +69,8 @@ Draw a DNS tree
   * net
   * org
   * int
-* Today, as of February 2017
-  * 1528 top-level domains
+* As of April 2018
+  * 1534 top-level domains
 
 Note:
 De ursprungliga toppdomänerna:
@@ -85,18 +85,17 @@ int internationella icke kommersiella organisationer, såsom NATO (nato.int).
 
 
 --
-## DNS - Delegation
+#### DNS - Delegation
 * One of the goals in the design of the DNS was to decentralize the administration:
 * Parent domain contains only a pointer
 
-![delegation](images/dns-delegation.png)
-<!-- {_style="position: absolute; width: 50%" class="fragment fade-out"} -->
+
 ![delegation 2](images/dns-delegation2.png)
-<!-- {_style="float: left; width: 60%" class="fragment fade-in"} -->
+<!-- {_style="float: left; width: 50%"} -->
 
 
 --
-## DNS - Zones
+#### DNS - Zones
 * Contains all domain names in the domain, except for domain names in delegated subdomains
 * Name servers loads the zone is not the domain
 ![Zones](images/dns-zones.png)
@@ -110,9 +109,9 @@ Zoner:
 
 
 --
-## DNS - Name servrer and zones
+#### DNS - Name server and zones
 * Name server = "Server application" that store information about the zone
-* Loaded from a file or another name server
+  * Loaded from a file or another name server, like a database in memory
 * Responsibility for the zone
 * May be responsible for multiple zones
 
@@ -125,7 +124,7 @@ Namnservrar och zoner:
 
 
 --
-## DNS -  Name server
+#### DNS -  Name server
 Types of name servers:
 * Primary Master
   * The primary name server loads zone data from the zone file
@@ -139,40 +138,11 @@ Types of name servers:
 
 
 --
-## DNS - Lookup Zones
-* Forward lookup zones
- * Domain names to IP addresses
- * Resource Record Types
-   * A or AAAA (Host)
-   * CNAME(Alias)
-   * NS (Name Server)
-   * SOA(Start of Authority)
-   * MX (Mail Exchanger)
-   * TXT (Text record)
-* Reverse lookup zones <!-- {_class="fragment"} -->
- * IP addresses to domain names
- * Resource Record Types
-   * PTR (Pointer)
-
-
---
-## DNS - Root Name Servers
-* There are 13 logical root name server
-* http://letter.root-servers.org/, where letter ranges from a to m
-* http://root-servers.org
-* Internet Corporation for Assigned Names and Numbers, ICANN
-  * nonprofit organization
-  * responsible for coordinating the namespaces of the Internet
-    * generic top-level domains (gTLDs)
-    * country-code top-level domains (ccTLDs)
-    * the operation of root name servers
-
-
---
-## DNS - Finding the root server
+#### DNS - Finding the root server
 How can your Name Server find the root server?
 * Forwarders
 * Root Hints file
+  * in standard installation of your DNS server software
 
 ```
 ; formerly NS.INTERNIC.NET
@@ -198,8 +168,9 @@ D.ROOT-SERVERS.NET.      3600000      AAAA  2001:500:2d::d
 <!-- {_style="font-size: 33%; margin: 0px; width:50%"} -->
 
 
+
 --
-## DNS - Caching
+#### DNS - Caching
 * Performance
 * Time To Live:  <!-- {_class="fragment"} -->
   * Max time
@@ -229,13 +200,15 @@ Ett stort TTL-värde kommer att minska medeltiden för en sökprocess i din zon 
 
 
 --
-## DNS - Client
+#### DNS - Client
 * Resolver:
   * Client side of the DNS
   * Translates name questions from program to DNS queries
   * Built-in to the operating system
+    * For instance used by web browser, ping program...
+    * APIs in most programming platforms...
 * Tools
-  * nslookup
+  * nslookup (cli)
 
 Note:
 Resolver:
@@ -246,7 +219,7 @@ Resolver:
 
 
 --
-## DNS - Query Types
+#### DNS - Query Types
 * Recursive Queries
   * DNS client requires that the DNS server respond with either:
     * Requested resource record
@@ -265,7 +238,7 @@ Resolver:
 
 
 --
-## DNS - Querys Types
+#### DNS - Querys Types
 Example
 
 ![DNS query](images/dns-query.png)
@@ -273,14 +246,13 @@ Example
 
 
 --
-## DNS - Use cases
+#### DNS - Use cases
 * Public
   * Set up the Name Server
     * configure the zone for the domain
     * create a secondary name server
   * Buy the domain name from a register
     * Point the delegation to your Name servers
-  * Create records for publicly accessible devices
 * Internal/Private <!-- {_class="fragment"} -->
   * you can use any TLD but not recommended
   * use a subdomain under your public domain name
@@ -289,42 +261,73 @@ Example
 
 
 --
-## DNS Zone files
+#### DNS Zone files - example Bind
+
 * Not a standard
-* Example zone file
 
 ```
+$TTL 2d ; zone default, cached locally
 example.org.    IN      SOA      ns1.example.org. admin.example.org. (
-                        2006051501      ; Serial
-                        10800           ; Refresh
-                        3600            ; Retry
-                        604800          ; Expire
-                        300             ; Negative Response TTL
+                        2006051501      ; Serial (must update when change)
+                        10800           ; Refresh (Seconds between update requests slave name servers. )
+                        3600            ; Retry (seconds slave will wait before retrying when the last attempt has failed)
+                        4d              ; Expire (slave will wait before considering the data stale if it cannot reach the primary name server)
+                        3m              ; Negative Response TTL (How long to save failing question)
                 )
 
 ; DNS Servers
                 IN      NS      ns1.example.org.
                 IN      NS      ns2.example.org.
-
 ; MX Records
                 IN      MX 10   mx.example.org.
                 IN      MX 20   mail.example.org.
-
                 IN      A       192.168.1.1
-
 ; Machine Names
 ns1             IN      A       192.168.1.2
 ns2             IN      A       192.168.1.3
 mail            IN      A       192.168.1.5
+dev             IN      A       192.168.1.7  
 
 ; Aliases
 www             IN      CNAME   example.org.
 ```
-<!-- {_style="font-size: 33%; margin: 0px; width:50%"} -->
+<!-- {_style="font-size: 33%; margin: 10px; width:95%"} -->
 
 
 --
-## DNS - Resource Record Types
+#### DNS - Lookup Zones
+* Forward lookup zones
+ * Domain names to IP addresses
+ * Resource Record Types
+   * SOA(Start of Authority)
+   * A or AAAA (Host)
+   * CNAME(Alias)
+   * NS (Name Server)
+   * MX (Mail Exchanger)
+   * TXT (Text record)
+* Reverse lookup zones <!-- {_class="fragment"} -->
+ * IP addresses to domain names
+ * Resource Record Types
+   * PTR (Pointer)
+
+
+--
+#### DNS - Resource Record Types
+* SOA
+  * Start of Authority
+  * The name server has the best information on DNS zone
+  * Make sure the server is responsible (authoritative) for the DNS zone
+  * An SOA record is required in all DNS zones
+  * Only one SOA record per DNS zone
+  * Includes
+    * Primary name server
+    * Email of the domain administrator
+    * Domain serial number
+    * Several timers relating to refreshing the zone.
+
+
+--
+#### DNS - Resource Record Types
 * A or AAAA record
   * Address record
   * Identifies the IP address from a hostname
@@ -340,22 +343,7 @@ www             IN      CNAME   example.org.
 
 
 --
-## DNS - Resource Record Types
-* SOA
-  * Start of Authority
-  * The name server has the best information on DNS zone
-  * Make sure the server is responsible (authoritative) for the DNS zone
-  * An SOA record is required in all DNS zones
-  * Only one SOA record per DNS zone
-  * Includes
-    * Primary name server
-    * Email of the domain administrator
-    * Domain serial number
-    * Several timers relating to refreshing the zone.
-
-
---
-## DNS - Resource Record Types
+#### DNS - Resource Record Types
 * MX record
   * Mail Exchanger
   * Identifies which server is the mail server for a domain
@@ -371,99 +359,33 @@ www             IN      CNAME   example.org.
 
 
 --
-## DNS Zone files
-* Not a standard
-* Example zone file
+#### Configure your name server
 
 ```
+$TTL 2d ; zone default, cached locally
 example.org.    IN      SOA      ns1.example.org. admin.example.org. (
-                        2006051501      ; Serial
-                        10800           ; Refresh
-                        3600            ; Retry
-                        604800          ; Expire
-                        300             ; Negative Response TTL
+                        2006051501      ; Serial (must update when change)
+                        10800           ; Refresh (Seconds between update requests slave name servers. )
+                        3600            ; Retry (seconds slave will wait before retrying when the last attempt has failed)
+                        4d              ; Expire (slave will wait before considering the data stale if it cannot reach the primary name server)
+                        3m              ; Negative Response TTL (How long to save failing question)
                 )
 
 ; DNS Servers
                 IN      NS      ns1.example.org.
                 IN      NS      ns2.example.org.
-
 ; MX Records
                 IN      MX 10   mx.example.org.
                 IN      MX 20   mail.example.org.
-
                 IN      A       192.168.1.1
-
 ; Machine Names
 ns1             IN      A       192.168.1.2
 ns2             IN      A       192.168.1.3
 mail            IN      A       192.168.1.5
+dev             IN      A       192.168.1.7  
 
 ; Aliases
 www             IN      CNAME   example.org.
 ```
-<!-- {_style="font-size: 33%; margin: 0px; width:50%"} -->
+<!-- {_style="font-size: 33%; margin: 10px; width:95%"} -->
 
-
----
-## DHCP
-Dynamic Host Configuration Protocol
-* Bootstrap Protocol (BOOTP)
-* Centralized management of IP addresses
-* Can help with IP address conflicts
-
-![DHCP overview](images/dhcp-overview.png)
-<!-- {_style="width: 60%"} -->
-
-
---
-## DHCP – Terminology
-* Scope
-* Exclusion range
-* Address pool
-* Lease
-* Reservation
-
-<!-- {_style="font-size: 100%"} -->
-
-Note:
-DHCP-terminologi:
-Scope: Det IP-adressområde som DHCP-serven tilldelar IP-adresser ifrån
-Exclusion range: IP-adresser i scopet som inte delas ut
-Address pool: Lagrar de IP-adresserna som finns i scopet förutom de som är specificerade i exclusion range
-Lease: Är den tid en DHCP-klient kan använda sig av den tilldelade IP-adressen
-Reservation: Används för att skapa en permanent IP-adress lease
-
-
---
-## DHCP - Initialization lease process
-1. IP lease request - DHCP Discover
-2. IP lease offer - DHCP Offer
-3. IP lease selection - DHCP Request
-4. IP lease confirmatory - DHCP Acknowledge
-
-<!-- {_style="font-size: 90%"} -->
-![DHCP Initialization lease process](images/dhcp-init.png)
-<!-- {_style="width: 60%"} -->
-
-
---
-## DHCP
-* What should you consider when you create a scope:
-  * At least one scopes per DHCP server
-  * Several scopes per DHCP server
-  * Exclude static IP addresses
-  * Information is not replicated between DHCP servers
-* After you create a scope, you can:  <!-- {_class="fragment"} -->
-  * Add additional IP address ranges to be excluded
-  * Reserve IP addresses
-  * Adjusting the length of the lease
-  * Configure settings and classes to be used within your scope
-
-
----
-## Summary - Take ways
-* Internet can't function properly without DNS
-* DNS Zones != Domain
-* Troubleshooting DNS can be hard because of caching
-* IP address conflicts can still occur with DHCP
