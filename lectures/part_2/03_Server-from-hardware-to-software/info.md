@@ -1,6 +1,8 @@
 ## From Hardware to Software
 
-This is a pre-recorded lecture that talks about the operating system and its component and also some hardware components.
+This is a pre-recorded lecture that talks about the operating system and its component and also some hardware components. 
+Some of the content below includes information about the Windows operating system. 
+This year we will only focus on Linux as a server operating system though.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/V2B21MCQ0GM?t=10m23s&list=PLSWJPPj5sKmr_PkB_qU4SAA-B5Rv4ICF2" frameborder="0" allowfullscreen></iframe>
 
@@ -16,7 +18,7 @@ An article about operating system [OSU DevOps BootCamp](https://devopsbootcamp.o
 [https://devopsbootcamp.osuosl.org/operating-systems.html](https://devopsbootcamp.osuosl.org/operating-systems.html)
 
 ### Demo
-This demo shows the procedure of the installation and post-setup of operating systems. It uses the virtual box program and installs both windows and linux.
+This demo shows the procedure of the installation and post-setup of operating systems. It uses the virtual box program and installs both Windows (optional) and Linux.
 
 
 <iframe width="853" height="480" src="https://www.youtube.com/embed/cRTm7FO3w98?rel=0" frameborder="0" allowfullscreen></iframe>
@@ -25,7 +27,7 @@ This demo shows the procedure of the installation and post-setup of operating sy
   * Creating a machine
   * Configure hardware
   * Mounting ISO
-* Installing Windows Server 2012 R2 Core
+* Installing Windows Server 2012 R2 Core (optional)
 * Installing Ubuntu Server 14.04
 * Post setup
   * Install Drivers/Additions
