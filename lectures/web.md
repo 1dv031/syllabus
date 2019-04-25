@@ -99,6 +99,7 @@ A presentation about the web and web servers
 * Restart Apache 2 `sudo systemctl restart apache2`
 
 
-### Nginx configuration
 
+### Nginx configuration
+To come...
 
