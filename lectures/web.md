@@ -7,14 +7,12 @@ A presentation about the web and web servers
 ## Resources
 - [Recording VT19](https://youtu.be/acrPK_SOYFg) (Youtube)
 
-## Demos
+## Demos - Apache
 
-### Apache
-
-#### Resources
+### Resources
 https://httpd.apache.org/docs/2.4/
 
-#### Installing Apache2
+## Installing Apache2
 
 <iframe width="853" height="480" src="https://www.youtube.com/embed/zmegNRww3wQ?rel=0" frameborder="0" allowfullscreen></iframe>
 * Install Apache
@@ -38,7 +36,7 @@ https://httpd.apache.org/docs/2.4/
   * Disable the Apache service to start up at boot `sudo systemctl disable apache2`
   * Re-enable the service to start up at boot `sudo systemctl enable apache2`
 
-### Configure Apache 2
+## Configure Apache 2
 <iframe width="853" height="480" src="https://www.youtube.com/embed/kj4iQvq6Tgg?rel=0" frameborder="0" allowfullscreen></iframe>
 * Create the Directory Structure and permissions
   ```
@@ -106,10 +104,10 @@ https://httpd.apache.org/docs/2.4/
 
 
 
-### Nginx configuration
+## Nginx configuration
 
-#### Resources
+### Resources
 http://nginx.org/en/docs/
 
-#### Demo - Getting started
+## Demo - Getting started
 <iframe width="512" height="250" src="https://www.youtube.com/embed/fQUmTwo4jks" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
