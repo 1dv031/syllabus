@@ -11,7 +11,7 @@ server, hardware, operating system
 
 ### Resources
 - [HTML-presentation](https://cdn.rawgit.com/1dv031/syllabus/master/lectures/part_2/03_Server-from-hardware-to-software/index.html#/)
-- [Recording](https://youtu.be/V2B21MCQ0GM?t=10m22s&list=PLSWJPPj5sKmr_PkB_qU4SAA-B5Rv4ICF2) (Youtube)
+- [Recording](https://youtu.be/V2B21MCQ0GM?list=PLSWJPPj5sKmr_PkB_qU4SAA-B5Rv4ICF2&t=786) (Youtube)
 
 ### Reading
 An article about operating system [OSU DevOps BootCamp](https://devopsbootcamp.osuosl.org/operating-systems.html) <br />
