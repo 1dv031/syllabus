@@ -5,24 +5,25 @@ Before you start using our lab cloud, make sure you watch trough these videos. T
 ### Getting started - Create your network
 In this video we talk about our cloud environment, CS Cloud, that is built on [OpenStack](https://www.openstack.org/). You learn what it is and how you could log into it and start using it. The video also shows how to start to set up a new network for your OpenStack project.
 <iframe width="420" height="240" src="https://www.youtube.com/embed/S1XWOxj3GmU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[Download mp4](http://coursepress.lnu.se/pub/education/course/1dv031/vt19/movies/create_network_cscloud.mp4)
 
 ### Create an instance
 In this video you will learn how to create an instance or machine in your network
 <iframe width="420" height="240" src="https://www.youtube.com/embed/48vUTOmZAfg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[Download mp4](http://coursepress.lnu.se/pub/education/course/1dv031/vt19/movies/create_instance.mp4)
 
 ### Connect to an instance through SSH
 When we now have created our machine we want to connect to and log in on it. This is done by using SSH and a pre-produced SSH-key.
 <iframe width="420" height="240" src="https://www.youtube.com/embed/7wbvCgKRKZA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[Download mp4](http://coursepress.lnu.se/pub/education/course/1dv031/vt19/movies/ssh_to_instance.mp4)
 
 ### Using the OpenStackClient (OSC) - with docker
 In this video we go through how to run a docker container that includes the OSC. 
 <iframe width="420" height="240" src="https://www.youtube.com/embed/Odd59bAj598" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[Download mp4](http://coursepress.lnu.se/pub/education/course/1dv031/vt19/movies/using-os-cli-docker.mp4)
 
 **OBS! For more demos about cli-commands you can whats the older recording below (see OpenStack CLI).**
 
-### Using OpenStack cli in a script
-In this video we will create a bash script that will use the OpenSlack CLI
-[Video to come]
 
 ## Older videos
 Here are some older videos that could still be of importance. The are recorded in an older version of OpenStack but most of the instructions are still relevant. Some of the contents is the same as the new videos above.
