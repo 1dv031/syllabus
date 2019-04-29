@@ -107,7 +107,11 @@ https://httpd.apache.org/docs/2.4/
 ## Nginx configuration
 
 ### Resources
-http://nginx.org/en/docs/
+* http://nginx.org/en/docs/
+* https://www.digitalocean.com/community/tutorials/understanding-nginx-http-proxying-load-balancing-buffering-and-caching
 
 ## Demo - Getting started
 <iframe width="853" height="480" src="https://www.youtube.com/embed/fQUmTwo4jks" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Demo - Reversed proxy / Node.js web apps
+
