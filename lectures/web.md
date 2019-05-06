@@ -113,5 +113,11 @@ https://httpd.apache.org/docs/2.4/
 ## Demo - Getting started
 <iframe width="853" height="480" src="https://www.youtube.com/embed/fQUmTwo4jks" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Demo - Reversed proxy / Node.js web apps
+## Demo - Node.js web apps
+Denna video visar hur man installerar node.js och kör igång en enkel node-applikation på en Ubuntu 18.04. Videon har ett litet abrupt slut då den är uppdelad i två delar.
+
+<iframe width="853" height="480" src="https://www.youtube.com/embed/8SdTeBePCCI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Demo - Reversed proxy/Load balancer
+To come...
 
