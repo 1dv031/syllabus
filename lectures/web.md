@@ -119,5 +119,7 @@ Denna video visar hur man installerar node.js och kör igång en enkel node-appl
 <iframe width="853" height="480" src="https://www.youtube.com/embed/8SdTeBePCCI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Demo - Reversed proxy/Load balancer
-To come...
+<iframe width="853" height="480" src="https://www.youtube.com/embed/-k9FfBhhvjU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+För mer information om att konfigurerar nginx:n kolla denna artikel:
+https://www.digitalocean.com/community/tutorials/understanding-nginx-http-proxying-load-balancing-buffering-and-caching
