@@ -21,10 +21,11 @@ From Ancient Greek: κρυπτός, kryptós "hidden, secret"; and γράφει�
 
 * Confidentiality (Encryption) <!-- {_class="fragment"} -->
   * Keep it secret
-* Authentication and Authorization <!-- {_class="fragment"} -->
-  * Who are you and what you could do
-* Data Integrity <!-- {_class="fragment"} -->
-  * Correct data, no manipulation (or deleting) of data, not reachable for unauthorized users
+* Authentication <!-- {_class="fragment"} -->
+  * Who are you?
+* Integrity <!-- {_class="fragment"} -->
+  * Correct data, no manipulation (or deleting) of data 
+  * Authorization - not reachable for unauthorized users
 * Non Repudiation <!-- {_class="fragment"} -->
   * A service that provides proof of the integrity and origin of data.
   * An authentication that can be said to be genuine with high confidence.
@@ -105,7 +106,7 @@ Thumbprint (also known as fingerprint): The hash itself, used as an abbreviated 
 
 
 --
-### Certificates - Web Servers
+### Certificates - Web Servers - HTTPS
 1. Client connect on port 443, requests the server identity <!-- {_class="fragment"} -->
 2. Server sends a copy of the TLS Certificate, including servers public key <!-- {_class="fragment"} -->
 3. Client check against list of thrusted CA´s and that the certificate is valid. Creates a symmetric key, encrypt it with the public key from the server. <!-- {_class="fragment"} -->
@@ -175,6 +176,7 @@ https://help.github.com/en/articles/about-ssh
   * Intrusion detection 
     * Special software
 * Act as an intermediary
+
 
 ---
 ## Firewall
