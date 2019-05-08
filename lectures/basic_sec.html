@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="sv-se">
+<head>
+  <meta charset="utf-8">
+
+  <title>09 - Basic Security - System Administration I (1DV031)</title>
+
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+  <link rel="icon" href="./images/favicon.png" type="image/png" />
+
+  <link rel="stylesheet" href="./reveal.js/css/reveal.css">
+  <link rel="stylesheet" href="./reveal.js/css/theme/black.css" id="theme">
+  <link rel="stylesheet" href="./reveal.js/css/theme/black.lnu.css" id="theme">
+
+  <!-- Code syntax highlighting -->
+  <link rel="stylesheet" href="./reveal.js/lib/css/zenburn.css">
+
+  <!-- Printing and PDF exports -->
+  <script>
+  var link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.type = 'text/css';
+  link.href = window.location.search.match(/print-pdf/gi) ? './reveal.js/css/print/pdf.css' : './reveal.js/css/print/paper.css';
+  document.getElementsByTagName('head')[0].appendChild(link);
+  </script>
+
+  <!--[if lt IE 9]>
+  <script src="lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+  <body>
+    <img id='lectureSafe' class="lnu-lectureSafe" src="./reveal.js/lib/img/background.png" />
+    <div class="reveal lnu">
+      <div class="slides noborderimages" onpaste="handlepaste(this, event)">
+        <!-- Any section element inside of this container is displayed as a slide -->
+        <section data-markdown>
+          <script type="text/template">
+            <!-- .slide: data-state="lnu-intro" class="center" -->
+
+            ### System Administration I (1DV031)
+            # Basic Security
+            <!-- .element: style="font-size: 200%;" -->
+
+            ![Lnu Logo](./images/lnu-logotype.png)
+            ![Lnu Tree](./images/lnu-symbol.png)
+
+            <!-- .element: class="lnu-footer" style="top: 280px;" -->
+          </script>
+        </section>
+
+        <section data-markdown="./common_slides/cc_jacob-lindehoff.md"
+          data-element-attributes="{_\s*?([^}]+?)}">
+        </section>
+
+        <section data-markdown="basic_sec.md"
+          data-separator="^\n\n---"
+          data-separator-vertical="^\n\n--"
+          data-separator-notes="^Note:"
+          data-element-attributes="{_\s*?([^}]+?)}">
+        </section>
+        <!-- syntax highlight fix -->
+        <section id="remove"><pre><code data-trim></code></pre></section>
+
+      </div>
+    </div>
+
+    <script src="./reveal.js/lib/js/head.min.js"></script>
+    <script src="./reveal.js/js/reveal.js"></script>
+
+    <script>
+    function hasClass(el, cls) {
+      return el.className && new RegExp("(\\s|^)" + cls + "(\\s|$)").test(el.className);
+    }
+    // Full list of configuration options available at:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+      width: 1280,
+      height: 720,
+      // Factor of the display size that should remain empty around the content
+      controls: true,
+      progress: true,
+      history: true,
+      center: false,
+      transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+      // Optional reveal.js plugins
+      dependencies: [
+        { src: './reveal.js/lib/js/classList.js', condition: function () { return !document.body.classList; } },
+        { src: './reveal.js/plugin/markdown/marked.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+        { src: './reveal.js/plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+        { src: './reveal.js/plugin/highlight/highlight.js', async: true, condition: function () { return !!document.querySelector('pre code'); }, callback: function () { hljs.initHighlightingOnLoad(); } },
+        { src: './reveal.js/plugin/zoom-js/zoom.js', async: true },
+        { src: './reveal.js/plugin/notes/notes.js', async: true }
+      ]
+    });
+
+    Reveal.addEventListener( 'ready', function( event ) {
+      // Remove Code slide, used for syntax highlight fix
+      document.querySelector('#remove').remove();
+    });
+
+    Reveal.addEventListener( 'slidechanged', function( event ) {
+      // event.previousSlide, event.currentSlide, event.indexh, event.indexv
+      var input = event.currentSlide.getElementsByClassName('chart-input');
+      setTimeout(function(){
+        if(input.length === 1){
+          input[0].focus();
+          setTimeout(function(){
+            input[0].blur();
+          },5000);
+        }
+      }, 100);
+    });
+
+    Reveal.configure({
+      keyboard: {
+        49: function() {
+          //console.log('toggle Lnu safe background by pressing 1')
+          var lectureSafe = document.getElementById('lectureSafe');
+          lectureSafe.style.display = (lectureSafe.style.display == 'block')?'none':'block';
+        }, // toggle Lnu safe background by pressing '1'
+      }
+    });
+
+    function handlepaste (elem, e) {
+      if(hasClass(elem, "chart-input")){
+        if (e && e.clipboardData && e.clipboardData.getData) {
+          var data = e.clipboardData.getData('text/plain');
+          if(data.startsWith("data:image/png;base64")){
+            var slide = elem.parentElement;
+            var children = slide.childNodes;
+            for(i=0; i < children.length; i++){
+              if(hasClass(children[i], "pingo-sc") || hasClass(children[i], "pingo-qr"))
+                slide.removeChild(children[i]);
+            }
+            var chart = slide.getElementsByClassName("pingo-chart")[0];
+            var img = chart.getElementsByTagName("img")[0];
+            img.src = data;
+            chart.style.display = "block";
+            elem.blur();
+            elem.style.display = "none";
+          }
+        }
+      }
+    }
+    </script>
+  </body>
+</html>
