@@ -1,6 +1,6 @@
 ## Lecture content
 
-[The presentation](https://rawcdn.githack.com/1dv031/syllabus/19dcbe372b9b106d1fd4df659f747751ec533c5b/lectures/web.html)
+[The presentation](https://rawcdn.githack.com/1dv031/syllabus/a2402eaba71ed0c75487cf7e14c62d758cc5566c/lectures/basic_sec.html)
 
 ## Recording
 - [Recording VT19](#) (Youtube)
