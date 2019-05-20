@@ -104,8 +104,7 @@
             <td>w21</td>
             <td>
                 <ul>
-                    <li>Working on Examination Assignment 2</li>
-                    <li>Supervision</li>
+                    <li>Working on Examination Assignment 2</li>                    
                 </ul>
             </td>
         </tr>
