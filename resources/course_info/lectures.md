@@ -6,7 +6,7 @@
  
 ## Practical details
 
-For communication on the course we mainly use the slack room for the course. In the peer-instruction distance students may use Discord.
+For communication on the course we mainly use the slack room for the course. In the peer-instruction we will use zoom.
 
 
 ## Keywords
