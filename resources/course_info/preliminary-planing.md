@@ -36,7 +36,7 @@
                     <li>Go through the Study Material</li>
                     <li>Work with Examination 1 - Computer Networks</li>
                     <li>Supervision</li>
-                    <li>Peer-instruction 11/4, 13:15</li>
+                    <li>Peer-instruction 14/4, 13:15</li>
                 </ul>
             </td>
         </tr>
@@ -44,7 +44,7 @@
             <td>w16</td>
             <td>
                 <ul>
-                    <li><strong>08.00am April 15th – Deadline</strong> handling in Examination 1</li>
+                    <li><strong>08.00am April 16th – Deadline</strong> handling in Examination 1</li>
                     <li>Lecture - OS installation and post setup (pre-recorded)</li>
                     <li>Lecture - Linux and Bash (learning object)</li>
                 </ul>
@@ -65,7 +65,7 @@
             <td>
                 <ul>
                     <li>Work with Examination 2</li>
-                    <li>Peer-instruction 30/4, 13:15</li>
+                    <li>Peer-instruction ?/?, 13:15</li>
                     <li>Lecture - HTTP servers (pre-recorded)</li>
                     <li>Supervision</li>
                 </ul>
@@ -86,7 +86,7 @@
             <td>
                 <ul>
                     <li>Supervision</li>
-                    <li><strong>Late deadline Exam 1, 13/5 08:00</strong></li>
+                    <li><strong>Late deadline Exam 1, ?/? 08:00</strong></li>
                 </ul>
             </td>
         </tr>
@@ -112,8 +112,8 @@
             <td>w22</td>
             <td>
                 <ul>
-                    <li>Peer-instruction 29/5, 13:15</li>
-                    <li><strong>June 3th 08:00am – Deadline</strong> Examination Assignment 2</li>
+                    <li>Peer-instruction ?/?, 13:15</li>
+                    <li><strong>June ?th 08:00am – Deadline</strong> Examination Assignment 2</li>
                     <li><strong>Oral examination, see schedule</li>
                 </ul>
             </td>
