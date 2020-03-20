@@ -13,4 +13,4 @@ For communication on the course we mainly use the slack room for the course. In 
 Course introduction
 
 ## Resources
-- [Recording](https://youtu.be/CqM1Slw2bGw?t=381) (Youtube)
+
