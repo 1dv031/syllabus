@@ -1,6 +1,6 @@
-## Examination Assignment 3
+## Examination 2
 
-In this examination assignment You should set up a server environment suited for a specific situation. You are given a job description of a fictitious company ([ACME AB](https://en.wikipedia.org/wiki/Acme_Corporation)) who need help with the installation and setup of the companys web and DNS services. To help you we have our cloud environment (cscloud.lnu.se) where you can solve the problem. The examination includes an oral hearing where the theoretical part of the course will be examine.
+In this examination assignment for the second part of the course, you should set up a server environment suited for a specific situation. You are given a job description of a fictitious company ([ACME AB](https://en.wikipedia.org/wiki/Acme_Corporation)) who need help with the installation and setup of the companys web and DNS services. To help you we have our cloud environment (cscloud.lnu.se) where you can solve the problem. The examination includes an oral hearing where the theoretical part of the course will be examined.
 
 ## Description of the practical assignment
 Below are the assignment described in the form of a description of the ACME AB's IT strategist, Brumund Dal.
