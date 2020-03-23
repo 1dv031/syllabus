@@ -24,19 +24,20 @@
                 <ul>
                     <li>Lecture - Some TCP/IP protocols (pre-recorded)</li>
                     <li>Go through the Study Material</li>
-                    <li>Work with Examination 1 - Computer Networks</li>
+                    <li>Work on <em>Examination 1</em></li>
                     <li>Supervision</li>
+                </ul>
             </td>
         </tr>
         <tr> 
             <td>w15</td>
             <td>
                 <ul>
-                    <li>Lecture - “Hardware to software (Pre-recorded)</li>
+                    <li>Lecture - Hardware to software (pre-recorded)</li>
                     <li>Go through the Study Material</li>
-                    <li>Work with Examination 1 - Computer Networks</li>
+                    <li>Work on <em>Examination 1</em></li>
                     <li>Supervision</li>
-                    <li>Peer-instruction 14/4, 13:15</li>
+                    <li><strong>Peer-instruction</strong> 14/4, 13:15</li>
                 </ul>
             </td>
         </tr>
@@ -44,9 +45,9 @@
             <td>w16</td>
             <td>
                 <ul>
-                    <li><strong>08.00am April 16th – Deadline</strong> handling in Examination 1</li>
+                    <li><strong>Deadline</strong> handling in <em>Examination 1</em> - <strong>16/4, 08:00</strong></li>
                     <li>Lecture - OS installation and post setup (pre-recorded)</li>
-                    <li>Lecture - Linux and Bash (learning object)</li>
+                    <li>Lecture - Linux and Bash (pre-recorded)</li>
                 </ul>
             </td>
         </tr>
@@ -54,7 +55,7 @@
             <td>w17</td>
             <td>
                 <ul>
-                    <li>Work with Examination 2</li>
+                    <li>Work on <em>Examination 2</em></li>
                     <li>Lecture - DNS servers (pre-recorded)</li>
                     <li>Supervision</li>
                 </ul>
@@ -64,10 +65,10 @@
             <td>w18</td>
             <td>
                 <ul>
-                    <li>Work with Examination 2</li>
-                    <li>Peer-instruction ?/?, 13:15</li>
+                    <li>Work on <em>Examination 2</em></li>
                     <li>Lecture - HTTP servers (pre-recorded)</li>
                     <li>Supervision</li>
+                    <li><strong>Peer-instruction</strong> 28/4, 13:15</li>
                 </ul>
             </td>
         </tr>
@@ -75,8 +76,8 @@
             <td>w19</td>
             <td>
                 <ul>
-                    <li>Work with Examination 2</li>
-                    <li>Lecture - Basic Security</li>
+                    <li>Work on <em>Examination 2</em></li>
+                    <li>Lecture - Basic Security (pre-recorded)</li>
                     <li>Supervision</li>
                 </ul>
             </td>
@@ -86,7 +87,7 @@
             <td>
                 <ul>
                     <li>Supervision</li>
-                    <li><strong>Late deadline Exam 1, ?/? 08:00</strong></li>
+                    <li><strong>Late deadline</strong> handling in <em>Examination 1</em> - <strong>?/?, 08:00</strong></li>
                 </ul>
             </td>
         </tr>
@@ -94,8 +95,7 @@
             <td>w20</td>
             <td>
                 <ul>
-                    <li>Lecture 08 - Basic security (pre-recorded)</li>
-                    <li>Working on Examination Assignment 2</li>
+                    <li>Work on <em>Examination 2</em></li>
                     <li>Supervision</li>
                 </ul>
             </td>
@@ -104,17 +104,17 @@
             <td>w21</td>
             <td>
                 <ul>
-                    <li>Working on Examination Assignment 2</li>                    
+                    <li>Work on <em>Examination 2</em></li>
+                    <li><strong>Peer-instruction</strong> 19/5, 13:15</li>
                 </ul>
             </td>
         </tr>
         <tr>
-            <td>w22</td>
+            <td>w23</td>
             <td>
                 <ul>
-                    <li>Peer-instruction ?/?, 13:15</li>
-                    <li><strong>June ?th 08:00am – Deadline</strong> Examination Assignment 2</li>
-                    <li><strong>Oral examination, see schedule</li>
+                    <li><strong>Deadline</strong> handling in <em>Examination 2</em> - <strong>1/6, 08:00</strong></li>
+                    <li><strong>Oral Exam</strong> - <strong>see schedule</strong></li>
                 </ul>
             </td>
         </tr>
