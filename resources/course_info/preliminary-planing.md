@@ -117,7 +117,7 @@
             <td>
                 <ul>
                     <li><strong>Deadline</strong> handling in <em>Examination 2</em> - <strong>1/6, 08:00</strong></li>
-                    <li><strong>Oral Exam</strong> - <strong>see schedule</strong></li>
+                    <li><strong>Oral Exam</strong> - <strong>2/6 and 3/6</strong>, exact time slots booked in advance</li>
                 </ul>
             </td>
         </tr>
