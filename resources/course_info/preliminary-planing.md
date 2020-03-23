@@ -37,7 +37,6 @@
                     <li>Go through the Study Material</li>
                     <li>Work on <em>Examination 1</em></li>
                     <li>Supervision</li>
-                    <li><strong>Peer-instruction</strong> 14/4, 13:15</li>
                 </ul>
             </td>
         </tr>
@@ -45,9 +44,11 @@
             <td>w16</td>
             <td>
                 <ul>
+                    <li><strong>Peer-instruction</strong> 14/4, 13:15</li>
                     <li><strong>Deadline</strong> handling in <em>Examination 1</em> - <strong>16/4, 08:00</strong></li>
                     <li>Lecture - OS installation and post setup (pre-recorded)</li>
                     <li>Lecture - Linux and Bash (pre-recorded)</li>
+                    <li>Supervision</li>
                 </ul>
             </td>
         </tr>
@@ -65,10 +66,10 @@
             <td>w18</td>
             <td>
                 <ul>
+                    <li><strong>Peer-instruction</strong> 28/4, 13:15</li>
                     <li>Work on <em>Examination 2</em></li>
                     <li>Lecture - HTTP servers (pre-recorded)</li>
                     <li>Supervision</li>
-                    <li><strong>Peer-instruction</strong> 28/4, 13:15</li>
                 </ul>
             </td>
         </tr>
@@ -86,15 +87,7 @@
             <td>w20</td>
             <td>
                 <ul>
-                    <li>Supervision</li>
                     <li><strong>Late deadline</strong> handling in <em>Examination 1</em> - <strong>?/?, 08:00</strong></li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>w20</td>
-            <td>
-                <ul>
                     <li>Work on <em>Examination 2</em></li>
                     <li>Supervision</li>
                 </ul>
@@ -104,8 +97,18 @@
             <td>w21</td>
             <td>
                 <ul>
-                    <li>Work on <em>Examination 2</em></li>
                     <li><strong>Peer-instruction</strong> 19/5, 13:15</li>
+                    <li>Work on <em>Examination 2</em></li>
+                    <li>Supervision</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>w22</td>
+            <td>
+                <ul>
+                    <li>Work on <em>Examination 2</em></li>
+                    <li>Supervision</li>
                 </ul>
             </td>
         </tr>
