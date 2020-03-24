@@ -13,5 +13,4 @@ For communication on the course we mainly use the slack room for the course. In 
 Course introduction
 
 ## Resources
-
-Test
+[Introduction video](https://play.lnu.se/media/t/0_k7i2cbyq)
