@@ -8,13 +8,13 @@ The files you will work with can be found in this [ZIP archive](https://cdn.rawg
 
 For each file, try to answer the following questions:
 
-1. Could you try to describe in words what is going on in the communication. In other word try to explain the scenario that was recorded.
+1. Describe in words what is going on in the communication. In other words, try to explain the scenario that was recorded.
 2. What protocols are used in the communication?
 3. At what layer of the OSI (or TCP/IP) model do each of the protocol operate?
 4. What RFC(s) (if any) will help us learn more about each protocol?
 5. What is the purpose of each protocol?
 6. Who are the communicating parties at each layer (focus on addresses)?
-7. Could we spot any sensitive data (like passwords) in the communication?
+7. Can you spot any sensitive data (like passwords) in the communication?
 
 ***No need to rewrite information about same protocol (question 3, 4, 5) if they appear in more then one capture file.***
 
@@ -29,7 +29,7 @@ As for a more in-depth analysis of each file, use Wireshark functions to answer 
 Hint: You will find useful functions in the menus under "Analyze" and "Statistics". For more information about Wireshark you can try [the user guide](https://www.wireshark.org/docs/wsug_html_chunked/) or look around at the web site, [wireshark.org](https://www.wireshark.org/), where you also can download Wireshark.
 
 ## The report
-To present your findings from above you will produce a report **in PDF-format** and publish it in your gitlab repository. To show for your examiner that you are ready for examination make a Github release marked as version 1.
+To present your findings from above you will produce a report **in PDF-format** and publish it in your gitlab repository. To show your examiner that you are ready for examination make a Gitlab release marked as version 1.
 
 
 ### Content of the report
@@ -38,9 +38,9 @@ To present your findings from above you will produce a report **in PDF-format** 
 
 2. Once the introductions are over you should go into detail about how you went about your work. Present your findings for each capture file in a way that the reader easy could get the result of the above questions. 
 
-3. Also present what did you do to find the answers? Here you can present central tools, references and descriptions of your methods and your rational behind choosing them.
+3. Present how you found the answers. Here you can present central tools, references and descriptions of your methods and your rationale behind choosing them.
 
-4. Also answer the below questions in your report:
+4. Answer the below questions in your report:
   1. Explain the TCP/IP-model. What it is, how it it used and why it is important to understand. (ca. 200 words)
   2. Describe the difference between TCP and UDP. In what cases do we use UDP - and why? (ca. 200 words)
   3. Explain the difference between HTTP and HTTPS. What is SSL and TLS and in what other cases are they used? (ca 300 words)
@@ -51,11 +51,11 @@ To present your findings from above you will produce a report **in PDF-format** 
 
 ### Some tips
 
-* Any questions? Use the supervision scheduled in our schema.
-* Use spell check! And if possible grammar check!
+* Any questions? Use the scheduled supervisions.
+* Use spell check! And if possible, grammar check!
 * Read it out loud. If it is hard for you to read, it is probably hard for someone else.
-* Let some else read it and get their feedback on the content, the language and the narrative.
-* Make sure to make references to the course literature and any other literature that is relevant for your topic.
+* Let someone else read it and get their feedback on the content, the language and the narrative.
+* Be sure to make references to the course literature and any other literature that is relevant for your topic.
   * Use a [recognized system](https://lnu.se/en/library/Writing-and-referencing/referencing/) ([SWE](https://lnu.se/ub/skriva-och-referera/skriva-referenser/)) for incorporating references in your text.
 * We will run your report through the anti plagiarism system Urkund. **Do not copy text from other student's reports nor from any other documents!**
 
