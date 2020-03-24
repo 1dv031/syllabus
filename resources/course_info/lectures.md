@@ -1,6 +1,6 @@
 ## Lecture content
 
-[The presentation](https://rawcdn.githack.com/1dv031/syllabus/a8678b9c405f294614d2e39d9b345d4bfc2dfcf2/lectures/00_Course-Introduction/index.html)
+[The presentation](https://lnu.box.com/s/vinkq4jvk3jlpjflisrh89caxj3t9rw2)
  
  In the introduction lecture you will get info about how the course will work and persons involved.
  
