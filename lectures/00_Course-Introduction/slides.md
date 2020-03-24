@@ -1,12 +1,14 @@
 <!-- Course management -->
 ## Course management
 
-* John Häggerud 
+*  Ola Flygt
   * Course management
-  * Examiner
-* Madelene Amberman (Supervisor)
-* Andreas Johansson (Supervisor)
+  * Examiner part 1
+* Kostiantyn Kucher
+  * Examiner part 2
+* Emil Solin (Teaching assistant)
 * Thomas Ivarsson (Recorded instructor - first part of course)
+* John Häggerud (Recorded instructor - second part of course)
 
 
 
@@ -110,7 +112,7 @@ Not mandatory but recommended<br />
 https://coursepress.lnu.se/kurs/systemadministrationi/
 * Everything static + news
 * Slack: Discussions and questions [#1dv031-sysadmin-1](https://coursepress.slack.com/archives/1dv031-sysadmin-1)
-* 1dv031@lnu.se (Private matters only!)
+
 
 <!-- {_style="margin-right: 25%"} -->
 
