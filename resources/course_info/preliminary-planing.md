@@ -45,7 +45,7 @@
             <td>
                 <ul>
                     <li><strong>Peer-instruction</strong> 14/4, 13:15</li>
-                    <li><strong>Deadline</strong> handling in <em>Examination 1</em> - <strong>16/4, 08:00</strong></li>
+                    <li><strong>Deadline</strong> handing in <em>Examination 1</em> - <strong>16/4, 08:00</strong></li>
                     <li>Lecture - OS installation and post setup (pre-recorded)</li>
                     <li>Lecture - Linux and Bash (pre-recorded)</li>
                     <li>Supervision</li>
@@ -87,7 +87,7 @@
             <td>w20</td>
             <td>
                 <ul>
-                    <li><strong>Late deadline</strong> handling in <em>Examination 1</em> - <strong>?/?, 08:00</strong></li>
+                    <li><strong>Late deadline</strong> handing in <em>Examination 1</em> - <strong>?/?, 08:00</strong></li>
                     <li>Work on <em>Examination 2</em></li>
                     <li>Supervision</li>
                 </ul>
@@ -116,7 +116,7 @@
             <td>w23</td>
             <td>
                 <ul>
-                    <li><strong>Deadline</strong> handling in <em>Examination 2</em> - <strong>1/6, 08:00</strong></li>
+                    <li><strong>Deadline</strong> handing in <em>Examination 2</em> - <strong>1/6, 08:00</strong></li>
                     <li><strong>Oral Exam</strong> - <strong>2/6 and 3/6</strong>, exact time slots booked in advance</li>
                 </ul>
             </td>
