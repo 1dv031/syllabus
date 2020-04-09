@@ -29,7 +29,7 @@ As for a more in-depth analysis of each file, use Wireshark functions to answer 
 Hint: You will find useful functions in the menus under "Analyze" and "Statistics". For more information about Wireshark you can try [the user guide](https://www.wireshark.org/docs/wsug_html_chunked/) or look around at the web site, [wireshark.org](https://www.wireshark.org/), where you also can download Wireshark.
 
 ## The report
-To present your findings from above you will produce a report **in PDF-format** and publish it in your gitlab repository. To show your examiner that you are ready for examination make a Github release marked as version 1.
+To present your findings from above you will produce a report **in PDF-format** and publish it in your Github repository. To show your examiner that you are ready for examination make a Github release marked as version 1.
 
 
 ### Content of the report
