@@ -87,7 +87,7 @@
             <td>w20</td>
             <td>
                 <ul>
-                    <li><strong>Late deadline</strong> handing in <em>Examination 1</em> - <strong>?/?, 08:00</strong></li>
+                    <li><strong>Late deadline</strong> handing in <em>Examination 1</em> - <strong>14/5, 08:00</strong></li>
                     <li>Work on <em>Examination 2</em></li>
                     <li>Supervision</li>
                 </ul>
