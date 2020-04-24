@@ -22,11 +22,11 @@ The web servers should listen to the standard port(s).
 ### DNS service
 You must be able to access the sites for the outside with the help of the below URLs.
 
-* acmea.xx222xx.devopslab.xyz (PHP, Wordpress)
-* acmeb.xx222xx.devopslab.xyz (Node.js, Express-template)
+* acmea.xx222xx-1dv031.devopslab.xyz (PHP, Wordpress)
+* acmeb.xx222xx-1dv031.devopslab.xyz (Node.js, Express-template)
 
 
-To be able to handle the domain name we also need to have DNS management. You should set up two name servers, one primary and one secondary, to be authoritative for the zone xx222xx.devopslab.xyz. When you are ready to be delegated the control for the zone you will "buy" the domain name and register your name servers from [DNS Manager](https://www.devopslab.xyz). Log in with the same credentials as you have at our CS Cloud. When logged in you can register your name servers, if you get an error look at the error messaged and fix your name servers and try again.
+To be able to handle the domain name we also need to have DNS management. You should set up two name servers, one primary and one secondary, to be authoritative for the zone xx222xx-1dv031.devopslab.xyz. When you are ready to be delegated the control for the zone you will "buy" the domain name and register your name servers from [DNS Manager](https://www.devopslab.xyz). Log in with the same credentials as you have at our CS Cloud. When logged in you can register your name servers, if you get an error look at the error messaged and fix your name servers and try again.
 
 *Please note that **xx222xx** should be replaced by your LNU username*
 
@@ -36,7 +36,7 @@ Web Servers and DNS servers should be in our own DMZ network.
 <br>
 ### Requirements of the assignment
 * The network structure should of course work meaning
-  * The DNS servers are correctly configuring meaning that the domain names acmea.xx222xx.devopslab.xyz and acmeb.xx222xx.devopslab.xyz is pointing to the web servers described above
+  * The DNS servers are correctly configuring meaning that the domain names acmea.xx222xx-1dv031.devopslab.xyz and acmeb.xx222xx-1dv031.devopslab.xyz is pointing to the web servers described above
   * The web servers is correctly installed and listening for HTTP requests
   * The load balancer is balancing the traffic between the two Node.js instances
   * The applications on the web servers is correctly installed and working as intended  
