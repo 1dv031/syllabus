@@ -121,5 +121,14 @@
                 </ul>
             </td>
         </tr>
+        <tr>
+            <td>w26</td>
+            <td>
+                <ul>
+                    <li><strong>Late deadline</strong> handing in <em>Examination 2</em> - <strong>22/6, 08:00</strong></li>
+                    <li><strong>Oral Exam (second chance)</strong> - <strong>23/6 and 24/6</strong>, exact time slots booked in advance</li>
+                </ul>
+            </td>
+        </tr>
     </tbody>
 </table>
