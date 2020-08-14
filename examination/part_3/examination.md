@@ -1,6 +1,6 @@
 ## Examination 2
 
-In this examination assignment for the second part of the course, you should set up a server environment suited for a specific situation. You are given a job description of a fictitious company ([ACME AB](https://en.wikipedia.org/wiki/Acme_Corporation)) who need help with the installation and setup of the companys web and DNS services. To help you we have our cloud environment (cscloud.lnu.se) where you can solve the problem. The examination includes an oral hearing where the theoretical part of the course will be examined.
+In this examination assignment for the second part of the course, you should set up a server environment suited for a specific situation. You are given a job description of a fictitious company ([ACME AB](https://en.wikipedia.org/wiki/Acme_Corporation)) who need help with the installation and setup of the companys web and DNS services. To help you we have our cloud environment ([cscloud.lnu.se](https://cscloud.lnu.se)) where you can solve the problem. The examination includes an oral hearing where the theoretical part of the course will be examined.
 
 ## Description of the practical assignment
 Below are the assignment described in the form of a description of the ACME AB's IT strategist, Brumund Dal.
@@ -22,11 +22,11 @@ The web servers should listen to the standard port(s).
 ### DNS service
 You must be able to access the sites for the outside with the help of the below URLs.
 
-* acmea.xx222xx.devopslab.xyz (PHP, Wordpress)
-* acmeb.xx222xx.devopslab.xyz (Node.js, Express-template)
+* acmea.xx222xx-1dv031.devopslab.xyz (PHP, Wordpress)
+* acmeb.xx222xx-1dv031.devopslab.xyz (Node.js, Express-template)
 
 
-To be able to handle the domain name we also need to have DNS management. You should set up two name servers, one primary and one secondary, to be authoritative for the zone xx222xx.devopslab.xyz. When you are ready to be delegated the control for the zone you will "buy" the domain name and register your name servers from [DNS Manager](https://www.devopslab.xyz). Log in with the same credentials as you have at our CS Cloud. When logged in you can register your name servers, if you get an error look at the error messaged and fix your name servers and try again.
+To be able to handle the domain name we also need to have DNS management. You should set up two name servers, one primary and one secondary, to be authoritative for the zone xx222xx-1dv031.devopslab.xyz. When you are ready to be delegated the control for the zone you will "buy" the domain name and register your name servers from [DNS Manager](https://www.devopslab.xyz). Log in with the same credentials as you have at our CS Cloud. When logged in you can register your name servers, if you get an error look at the error messaged and fix your name servers and try again.
 
 *Please note that **xx222xx** should be replaced by your LNU username*
 
