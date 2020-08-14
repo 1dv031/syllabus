@@ -36,7 +36,7 @@ Web Servers and DNS servers should be in our own DMZ network.
 <br>
 ### Requirements of the assignment
 * The network structure should of course work meaning
-  * The DNS servers are correctly configuring meaning that the domain names acmea.xx222xx.devopslab.xyz and acmeb.xx222xx.devopslab.xyz is pointing to the web servers described above
+  * The DNS servers are correctly configuring meaning that the domain names acmea.xx222xx-1dv031.devopslab.xyz and acmeb.xx222xx-1dv031.devopslab.xyz is pointing to the web servers described above
   * The web servers is correctly installed and listening for HTTP requests
   * The load balancer is balancing the traffic between the two Node.js instances
   * The applications on the web servers is correctly installed and working as intended  
